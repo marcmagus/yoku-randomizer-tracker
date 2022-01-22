@@ -1,0 +1,44 @@
+[
+   {
+      "name" : "Leash Sootling",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,leash"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1272,
+            "map" : "overworld",
+            "y" : 568
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 0,
+            "name" : "Sootling on a Leash",
+            "hosted_item": "sootling_leash"
+         }
+      ]
+   },
+   {
+      "name" : "Ceremony Instruments",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nim_key",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nim_key"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1281,
+            "map" : "overworld",
+            "y" : 664
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 0,
+            "name" : "Ceremony Instruments",
+            "hosted_item": "kazoos"
+         }
+      ]
+   }
+]

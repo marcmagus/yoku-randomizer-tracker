@@ -1,0 +1,24 @@
+#! /usr/bin/perl
+
+use JSON;
+$json = JSON->new->allow_nonref;
+
+# Key Items
+my @key_items = ( "mushroom_2", "mushroom_3", "postal_badge", "abilities_slug_vaccum", "abilities_partyhorn", "abilities_dive", "toolbox", "sootling_leash", "abilities_mailbag", "guano", "bucket_empty", "seed_pod", "spring_key", "skins_skin_1", "skins_skin_2", "skins_skin_5", "skins_skin_3", "skins_skin_4", "idol1", "nugget_4", "idol2", "idol3", "idol4", "spores_1", "spores_2", "spores_3", "spores_4", "spores_5", "tadpole_8", "wallet_2", "wallet_4", "bluekey", "greenkey", "nim_key", "tracker_springs", "tracker_caves", "tracker_peak", "tracker_scarabs", "treasure_map", "abilities_speed", "traitor_spirit_4", "powerups_skvader_1", "powerups_skvader_2", "abilities_dive_speed", "abilities_slug_upgrade");
+
+
+print "[\n";
+foreach my $item (@key_items) {
+
+    print "  {\n";
+    print "      \"name\": \"$item\",\n";
+    print "      \"type\": \"toggle\",\n";
+    print "      \"capturable\": \"true\",\n";
+    print "      \"img\": \"images/$item.png\",\n";
+    print "      \"codes\": \"$item\",\n";
+    print "  },\n";
+
+}
+
+print "]\n";
+#print $json->pretty->encode( \@locations );

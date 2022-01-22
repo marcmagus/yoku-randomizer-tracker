@@ -1,0 +1,64 @@
+{
+    "items_key_items": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1,2",
+        "rows": [
+            [
+                "mushroom_2",
+                "mushroom_3",
+                "postal_badge",
+                "abilities_speed",
+            ],
+            [
+                "abilities_partyhorn",
+                "abilities_slug_vacuum",
+                "abilities_dive",
+                "abilities_mailbag",
+                "leash"
+            ],
+            [
+                "toolbox",
+                "guano",
+                "bucket_empty",
+                "seed_pod"
+            ],
+            [
+                "skins_skin_1",
+                "skins_skin_2",
+                "skins_skin_3",
+                "skins_skin_4",
+                "skins_skin_5"
+            ],
+            [
+                "idol4",
+                "nugget_4",
+                "tadpole_8",
+                "traitor_spirit_4",
+                "wallet_2"
+            ],
+            [
+                "spores_1",
+                "spores_2",
+                "spores_3",
+                "spores_4",
+                "spores_5"
+            ],
+            [
+                "bluekey",
+                "greenkey",
+                "spring_key",
+                "nim_key",
+                "kazoos"
+            ]
+        ]
+    },
+    "shared_item_grid": {
+        "type": "layout",
+        "key": "items_key_items"
+    },
+    "broadcast_item_grid": {
+        "type": "layout",
+        "key": "items_key_items"
+    },
+}

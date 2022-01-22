@@ -1,0 +1,81 @@
+#! /usr/bin/perl
+
+use JSON;
+$json = JSON->new->allow_nonref;
+
+open(FH, '<', "randomizer_normal_overrides.csv") or die $!;
+
+# Key Items
+my @key_items = ( "mushroom_2", "mushroom_3", "postal_badge", "abilities_slug_vacuum", "abilities_partyhorn", "abilities_dive", "toolbox", "sootling_leash", "abilities_mailbag", "guano", "bucket_empty", "seed_pod", "spring_key", "skins_skin_1", "skins_skin_2", "skins_skin_5", "skins_skin_3", "skins_skin_4", "idol1", "nugget_4", "idol2", "idol3", "idol4", "spores_1", "spores_2", "spores_3", "spores_4", "spores_5", "tadpole_8", "wallet_2", "wallet_4", "bluekey", "greenkey", "nim_key", "tracker_springs", "tracker_caves", "tracker_peak", "tracker_scarabs", "treasure_map", "abilities_speed", "traitor_spirit_4", "powerups_skvader_1", "powerups_skvader_2", "abilities_dive_speed", "abilities_slug_upgrade");
+
+my @locations;
+my %groups;
+
+# Discard headers
+<>;
+<FH>;
+
+while (<>) {
+    s/\R\z//; # cross-platform chomp
+    my ($name, $item, $spawn_id, $tracker, $spawn, @conditions) = split /\t/;
+    my ($pos_x, $pos_y) = split /,/, $tracker;
+
+    # Read xy coords from secondary file
+    my $line = <FH>;
+    $line =~ s/\R\z//;
+    my ($linenum,$cname,$coords,$group,@override_conditions) = split /\t/, $line;
+    my ($x, $y) = split /,/, $coords;
+
+    $name eq $cname or die "Line mismatch: $name !eq $cname\n";
+
+    # mushroom_2 usually has the full count of access rules
+    # this might not be necessary with the check for pre-Fosfor rules
+    my @access_rules;
+    foreach my $a (split /,/, $conditions[0]) {
+        push @access_rules, [];
+    }
+
+    # Parse conditions and generate access_rules
+    # Skip the last 4 key items, those are a bugfix
+    for ($i=0; $i<@conditions and $i<(@key_items - 4); $i++) {
+        my @is_required = split /,/, $conditions[$i];
+        for ($j=0; $j<(@access_rules?@access_rules:@is_required); $j++) {
+            if (1 == scalar @is_required or $is_required[$j]) {
+                if ("X" eq $override_conditions[$i]) {
+                    push @{$access_rules[$j]}, "[" . $key_items[$i] . "]";
+                } else {
+                    push @{$access_rules[$j]}, $key_items[$i];
+                }
+            }
+        }
+    }
+
+    my @flattened_access_rules;
+    foreach my $rule (@access_rules) {
+        push @flattened_access_rules, join (",", @{$rule});
+    }
+
+    if ($group and my $group_index = $groups{$group}) {
+        my %section = ("name" => $name, "item_count" => 1,
+            "access_rules" => \@flattened_access_rules);
+        push @{$locations[$group_index]{"sections"}}, \%section;
+    } elsif ($group) {
+        my %location = ("name" => $group,
+            "map_locations" => [{ "map" => "overworld", "x" => int($x), "y" => int($y) }],
+            "sections" => [{ "name" => $name, "item_count" => 1 }],
+            "access_rules" => \@flattened_access_rules);
+        $groups{$group} = scalar @locations;
+        push @locations, \%location;
+    } else {
+        my %location = ("name" => $name,
+            "map_locations" => [{ "map" => "overworld", "x" => int($x), "y" => int($y) }],
+            "sections" => [{ "name" => $name, "item_count" => 1 }],
+            "access_rules" => \@flattened_access_rules);
+
+        push @locations, \%location;
+    }
+
+}
+
+    print $json->pretty->encode( \@locations );
+

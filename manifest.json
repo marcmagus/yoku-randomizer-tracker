@@ -1,0 +1,19 @@
+﻿{
+  "name": "Yoku's Island Express Randomizer Tracker",
+  "game_name": "Yoku's Island Express",
+  "platform": "steam",
+  "package_version": "0.1",
+  "package_uid": "yoku_map",
+  "author": "marcmagus",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker"
+    },
+    "var_itemsonly": {
+      "display_name": "Items Only"
+    }/* ,
+    "var_no_pins": {
+      "display_name": "I hate pins >:^( [WIP]"
+    }*/
+  }
+}

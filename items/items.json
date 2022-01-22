@@ -1,0 +1,476 @@
+[
+  {
+      "name": "Juicy Cove Mushroom",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/CoveMushroom.png",
+      "codes": "mushroom_2",
+  },
+  {
+      "name": "Poison Toadstool",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/PoisonMushroom.png",
+      "codes": "mushroom_3",
+  },
+  {
+      "name": "Postal Badge",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/OldBadge.png",
+      "codes": "postal_badge",
+  },
+  {
+      "name": "Slug Vacuum",
+      "type": "progressive",
+      "capturable": "true",
+      "allow_disabled": false,
+      "stages": [
+          {
+            "img": "images/SlugVacuum.png",
+            "img_mods": "@disabled"
+          },
+          {
+            "img": "images/SlugVacuum.png",
+            "codes": "abilities_slug_vacuum"
+          },
+          {
+            "img": "images/DoubleVacuum.png",
+            "codes": "abilities_slug_upgrade"
+          }
+      ]
+  },
+  {
+      "name": "Noisemaker",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/PartyBlower.png",
+      "codes": "abilities_partyhorn",
+  },
+  {
+      "name": "Dive Fish",
+      "type": "progressive",
+      "capturable": "true",
+      "allow_disabled": false,
+      "stages": [
+          {
+            "img": "images/DiveFish.png",
+            "img_mods": "@disabled"
+          },
+          {
+            "img": "images/DiveFish.png",
+            "codes": "abilities_dive"
+          },
+          {
+            "img": "images/DiveFish2.png",
+            "codes": "abilities_dive_speed"
+          }
+      ]
+  },
+  {
+      "name": "Toolbox",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/ToolBox.png",
+      "codes": "toolbox",
+  },
+  {
+      "name": "Leash",
+      "type": "progressive",
+      "capturable": "true",
+      "allow_disabled": false,
+      "stages": [
+          {
+            "img": "images/Leash.png",
+            "img_mods": "@disabled"
+          },
+          {
+            "img": "images/Leash.png",
+            "codes": "leash"
+          },
+          {
+            "img": "images/Grapple.png",
+            "codes": "sootling_leash"
+          }
+      ]
+  },
+  {
+      "name": "Mail Bag",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/MailBag.png",
+      "codes": "abilities_mailbag",
+  },
+  {
+      "name": "Guano",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/Guano.png",
+      "codes": "guano",
+  },
+  {
+      "name": "Bucket",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/EmptyBucket.png",
+      "codes": "bucket_empty",
+  },
+  {
+      "name": "Seed Pod",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/SeedPod.png",
+      "codes": "seed_pod",
+  },
+  {
+      "name": "Underbelly Key",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/BlackKey.png",
+      "codes": "spring_key",
+  },
+  {
+      "name": "Bling Sprinkle",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/GoldBauble.png",
+      "codes": "skins_skin_1",
+  },
+  {
+      "name": "Creepy Sprinkle",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/CreepyBauble.png",
+      "codes": "skins_skin_2",
+  },
+  {
+      "name": "Sweet Sprinkle",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/SweetBauble.png",
+      "codes": "skins_skin_5",
+  },
+  {
+      "name": "Deadly Sprinkle",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/DeathBauble.png",
+      "codes": "skins_skin_3",
+  },
+  {
+      "name": "Crimson Sprinkle",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/RedBauble.png",
+      "codes": "skins_skin_4",
+  },
+  {
+      "name": "Statue Piece",
+      "type": "progressive",
+      "allow_disabled": false,
+      "capturable": "true",
+      "stages": [
+        {
+            "img": "images/StatuePiece.png",
+            "img_mods": "@disabled",
+        },
+        {
+            "img": "images/StatuePiece.png",
+            "img_mods": "overlay|images/overlay_1.png",
+            "codes": "idol1"
+        },
+        {
+            "img": "images/StatuePiece.png",
+            "img_mods": "overlay|images/overlay_2.png",
+            "codes": "idol2"
+        },
+        {
+            "img": "images/StatuePiece.png",
+            "img_mods": "overlay|images/overlay_3.png",
+            "codes": "idol3"
+        },
+        {
+            "img": "images/StatuePiece.png",
+            "img_mods": "overlay|images/overlay_4.png",
+            "codes": "idol4"
+        }
+      ]
+  },
+  {
+      "name": "Smashed Piece of Statue",
+      "type": "progressive",
+      "allow_disabled": false,
+      "capturable": "true",
+      "stages": [
+          {
+            "img": "images/StatueNugget.png",
+            "img_mods": "@disabled"
+          },
+          {
+            "img": "images/StatueNugget.png",
+            "img_mods": "overlay|images/overlay_1.png",
+          },
+          {
+            "img": "images/StatueNugget.png",
+            "img_mods": "overlay|images/overlay_2.png",
+          },
+          {
+            "img": "images/StatueNugget.png",
+            "img_mods": "overlay|images/overlay_3.png",
+          },
+          {
+            "img": "images/StatueNugget.png",
+            "img_mods": "overlay|images/overlay_4.png",
+            "codes": "nugget_4",
+          },
+      ]
+  },
+  {
+      "name": "Light Spores",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/LightSpore.png",
+      "codes": "spores_1",
+  },
+  {
+      "name": "Dry Spores",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/BrownSpore.png",
+      "codes": "spores_2",
+  },
+  {
+      "name": "Damp Spores",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/BlueSpore.png",
+      "codes": "spores_3",
+  },
+  {
+      "name": "Annoyed Spores",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/RedSpore.png",
+      "codes": "spores_4",
+  },
+  {
+      "name": "Frosty Spores",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/CyanSpore.png",
+      "codes": "spores_5",
+  },
+  {
+      "name": "Tadpole",
+      "type": "progressive",
+      "capturable": "true",
+      "allow_disabled": false,
+      "stages": [
+          {
+            "img": "images/Tadpole.png",
+            "img_mods": "@disabled",
+          },
+          {
+            "img": "images/Tadpole.png",
+            "img_mods": "overlay|images/overlay_1.png",
+          },
+          {
+            "img": "images/Tadpole.png",
+            "img_mods": "overlay|images/overlay_2.png",
+          },
+          {
+            "img": "images/Tadpole.png",
+            "img_mods": "overlay|images/overlay_3.png",
+          },
+          {
+            "img": "images/Tadpole.png",
+            "img_mods": "overlay|images/overlay_4.png",
+          },
+          {
+            "img": "images/Tadpole.png",
+            "img_mods": "overlay|images/overlay_5.png",
+          },
+          {
+            "img": "images/Tadpole.png",
+            "img_mods": "overlay|images/overlay_6.png",
+          },
+          {
+            "img": "images/Tadpole.png",
+            "img_mods": "overlay|images/overlay_7.png",
+          },
+          {
+            "img": "images/Tadpole.png",
+            "img_mods": "overlay|images/overlay_8.png",
+            "codes": "tadpole_8"
+          }
+      ]
+  },
+  {
+      "name": "Wallet",
+      "type": "progressive",
+      "capturable": "true",
+      "allow_disabled": false,
+      "stages": [
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_100.png"
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_150.png"
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_200.png",
+            "codes": "wallet_2"
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_250.png",
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_300.png",
+            "codes": "wallet_4"
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_350.png",
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_400.png",
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_450.png",
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_500.png",
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_550.png",
+          },
+          {
+            "img": "images/Wallet.png",
+            "img_mods": "overlay|images/overlay_600.png",
+          }
+      ]
+  },
+  {
+      "name": "Blue Key",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/BlueKey.png",
+      "codes": "bluekey",
+  },
+  {
+      "name": "Green Key",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/GreenKey.png",
+      "codes": "greenkey",
+  },
+  {
+      "name": "Nim Key",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/RedKey.png",
+      "codes": "nim_key",
+  },
+  {
+      "name": "Springs Tracker",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/tracker.png",
+      "codes": "tracker_springs",
+  },
+  {
+      "name": "Caves Tracker",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/tracker.png",
+      "codes": "tracker_caves",
+  },
+  {
+      "name": "Ivory Peak Tracker",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/tracker.png",
+      "codes": "tracker_peak",
+  },
+  {
+      "name": "Scarab Tracker",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/scarab.png",
+      "codes": "tracker_scarabs",
+  },
+  {
+      "name": "Treasure Map",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/tracker.png",
+      "codes": "treasure_map",
+  },
+  {
+      "name": "Grand Postmaster's Badge",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/GrandBadge.png",
+      "codes": "abilities_speed",
+  },
+  {
+      "name": "Traitor Spirit",
+      "type": "progressive",
+      "allow_disabled": false,
+      "capturable": "true",
+      "stages": [
+          {
+            "img": "images/Traitor.png",
+            "img_mods": "@disabled"
+          },
+          {
+            "img": "images/Traitor.png",
+            "img_mods": "overlay|images/overlay_1.png"
+          },
+          {
+            "img": "images/Traitor.png",
+            "img_mods": "overlay|images/overlay_2.png"
+          },
+          {
+            "img": "images/Traitor.png",
+            "img_mods": "overlay|images/overlay_3.png"
+          },
+          {
+            "img": "images/Traitor.png",
+            "img_mods": "overlay|images/overlay_4.png",
+            "codes": "traitor_spirit_4"
+          },
+      ]
+  },
+  {
+      "name": "Skvader",
+      "type": "progressive",
+      "capturable": "true",
+      "stages": [
+          {
+            "img": "images/Skvader.png",
+            "codes": "powerups_skvader_1",
+          },
+          {
+            "img": "images/FatSkavander.png",
+            "codes": "powerups_skvader_2",
+          }
+      ]
+  },
+  {
+      "name": "Ceremony Instruments",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/Kazoos.png",
+      "codes": "kazoos",
+  },
+]

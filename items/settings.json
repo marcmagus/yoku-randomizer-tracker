@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Mode [WIP]",
+    "type": "progressive",
+    "loop": true,
+    "capturable": false,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/normal_mode.png",
+        "inherit_codes": false,
+        "codes": "normal_mode"
+      },
+      {
+        "img": "images/hard_mode.png",
+        "inherit_codes": false,
+        "codes": "hard_mode"
+      },
+      {
+        "img": "images/very_hard_mode.png",
+        "inherit_codes": false,
+        "codes": "very_hard_mode"
+      }
+    ]
+  }
+]

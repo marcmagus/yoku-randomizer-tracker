@@ -1,0 +1,9 @@
+#! /usr/bin/perl
+
+
+while (<>) {
+    s/\R\z//; # cross-platform chomp
+    my ($name, $item, $spawn_id, $tracker, $spawn, @conditions) = split /\t/;
+    print join "\t", ($name, $item, $spawn_id, $tracker, $spawn);
+    print "\n";
+}
