@@ -1,7 +1,7 @@
 {
     "items_key_items": {
         "type": "itemgrid",
-        "h_alignment": "center",
+        "h_alignment": "left",
         "item_margin": "1,2",
         "rows": [
             [
