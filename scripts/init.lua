@@ -4,6 +4,7 @@ local no_pins = variant:find("no_pins")
 ENABLE_DEBUG_LOG = false
 
 --scripts
+ScriptHost:LoadScript("scripts/logic.lua")
 -- custom stuff goes here
 
 --ScriptHost:LoadScript("scripts/logic.lua")

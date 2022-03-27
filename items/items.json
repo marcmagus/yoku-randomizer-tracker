@@ -21,6 +21,13 @@
       "codes": "postal_badge",
   },
   {
+      "name": "Go",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/Go.png",
+      "codes": "go_light",
+  },
+  {
       "name": "Slug Vacuum",
       "type": "progressive",
       "capturable": "true",

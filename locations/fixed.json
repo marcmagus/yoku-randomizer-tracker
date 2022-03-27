@@ -40,5 +40,27 @@
             "hosted_item": "kazoos"
          }
       ]
+   },
+   {
+       "name" : "Go Mode",
+       "access_rules" : [
+           "$checkGoMode",
+       ],
+       "visibility_rules" : [
+           "$checkGoMode"
+       ],
+       "map_locations" : [
+           {
+               "x" : 0,
+               "y" : 0,
+               "map" : "overworld"
+           }
+       ],
+       "sections" : [
+           {
+           "item_count" : 1,
+           "name" : "Go Mode",
+           }
+       ]
    }
 ]
