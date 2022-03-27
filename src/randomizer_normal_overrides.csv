@@ -92,8 +92,8 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 92	Scarab 39: Tower Right	1112,1089	
 93	Scarab 40: Tower Left	1056,1095					X		X							X
 94	Scarab 41: Tower Upper	1066,1076					X		X							X
-95	Scarab 42: Juicery Lower	971,994					X		X							X
-96	Scarab 43: Juicery Upper	963,975					X		X							X
+95	Scarab 42: Juicery Lower	971,994					X	X	X							X				X
+96	Scarab 43: Juicery Upper	963,975					X	X	X							X				X
 97	Scarab 44: Orestation Right	739,639	
 98	Scarab 45: Orestation Left	713,671	
 99	Scarab 46: Lighthouse I Right	424,663	
@@ -194,8 +194,8 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 194	Wl. 29: Instrument Cave	1260,666	
 195	Wl. 30: Treek	885,722	
 196	Wl. 31: Dipperloaf	567,785	
-197	Wl. 32: Juicery Upper	943,966	
-198	Wl. 33: Juicery Left	924,996	
+197	Wl. 32: Juicery Upper	943,966						X												X
+198	Wl. 33: Juicery Left	924,996						X												X
 199	Wl. 34: Fleek	747,1017	
 200	Wl. 35: Sin Totem	414,972	
 201	Wl. 36: Obt. Puzzle	61,1004	
