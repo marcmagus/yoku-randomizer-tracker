@@ -34,6 +34,11 @@ while (<>) {
     foreach my $a (split /,/, $conditions[0]) {
         push @access_rules, [];
     }
+    # for things that can be seen
+    my @check_rules;
+    foreach my $a (split /,/, $conditions[0]) {
+        push @check_rules, [];
+    }
 
     # Parse conditions and generate access_rules
     # Skip the last 4 key items, those are a bugfix
@@ -43,8 +48,13 @@ while (<>) {
             if (1 == scalar @is_required or $is_required[$j]) {
                 if ("X" eq $override_conditions[$i]) {
                     push @{$access_rules[$j]}, "[" . $key_items[$i] . "]";
+                    push @{$check_rules[$j]}, "[" . $key_items[$i] . "]";
+                } elsif ("V" eq $override_conditions[$i]) {
+                    push @{$access_rules[$j]}, $key_items[$i];
+                    warn "Found a visibility rule for $name\n";
                 } else {
                     push @{$access_rules[$j]}, $key_items[$i];
+                    push @{$check_rules[$j]}, $key_items[$i];
                 }
             }
         }
@@ -53,6 +63,12 @@ while (<>) {
     my @flattened_access_rules;
     foreach my $rule (@access_rules) {
         push @flattened_access_rules, join (",", @{$rule});
+    }
+
+    if ($spawn) {
+        foreach my $rule (@check_rules) {
+            push @flattened_access_rules, "{" . join (",", @{$rule}) . "}";
+        }
     }
 
     if ($group and my $group_index = $groups{$group}) {
