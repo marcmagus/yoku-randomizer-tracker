@@ -32,3 +32,5 @@
   * Minor glitches
 
   * Full bucket, used spores, used keys, etc?
+
+  * custom chest_[un]opened_img for wickerlings/scarabs/chests/etc
