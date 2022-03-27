@@ -44,7 +44,6 @@
    {
        "name" : "Go Mode",
        "access_rules" : [
-           "$checkGoMode",
        ],
        "visibility_rules" : [
            "$checkGoMode"
@@ -58,8 +57,8 @@
        ],
        "sections" : [
            {
-           "item_count" : 1,
-           "name" : "Go Mode",
+                "item_count" : 1,
+                "name" : "Go Mode",
            }
        ]
    }
