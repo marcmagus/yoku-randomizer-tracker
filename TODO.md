@@ -15,6 +15,11 @@
 
   * Go Mode Light - kazoos?
 
+# Look Rules
+
+    * Mushrooms - is badge required? is poison visible?
+
+
 # TODOs for future
 
   * Normal mode (uses trackers)

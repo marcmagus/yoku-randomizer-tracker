@@ -4,6 +4,7 @@ use JSON;
 $json = JSON->new->allow_nonref;
 
 open(FH, '<', "randomizer_normal_overrides.csv") or die $!;
+open(LOOK, '<', "randomizer_normal_look.csv") or die $!;
 
 # Key Items
 my @key_items = ( "mushroom_2", "mushroom_3", "postal_badge", "abilities_slug_vacuum", "abilities_partyhorn", "abilities_dive", "toolbox", "sootling_leash", "abilities_mailbag", "guano", "bucket_empty", "seed_pod", "spring_key", "skins_skin_1", "skins_skin_2", "skins_skin_5", "skins_skin_3", "skins_skin_4", "idol1", "nugget_4", "idol2", "idol3", "idol4", "spores_1", "spores_2", "spores_3", "spores_4", "spores_5", "tadpole_8", "wallet_2", "wallet_4", "bluekey", "greenkey", "nim_key", "tracker_springs", "tracker_caves", "tracker_peak", "tracker_scarabs", "treasure_map", "abilities_speed", "traitor_spirit_4", "powerups_skvader_1", "powerups_skvader_2", "abilities_dive_speed", "abilities_slug_upgrade");
@@ -14,13 +15,14 @@ my %groups;
 # Discard headers
 <>;
 <FH>;
+<LOOK>;
 
 while (<>) {
     s/\R\z//; # cross-platform chomp
     my ($name, $item, $spawn_id, $tracker, $spawn, @conditions) = split /\t/;
     my ($pos_x, $pos_y) = split /,/, $tracker;
 
-    # Read xy coords from secondary file
+    # Read xy coords and condition overrides from secondary file
     my $line = <FH>;
     $line =~ s/\R\z//;
     my ($linenum,$cname,$coords,$group,@override_conditions) = split /\t/, $line;
@@ -28,16 +30,18 @@ while (<>) {
 
     $name eq $cname or die "Line mismatch: $name !eq $cname\n";
 
+    # Read checkable rules from secondary file
+    my $line = <LOOK>;
+    $line =~ s/\R\z//;
+    my ($l_linenum,$lname,@look_conditions) = split /\t/, $line;
+
+    $name eq $lname or die "Line mismatch: $name !eq $cname\n";
+
     # mushroom_2 usually has the full count of access rules
     # this might not be necessary with the check for pre-Fosfor rules
     my @access_rules;
     foreach my $a (split /,/, $conditions[0]) {
         push @access_rules, [];
-    }
-    # for things that can be seen
-    my @check_rules;
-    foreach my $a (split /,/, $conditions[0]) {
-        push @check_rules, [];
     }
 
     # Parse conditions and generate access_rules
@@ -48,13 +52,29 @@ while (<>) {
             if (1 == scalar @is_required or $is_required[$j]) {
                 if ("X" eq $override_conditions[$i]) {
                     push @{$access_rules[$j]}, "[" . $key_items[$i] . "]";
-                    push @{$check_rules[$j]}, "[" . $key_items[$i] . "]";
-                } elsif ("V" eq $override_conditions[$i]) {
-                    push @{$access_rules[$j]}, $key_items[$i];
-                    warn "Found a visibility rule for $name\n";
                 } else {
                     push @{$access_rules[$j]}, $key_items[$i];
-                    push @{$check_rules[$j]}, $key_items[$i];
+                }
+            }
+        }
+    }
+
+    # for things that can be seen
+    my @look_rules;
+    foreach my $a (split /,/, $look_conditions[0]) {
+        push @look_rules, [];
+    }
+
+    # Parse look_conditions and generate look_rules
+    # Skip the last 4 key items, those are a bugfix
+    for ($i=0; $i<@look_conditions and $i<(@key_items - 4); $i++) {
+        my @is_required = split /,/, $look_conditions[$i];
+        for ($j=0; $j<(@look_rules?@look_rules:@is_required); $j++) {
+            if (1 == scalar @is_required or $is_required[$j]) {
+                if ("-" eq $is_required[$j]) {
+                    push @{$look_rules[$j]}, "";
+                } else {
+                    push @{$look_rules[$j]}, $key_items[$i];
                 }
             }
         }
@@ -65,10 +85,8 @@ while (<>) {
         push @flattened_access_rules, join (",", @{$rule});
     }
 
-    if ($spawn) {
-        foreach my $rule (@check_rules) {
-            push @flattened_access_rules, "{" . join (",", @{$rule}) . "}";
-        }
+    foreach my $rule (@look_rules) {
+        push @flattened_access_rules, "{" . join (",", @{$rule}) . "}";
     }
 
     if ($group and my $group_index = $groups{$group}) {
