@@ -2,6 +2,7 @@
 
   * Location coordinates
     * Clean up clusters
+    * Maybe treat e.g. tables as a single location with multiple checks
 
   * Remove excess code from SoM tracker
     * random unused files
@@ -11,14 +12,6 @@
     * Should chunks/nuggets change with count?
     * More correct nugget image
     * Wallet change with count?
-    * Kazoos?
-
-  * Go Mode Light - kazoos?
-
-# Look Rules
-
-    * Mushrooms - is badge required? is poison visible?
-
 
 # TODOs for future
 
@@ -27,15 +20,14 @@
 
   * Very Hard mode
 
-  * Sootling on a leash location
-    * Also bucket? Vine? Probably not?
+  * Locations for bucket, vine like leash sootling? (Probably not)
 
   * Per-zone tabs with linked locations?
-
-  * Visible locations (Spawn column)
 
   * Minor glitches
 
   * Full bucket, used spores, used keys, etc?
 
   * custom chest_[un]opened_img for wickerlings/scarabs/chests/etc
+
+  * Switch font in images to Sniglet
