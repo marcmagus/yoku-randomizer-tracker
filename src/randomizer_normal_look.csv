@@ -226,7 +226,7 @@ Line	Name	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccum	abilities/par
 226	Wl. 61: Underwater at Hook Chest	1,0	0,1	1	1
 227	Wl. 62: Underbelly I Left	
 228	Wl. 63: Underbelly I Upper	
-229	Wl. 64: Underbelly I Right	1,1,0,0	0,0,1,1	1	1	1,0,1,0	0,1,0,1
+229	Wl. 64: Underbelly I Right	1,1,0,0	0,0,1,1	1		1,0,1,0	0,1,0,1							1
 230	Wl. 65: Underbelly II Hidden	
 231	Wl. 66: Hideout Drop 2	
 232	Wl. 67: Sush	
