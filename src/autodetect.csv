@@ -1,0 +1,146 @@
+// Auto-detection values are used if user has not override the settings in options,,,,
+// Only old/low-power cards need to be listed, as game defaults to full quality if not listed,,,
+// Check device-id in game by enabling Dev/Debugging/Performance/Show Performance Info,,,,
+,,,,
+// Intel, https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units,,,
+0x8086,0x2582,720,1,GMA 900
+0x8086,0x258A,720,1,GMA 900
+0x8086,0x2592,720,1,GMA 900
+0x8086,0x2772,720,1,GMA 950
+0x8086,0x27A2,720,1,GMA 950
+0x8086,0x27AE,720,1,GMA 950
+0x8086,0x29D2,720,1,GMA 3100
+0x8086,0x29B2,720,1,GMA 3100
+0x8086,0x29C2,720,1,GMA 3100
+0x8086,0xA001,720,1,GMA 3150
+0x8086,0xA011,720,1,GMA 3150
+0x8086,0x2972,720,1,GMA 3000
+0x8086,0x2992,720,1,GMA 3000
+0x8086,0x29A2,720,1,GMA X3000
+0x8086,0x2982,720,1,GMA X3500
+0x8086,0x2A02,720,1,GMA X3100
+0x8086,0x2A12,720,1,GMA X3100
+0x8086,0x2E42,720,1,GMA 4500
+0x8086,0x2E92,720,1,GMA 4500
+0x8086,0x2E12,720,1,GMA 4500
+0x8086,0x2E32,720,1,GMA X4500
+0x8086,0x2E22,720,1,GMA X4500HD
+0x8086,0x2A42,720,1,GMA 4500MHD
+0x8086,0x0042,720,1,HD Graphics Ironlake
+0x8086,0x0046,720,1,HD Graphics Ironlake
+0x8086,0x010A,720,1,HD Graphics Sandy Bridge
+0x8086,0x0102,720,1,HD Graphics 2000
+0x8086,0x0116,720,1,HD Graphics 3000
+0x8086,0x0126,720,1,HD Graphics 3000
+0x8086,0x0112,720,1,HD Graphics 3000
+0x8086,0x0122,720,1,HD Graphics P3000
+0x8086,0x0F30,720,1,HD Graphics Valleyview
+0x8086,0x0F31,720,1,HD Graphics Valleyview
+0x8086,0x0F32,720,1,HD Graphics Valleyview
+0x8086,0x0F33,720,1,HD Graphics Valleyview
+0x8086,0x0155,720,1,HD Graphics Valleyview
+0x8086,0x0157,720,1,HD Graphics Valleyview
+0x8086,0x015A,720,1,HD Graphics Ivy Bridge
+0x8086,0x0152,720,1,HD Graphics 2500
+0x8086,0x0162,720,1,HD Graphics 2500
+0x8086,0x0166,720,1,HD Graphics 4000
+0x8086,0x016A,720,1,HD Graphics P4000
+0x8086,0x0402,720,1,HD Graphics Ivy Bridge
+0x8086,0x0406,720,1,HD Graphics Ivy Bridge
+0x8086,0x040A,720,1,HD Graphics Ivy Bridge
+0x8086,0x040B,720,1,HD Graphics Ivy Bridge
+0x8086,0x040E,720,1,HD Graphics Ivy Bridge
+0x8086,0x0A02,720,1,HD Graphics Ivy Bridge
+0x8086,0x0A06,720,1,HD Graphics Ivy Bridge
+0x8086,0x0A0A,720,1,HD Graphics Ivy Bridge
+0x8086,0x0A0B,720,1,HD Graphics Ivy Bridge
+0x8086,0x0A0E,720,1,HD Graphics Ivy Bridge
+0x8086,0x0412,720,1,HD Graphics 4x00
+0x8086,0x0416,720,1,HD Graphics 4x00
+0x8086,0x041A,720,1,HD Graphics 4x00
+0x8086,0x041B,720,1,HD Graphics 4x00
+0x8086,0x041E,720,1,HD Graphics 4x00
+0x8086,0x0A12,720,1,HD Graphics 4x00
+0x8086,0x0A16,720,1,HD Graphics 4x00
+0x8086,0x0A1A,720,1,HD Graphics 4x00
+0x8086,0x0A1B,720,1,HD Graphics 4x00
+0x8086,0x0A1E,720,1,HD Graphics 4x00
+0x8086,0x0422,720,1,HD Graphics 5000
+0x8086,0x0426,720,1,HD Graphics 5000
+0x8086,0x042A,720,1,HD Graphics 5000
+0x8086,0x042B,720,1,HD Graphics 5000
+0x8086,0x042E,720,1,HD Graphics 5000
+0x8086,0x0A22,720,1,Iris Graphics 5100
+0x8086,0x0A26,720,1,Iris Graphics 5100
+0x8086,0x0A2A,720,1,Iris Graphics 5100
+0x8086,0x0A2B,720,1,Iris Graphics 5100
+0x8086,0x0A2E,720,1,Iris Graphics 5100
+0x8086,0x0D22,720,1,Iris Pro Graphics 5200
+0x8086,0x0D26,720,1,Iris Pro Graphics 5200
+0x8086,0x0D2A,720,1,Iris Pro Graphics 5200
+0x8086,0x0D2B,720,1,Iris Pro Graphics 5200
+0x8086,0x0D2E,720,1,Iris Pro Graphics 5200
+0x8086,0x22B0,720,1,HD Graphics Cherryview
+0x8086,0x22B1,720,1,HD Graphics Cherryview
+0x8086,0x22B2,720,1,HD Graphics Cherryview
+0x8086,0x22B3,720,1,HD Graphics Cherryview
+0x8086,0x1606,720,1,HD Graphics Cherryview
+0x8086,0x161E,720,1,HD Graphics 5300
+0x8086,0x1616,720,1,HD Graphics 5500
+0x8086,0x1612,720,1,HD Graphics 5600
+0x8086,0x1626,720,1,HD Graphics 6000
+0x8086,0x162B,720,1,Iris Graphics 6100
+0x8086,0x1622,720,1,Iris Pro Graphics 6200
+0x8086,0x162A,720,1,Iris Pro Graphics P6300
+0x8086,0x5A85,720,1,HD Graphics 505
+0x8086,0x5A84,720,1,HD Graphics 505
+0x8086,0x1906,720,1,HD Graphics 510
+0x8086,0x1902,720,1,HD Graphics 510
+0x8086,0x191E,720,1,HD Graphics 515
+0x8086,0x1916,720,1,HD Graphics 520
+0x8086,0x191B,720,1,HD Graphics 530
+0x8086,0x1912,720,1,HD Graphics 530
+0x8086,0x191D,720,1,HD Graphics P530
+0x8086,0x3185,720,1,UHD Graphics 600
+0x8086,0x3184,720,1,UHD Graphics 605
+0x8086,0x5906,720,1,UHD Graphics 610
+0x8086,0x5902,720,1,UHD Graphics 610
+0x8086,0x591E,720,1,UHD Graphics 615
+,,,,
+// Nvidia, http://envytools.readthedocs.io/en/latest/hw/pciid.html,,,
+0x10de,0x0626,720,1,GeForce GT 130
+0x10de,0x05e3,1080,1,GeForce GTX 285
+0x10de,0x0ca2,720,1,GeForce GT 320
+0x10de,0x0dc4,720,1,GeForce GTS 450
+0x10de,0x0170,720,1,GeForce4 MX 460
+0x10de,0x0F00,720,1,GeForce GT 630
+0x10de,0x0FC6,1080,1,GeForce GTX 650
+0x10de,0x11c6,1080,1,GeForce GTX 650 Ti
+0x10de,0x1284,720,1,GeForce GT 630
+0x10de,0x1381,1080,1,GeForce GTX 750
+0x10de,0x1244,1080,1,GeForce GTX 550 Ti
+,,,,
+// AMD, https://devicehunt.com/view/type/pci/vendor/1002,,,
+0x1002,0x9498,720,1,Radeon HD 7560D
+0x1002,0x9480,720,1,Mobility Radeon HD 4650/5165
+0x1002,0x9513,720,1,Radeon HD 3850 X2
+0x1002,0x9515,720,1,Radeon HD 3850 AGP
+0x1002,0x9904,720,1,Mobility Radeon HD 3850
+0x1002,0x9505,720,1,Radeon HD 3690/3850s
+0x1002,0x9506,720,1,Mobility Radeon HD 3850 X2
+0x1002,0x9500,720,1,Radeon HD 3850 X2
+0x1002,0x6759,720,1,Radeon HD 6570/7570/8550
+0x1002,0x68C0,720,1,Mobility Radeon HD 5730 / 6570M
+0x1002,0x6758,720,1,Radeon HD 6670
+0x1002,0x68BA,720,1,Radeon HD 6770
+0x1002,0x6738,720,1,Radeon HD 6870
+0x1002,0x6739,720,1,Radeon HD 6850
+0x1002,0x6610,720,1,Radeon HD 8670 / R7 250/350
+0x1002,0x683D,720,1,Radeon HD 7770/8760 / R7 250X
+0x1002,0x683F,720,1,Radeon HD 7750/8740 / R7 250E
+0x1002,0x6818,720,1,Radeon HD 7870
+0x1002,0x6827,720,1,Radeon HD 7850M/8850M
+0x1002,0x6819,720,1,Radeon HD 7850 / R7 265 / R9 270 1024SP
+,,,,
+// Additional device-ids,,,,
+// https://vulkan.gpuinfo.org/,,,,
