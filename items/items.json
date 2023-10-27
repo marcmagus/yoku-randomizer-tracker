@@ -93,11 +93,11 @@
           },
           {
             "img": "images/Leash.png",
-            "codes": "leash"
+            "codes": "sootling_leash"
           },
           {
             "img": "images/Grapple.png",
-            "codes": "sootling_leash"
+            "codes": "abilities_hook"
           }
       ]
   },
@@ -128,6 +128,13 @@
       "capturable": "true",
       "img": "images/SeedPod.png",
       "codes": "seed_pod",
+  },
+  {
+      "name": "Wickerling",
+      "type": "consumable",
+      "capturable": "true",
+      "img": "images/Wickerling.png",
+      "codes": "wickerling",
   },
   {
       "name": "Underbelly Key",
@@ -176,6 +183,7 @@
       "type": "progressive",
       "allow_disabled": false,
       "capturable": "true",
+      "codes": "idol",
       "stages": [
         {
             "img": "images/StatuePiece.png",
@@ -208,6 +216,7 @@
       "type": "progressive",
       "allow_disabled": false,
       "capturable": "true",
+      "codes": "nugget",
       "stages": [
           {
             "img": "images/StatueNugget.png",
@@ -272,6 +281,7 @@
       "type": "progressive",
       "capturable": "true",
       "allow_disabled": false,
+      "codes": "tadpole",
       "stages": [
           {
             "img": "images/Tadpole.png",
@@ -317,6 +327,7 @@
       "type": "progressive",
       "capturable": "true",
       "allow_disabled": false,
+      "codes": "wallet",
       "stages": [
           {
             "img": "images/Wallet.png",
@@ -434,6 +445,7 @@
       "type": "progressive",
       "allow_disabled": false,
       "capturable": "true",
+      "codes": "traitor_spirit",
       "stages": [
           {
             "img": "images/Traitor.png",

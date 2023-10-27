@@ -7,11 +7,11 @@ function hasPartyHorn()
 end
 
 function hasLeash()
-    return Tracker:ProviderCountForCode("leash") > 0
+    return Tracker:ProviderCountForCode("sootling_leash") > 0
 end
 
-function hasSootlingLeash()
-    return Tracker:ProviderCountForCode("sootling_leash") > 0
+function hasHook()
+    return Tracker:ProviderCountForCode("abilities_hook") > 0
 end
 
 function hasToolbox()
@@ -38,13 +38,13 @@ function canLeaveIntro()
     return (hasPostalBadge() and (hasMushroom2() or hasMushroom3()))
 end
 
-function canGetSootlingLeash()
-    return (hasSootlingLeash() or (canLeaveIntro() and hasLeash() and hasToolbox() and hasSlugVacuum() and hasPartyHorn()))
+function canGetHook()
+    return (hasHook() or (canLeaveIntro() and hasLeash() and hasToolbox() and hasSlugVacuum() and hasPartyHorn()))
 end
 
 function inGoMode()
     -- TODO: update for very hard
-    return (hasNimKey() and hasPartyHorn() and canGetSootlingLeash() and canLeaveIntro())
+    return (hasNimKey() and hasPartyHorn() and canGetHook() and canLeaveIntro())
 end
 
 function checkGoMode()
