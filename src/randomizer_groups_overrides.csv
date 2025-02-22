@@ -9,12 +9,12 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 9	Post Office Attic	1333,745	Post Office
 10	Key: Blue	1700,1334	
 11	Key: Green	1620,1309	
-12	Sootling 1	407,657	
-13	Sootling 2	390,617	
-14	Sootling 3	392,577	
-15	Sootling 4	405,578	
-16	Sootling 5	423,580	
-17	Sootling 6	404,535	
+12	Sootling 1	407,657	Lighthouse I
+13	Sootling 2	390,617	Lighthouse I
+14	Sootling 3	392,577	Lighthouse II
+15	Sootling 4	405,578	Lighthouse II
+16	Sootling 5	423,580	Lighthouse II
+17	Sootling 6	404,535	Lighthouse II
 18	Tadpole 1	1969,1099	
 19	Tadpole 2	1991,1066	
 20	Tadpole 3	2023,1111	
@@ -32,14 +32,14 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 32	Statue Piece: Ivory	722,573	
 33	Statue Piece: Obt. Isles	97,959	
 34	Nugget 1	1728,412	
-35	Nugget 2	1743,391	
+35	Nugget 2	1748,391	
 36	Nugget 3	1778,396	
 37	Nugget 4	1804,391	
 38	Chest: Noisemaker	346,1033	
 39	Chest: Tweepers	866,1173	Tweepers
 40	Chest: Tower	1108,766	
 41	Chest: Shed	1723,1181	
-42	Chest: Crystal Skull	1980,1202	
+42	Chest: Crystal Skull	1968,1216	
 43	Chest: Beach	2328,1169	
 44	Chest: Church	1719,855	
 45	Chest: Leash	326,708	
@@ -82,7 +82,7 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 82	Mailbox 29: Space Monks	1626,131	
 83	Mailbox 30: Tower	1138,776	
 84	Fruit 31: Banana Chest	548,1133	
-85	Fruit 32: Green Chest	1637,1293	
+85	Fruit 32: Green Chest	1637,1293	Treasure Room
 86	Fruit 33: Hook Chest	2124,837	
 87	Fruit 34: Underwater Chest	2293,808	
 88	Scarab 35: Mushrooms Left	703,1048	Mushrooms
@@ -94,20 +94,20 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 94	Scarab 41: Tower Upper	1066,1076	Tower				X		X							X
 95	Scarab 42: Juicery Lower	971,994	Juicery				X	X	X							X				X
 96	Scarab 43: Juicery Upper	963,975	Juicery				X	X	X							X				X
-97	Scarab 44: Orestation Right	739,639	
-98	Scarab 45: Orestation Left	713,671	
-99	Scarab 46: Lighthouse I Right	424,663	
-100	Scarab 47: Lighthouse I Left	385,628	
-101	Scarab 48: Lighthouse II	380,558	
-102	Scarab 49: Town Skip	1370,486	
+97	Scarab 44: Orestation Right	739,639	Orestation
+98	Scarab 45: Orestation Left	713,671	Orestation
+99	Scarab 46: Lighthouse I Right	424,663	Lighthouse I
+100	Scarab 47: Lighthouse I Left	385,628	Lighthouse I
+101	Scarab 48: Lighthouse II	380,558	Lighthouse II
+102	Scarab 49: Town Skip	1375,486	
 103	Scarab 50: Bat	1336,291	
 104	Scarab 51: Spider Cave I	1759,264	
 105	Scarab 52: Spider Cave II	1715,194	
-106	Scarab 53: Underbelly II Right	2424,906							X							
-107	Scarab 54: Underbelly II Left	2395,911	
-108	Scarab 55: Underbelly I Right	2175,936	
-109	Scarab 56: Underbelly I Left	2069,943	
-110	Scarab 57: Underbelly I Mid	2089,956	
+106	Scarab 53: Underbelly II Right	2424,906	Underbelly II						X							
+107	Scarab 54: Underbelly II Left	2395,911	Underbelly II
+108	Scarab 55: Underbelly I Right	2175,936	Underbelly I
+109	Scarab 56: Underbelly I Left	2069,943	Underbelly I
+110	Scarab 57: Underbelly I Mid	2089,956	Underbelly I
 111	Scarab 58: Willo Right	1779,951	Willo
 112	Scarab 59: Willo Mid	1754,938	Willo
 113	Scarab 60: Willo Left	1734,923	Willo
@@ -130,7 +130,7 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 130	Fruit 77: Waterfall Left	1538,1012	
 131	Fruit 78: Underbelly	2258,948	
 132	Fruit 79: Waterfall Right	1589,1016	
-133	Fruit 80: Meadows Slug Rock	1412,1082	
+133	Fruit 80: Meadows Slug Rock	1412,1077	
 134	Fruit 81: Marrow Jump	1990,843	
 135	Fruit 82: Screech Door Bones	1191,1359	
 136	Fruit 83: Sootling Cave Water	1188,575	
@@ -139,7 +139,7 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 139	Fruit 86: Sin	423,918	
 140	Fruit 87: Crystal Lake	1727,371	
 141	Fruit 88: Spider Cave	1849,199	
-142	Fruit 89: Treasure Room	1609,1306	
+142	Fruit 89: Treasure Room	1637,1293	Treasure Room
 143	Fruit 90: Ocean Heart	2489,1301	
 144	NPC: Lemon	1366,759	Post Office
 145	NPC: Lemon, All Packages	1325,759	Post Office
@@ -160,7 +160,7 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 160	NPC: Nim	1288,777	
 161	NPC: Dipperloaf	658,832	
 162	NPC: Jamja	1583,339	
-163	NPC: Jojo	2331,745	
+163	NPC: Jojo	2340,740	
 164	NPC: Fleek	853,974	Fleek
 165	NPC: Dusk	1586,1078	
 166	Wl. 01: Beach Dive 1	58,1205	
@@ -178,7 +178,7 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 178	Wl. 13: Ape Hook	1200,1165	
 179	Wl. 14: Ape Entry	1209,1147	
 180	Wl. 15: Ape Right	1339,1195	
-181	Wl. 16: Slug Gardener Spot 2	1395,1127	Meadow I
+181	Wl. 16: Slug Gardener Spot 2	1395,1137	Meadow I
 182	Wl. 17: Slug Gardener Spot 1	1384,1093	
 183	Wl. 18: Meadow Slug Jump	1449,1047	
 184	Wl. 19: Waterfall Bottom	1487,1055	
@@ -224,9 +224,9 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 224	Wl. 59: Dive Cave Entry	1944,926	
 225	Wl. 60: Dive Cave Chest	1911,1099	
 226	Wl. 61: Underwater at Hook Chest	2034,873	
-227	Wl. 62: Underbelly I Left	2073,977	
-228	Wl. 63: Underbelly I Upper	2108,944	
-229	Wl. 64: Underbelly I Right	2125,932	
+227	Wl. 62: Underbelly I Left	2073,977	Underbelly I
+228	Wl. 63: Underbelly I Upper	2108,944	Underbelly I
+229	Wl. 64: Underbelly I Right	2125,932	Underbelly I
 230	Wl. 65: Underbelly II Hidden	2230,976	
 231	Wl. 66: Hideout Drop 2	2387,991	
 232	Wl. 67: Sush	2234,848	
@@ -239,7 +239,7 @@ Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccu
 239	Wl. 74: Above Rolypoly	2077,1194	
 240	Wl. 75: Crystal Deep Beel. Ledge	2209,1225	
 241	Wl. 76: Underdark Water Puzzle	2098,1382	
-242	Wl. 77: Blue Chest	1658,1293	
+242	Wl. 77: Blue Chest	1658,1293	Treasure Room
 243	Wl. 78: Pitch	1433,1331	
 244	Wl. 79: Screech Door Hook	1151,1346	
 245	Wl. 80: Behind Screech	1034,1299	
