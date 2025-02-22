@@ -23,7 +23,7 @@
             ]
     },
     "var_location_groups": {
-      "display_name": "Map Tracker - Grouped Items",
+      "display_name": "Map Tracker - Grouped Locations",
             "flags": [
                 "ap" //enables AP autotracking interface - remove if not needed
                 // "uat", // use UAT protocol for auto-tracking
