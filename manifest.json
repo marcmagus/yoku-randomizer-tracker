@@ -9,16 +9,16 @@
     "standard": {
       "display_name": "Map Tracker - Hard Mode",
             "flags": [
-                // "ap" //enables AP autotracking interface - remove if not needed
-                "uat", // use UAT protocol for auto-tracking
+                "ap" //enables AP autotracking interface - remove if not needed
+                // "uat", // use UAT protocol for auto-tracking
                 // "uat-bridge" // auto-start UAT bridge if available -- not implemented
             ]
     },
     "var_itemsonly": {
       "display_name": "Items Only",
             "flags": [
-                // "ap" //enables AP autotracking interface - remove if not needed
-                "uat", // use UAT protocol for auto-tracking
+                "ap" //enables AP autotracking interface - remove if not needed
+                // "uat", // use UAT protocol for auto-tracking
                 // "uat-bridge" // auto-start UAT bridge if available -- not implemented
             ]
     }/* ,
