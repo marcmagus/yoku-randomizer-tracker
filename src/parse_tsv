@@ -3,7 +3,7 @@
 use JSON;
 $json = JSON->new->allow_nonref;
 
-open(FH, '<', "randomizer_normal_overrides.csv") or die $!;
+open(FH, '<', "randomizer_groups_overrides.csv") or die $!;
 open(LOOK, '<', "randomizer_normal_look.csv") or die $!;
 
 # Key Items
@@ -92,12 +92,17 @@ while (<>) {
     if ($group and my $group_index = $groups{$group}) {
         my %section = ("name" => $name, "item_count" => 1,
             "access_rules" => \@flattened_access_rules);
+        # Move group location to average of sublocations
+        my $section_count = scalar @{$locations[$group_index]{"sections"}};
+        print STDERR "Updating location of $group [$section_count] from (" . $locations[$group_index]{"map_locations"}[0]{"x"} . "," . $locations[$group_index]{"map_locations"}[0]{"y"} . ")...";
+        $locations[$group_index]{"map_locations"}[0]{"x"} = int((int($locations[$group_index]{"map_locations"}[0]{"x"} * $section_count) + int($x)) / (1 + $section_count));
+        $locations[$group_index]{"map_locations"}[0]{"y"} = int((int($locations[$group_index]{"map_locations"}[0]{"y"} * $section_count) + int($y)) / (1 + $section_count));
+        print STDERR "...to (" . $locations[$group_index]{"map_locations"}[0]{"x"} . "," . $locations[$group_index]{"map_locations"}[0]{"y"} . ")...\n";
         push @{$locations[$group_index]{"sections"}}, \%section;
     } elsif ($group) {
         my %location = ("name" => $group,
             "map_locations" => [{ "map" => "overworld", "x" => int($x), "y" => int($y) }],
-            "sections" => [{ "name" => $name, "item_count" => 1 }],
-            "access_rules" => \@flattened_access_rules);
+            "sections" => [{ "name" => $name, "item_count" => 1 , "access_rules" => \@flattened_access_rules}]);
         $groups{$group} = scalar @locations;
         push @locations, \%location;
     } else {
@@ -111,5 +116,5 @@ while (<>) {
 
 }
 
-    print $json->pretty->encode( \@locations );
+print $json->pretty->encode( \@locations );
 
