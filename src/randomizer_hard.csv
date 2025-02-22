@@ -1,0 +1,249 @@
+Name	Item	Spawn ID	Tracker	Spawn	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccum	abilities/partyhorn	abilities/dive	toolbox	sootling_leash	abilities/mailbag	guano	bucket_empty	seed_pod	spring_key	skins/skin_1	skins/skin_2	skins/skin_5	skins/skin_3	skins/skin_4	idol1	nugget:4	idol2	idol3	idol4	spores_1	spores_2	spores_3	spores_4	spores_5	tadpole:8	wallet:2	wallet:4	bluekey	greenkey	nim_key	tracker_springs	tracker_caves	tracker_peak	tracker_scarabs	treasure_map	abilities/speed	traitor_spirit:4	powerups/skvader_1	powerups/skvader_2	abilities/dive_speed	abilities/slug_upgrade
+Juicy Cove Mushroom	mushroom_2	intro_landing_upper:5394	3044,-2424	1	0,1,0	0,0,1	0,1,1		1,0,0	0,1,1																																							
+Poison Toadstool	mushroom_3	intro_landing_upper:5605	3648,-2356	1	0,1,0	0,0,1	0,1,1		1,0,0	0,1,1																																							
+Toolbox	toolbox	hub_village:4686	1548,-1252	1	1,0	0,1	1																																										
+Guano	guano	peak_guano_grief:669	1860,-3932		1,0	0,1	1	1	1		1	1																																					
+Seed Pod	seed_pod	peak_beanstalk_base:2308	1808,-3616		1,0	0,1	1	1	1		1	1																																					
+Underwater Puzzle	skins/skin_3	spring_shoddy_shanty:5433	-656,576		1,0	0,1	1			1							1																																
+Tower's Peak Crystal	wallet	hub_island_express:3692	-4920,432		1,0	0,1	1	1	1		1	1																																					
+Post Office Attic	abilities/speed	hub_village:4661	-334,-803	1	1,0	0,1	1						1																																				
+Key: Blue	bluekey	cave_temple_terror_lower:144	-2008,-280		1,0	0,1	1			1																																							
+Key: Green	greenkey	cave_temple_terror_lower:4978	-3592,-584		1,0	0,1	1	1		1																																							
+Sootling 1	dustbunny_dirty	peak_filthy_flat:255	1584,-1536		1,0	0,1	1	1	1		1																																						
+Sootling 2	dustbunny_dirty	peak_filthy_flat:309	1064,-2360		1,0	0,1	1	1	1		1																																						
+Sootling 3	dustbunny_dirty	peak_filthy_flat:627	1488,-3080		1,0	0,1	1	1	1		1																																						
+Sootling 4	dustbunny_dirty	peak_filthy_flat:751	1656,-3088		1,0	0,1	1	1	1		1																																						
+Sootling 5	dustbunny_dirty	peak_filthy_flat:1300	1624,-3000		1,0	0,1	1	1	1		1																																						
+Sootling 6	dustbunny_dirty	peak_filthy_flat:264	1616,-4064		1,0	0,1	1	1	1		1																																						
+Tadpole 1	tadpole	spring_bubbly_basin:1241	1512,-55	1	1,0	0,1	1			1																																							
+Tadpole 2	tadpole	spring_bubbly_basin:1238	1656,-775	1	1,0	0,1	1			1																																							
+Tadpole 3	tadpole	spring_bubbly_basin:1244	2376,145	1	1,0	0,1	1			1																																							
+Tadpole 4	tadpole	spring_bubbly_basin:1235	2712,-407	1	1,0	0,1	1			1																																							
+Tadpole 5	tadpole	spring_bubbly_basin:1229	3776,-519	1	1,0	0,1	1			1																																							
+Tadpole 6	tadpole	spring_bubbly_basin:1226	4352,-287	1	1,0	0,1	1			1																																							
+Tadpole 7	tadpole	spring_bubbly_basin:1041	4400,-658	1	1,0	0,1	1			1																																							
+Tadpole 8	tadpole	spring_bubbly_basin:1232	5720,-183	1	1,0	0,1	1			1																																							
+Mulch Pit: Village	spores_2	hub_festival_upper:491	292,-904		1,0	0,1	1																					1																					
+Mulch Pit: Ape	spores_3	jungle_slug_struggle:3665	144,-72		1,0	0,1	1																						1																				
+Mulch Pit: Beach	spores_4	cave_east_bay_shore:804	2204,-4712		1,1,0,0	0,0,1,1	1	0,1,0,1	0,1,0,1	1,0,1,0																				1																			
+Mulch Pit: Ivory	spores_5	peak_guano_grief:2514	648,-5180		1,0	0,1	1	1	1		1	1																			1																		
+Statue Piece: Waterfall	idol1	jungle_willy:1219	-160,-320		1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1																																							
+Statue Piece: Underdark	idol2	cave_temple_terror_lower:4744			1,1,1,1,0,0,0,0	0,0,0,0,1,1,1,1	1		1	1													1,0,0,0,1,0,0,0		0,1,0,0,0,1,0,0	0,0,1,0,0,0,1,0	0,0,0,1,0,0,0,1																						
+Statue Piece: Ivory	idol3	peak_aerial_ascent:4033			1,1,1,1,0,0,0,0	0,0,0,0,1,1,1,1	1	1	1		1	1											1,0,0,0,1,0,0,0	1	0,1,0,0,0,1,0,0	0,0,1,0,0,0,1,0	0,0,0,1,0,0,0,1																						
+Statue Piece: Obt. Isles	idol4	hub_obtainium_outland:234			1,1,1,1,0,0,0,0	0,0,0,0,1,1,1,1	1		1	1													1,1,1,0,1,1,1,0		1,1,0,1,1,1,0,1	1,0,1,1,1,0,1,1	0,1,1,1,0,1,1,1																						
+Nugget 1	nugget	peak_crystal_crater:2429	2612,-1452		1,1,1,1,0,0,0,0	0,0,0,0,1,1,1,1	1	1	1	1	1	1											1,0,0,0,1,0,0,0		0,1,0,0,0,1,0,0	0,0,1,0,0,0,1,0	0,0,0,1,0,0,0,1																						
+Nugget 2	nugget	peak_crystal_crater:2238	3096,-1960		1,1,1,1,0,0,0,0	0,0,0,0,1,1,1,1	1	1	1	1	1	1											1,0,0,0,1,0,0,0		0,1,0,0,0,1,0,0	0,0,1,0,0,0,1,0	0,0,0,1,0,0,0,1																						
+Nugget 3	nugget	peak_crystal_crater:2427	3732,-1932		1,1,1,1,0,0,0,0	0,0,0,0,1,1,1,1	1	1	1	1	1	1											1,0,0,0,1,0,0,0		0,1,0,0,0,1,0,0	0,0,1,0,0,0,1,0	0,0,0,1,0,0,0,1																						
+Nugget 4	nugget	peak_crystal_crater:2425	4188,-1972		1,1,1,1,0,0,0,0	0,0,0,0,1,1,1,1	1	1	1	1	1	1											1,0,0,0,1,0,0,0		0,1,0,0,0,1,0,0	0,0,1,0,0,0,1,0	0,0,0,1,0,0,0,1																						
+Chest: Noisemaker	abilities/partyhorn	intro_landing_upper:5733																																															
+Chest: Tweepers	wallet	intro_landing_right:5065			1,0	0,1	1																																										
+Chest: Tower	wallet	hub_island_express:3644			1,0	0,1	1																																										
+Chest: Shed	abilities/slug_vaccum	jungle_misty_meadow:2378			1,0	0,1	1																																										
+Chest: Crystal Skull	skins/skin_1	spring_hidden_hotspring:2343			1,1,0,0	0,0,1,1	1	1	1,0,1,0	0,1,0,1																																							
+Chest: Beach	wallet	cave_east_bay_shore:780			1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1																																							
+Chest: Church	wallet	spring_sleek_slabs:4542			1,0	0,1	1	1																																									
+Chest: Leash	sootling_leash	peak_filthy_flat:2813			1,0	0,1	1	1	1		1																																						
+Chest: Treek	powerups/skvader_1	hub_left_lofty_logo:498			1,0	0,1	1	1			1																																						
+Chest: Town Skip	wallet	peak_beanstalk_base:3399			1,0	0,1	1	1	1		1	1																																					
+Chest: Lava	tracker_peak	peak_beanstalk_base:3390			1,0	0,1	1	1	1		1	1																																					
+Chest: Waterfall	powerups/skvader_2	spring_cloudburst_cliffs:4925			1,0	0,1	1	1	1		1	1																																					
+Chest: Fosfor Cave Left	wallet	intro_muddled_morass:768			1	1	1	1	1	1	1	1																																					
+Chest: Fleek	skins/skin_5	hub_cliffside_creek:497			1,0	0,1	1	1	1		1	1																																					
+Chest: Screech	tracker_caves	cave_beaver_blockade:4699			1,0	0,1	1	1	1	1																																							
+Chest: Willo	abilities/dive_speed	hub_village:4502			1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1													1		1	1	1																						
+Mailbox 01: Hairy	reward_fruit_medium	intro_landing:6175											1																																				
+Mailbox 02: Fosfor	reward_fruit_medium	intro_muddled_morass:99			1,0	0,1	1	1	1	1	1	1	1																																				
+Mailbox 03: Baldino	reward_fruit_medium	intro_landing_upper:5673											1																																				
+Mailbox 04: Tweepers	tracker_scarabs	intro_landing_right:4793			1,0	0,1	1						1																																				
+Mailbox 05: Fleek	reward_fruit_medium	hub_cliffside_creek:467			1,0	0,1	1	1	1		1	1	1																																				
+Mailbox 06: Screech	reward_fruit_medium	intro_landing_right:4798			1,0	0,1	1	1	1	1			1																																				
+Mailbox 07: Ape	reward_fruit_medium	jungle_slug_struggle:3349			1,0	0,1	1						1																																				
+Mailbox 08: Slug Gardener	reward_fruit_medium	jungle_mollusc_madness:3814			1,0	0,1	1						1																																				
+Mailbox 09: Shed	reward_fruit_medium	jungle_misty_meadow:1967			1,0	0,1	1						1																																				
+Mailbox 10: Sal	reward_fruit_medium	cave_temple_terror_upper:4436			1,0	0,1	1	1		1			1																																				
+Mailbox 11: Rolypoly	reward_fruit_medium	cave_clammy_cenote:2440			1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1			1																																				
+Mailbox 12: Beach	reward_fruit_medium	cave_east_bay_shore:708			1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1			1																																				
+Mailbox 13: Quinbe	reward_fruit_medium	cave_east_bay_shore:703			1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1			1																																				
+Mailbox 14: Hideout	reward_fruit_medium	spring_gangway_grotto:4670			1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1			1																																				
+Mailbox 15: Underbelly	reward_fruit_medium	spring_tiny_broad:5480			1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1			1				1																																
+Mailbox 16: Church	reward_fruit_medium	spring_shoddy_shanty:5410			1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1			1																																				
+Mailbox 17: Kambi	reward_fruit_medium	spring_sleek_slabs:4492			1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1			1																																				
+Mailbox 18: Waterfall	reward_fruit_medium	spring_cloudburst_cliffs:4501			1,0	0,1	1						1																																				
+Mailbox 19: Hub	reward_fruit_medium	hub_village:4432			1,0	0,1	1						1																																				
+Mailbox 20: Post Office	reward_fruit_medium	hub_village:4428			1,0	0,1	1						1																																				
+Mailbox 21: Sandro	reward_fruit_medium	hub_left_lemur_lane:560			1,0	0,1	1						1																																				
+Mailbox 22: Dipperloaf	reward_fruit_medium	hub_white_cliff:1906			1,0	0,1	1				1		1																																				
+Mailbox 23: Treek	reward_fruit_medium	peak_aerial_ascent:4056			1,0	0,1	1	1			1		1																																				
+Mailbox 24: Orestation	reward_fruit_medium	peak_aerial_ascent:4061			1,0	0,1	1	1			1		1																																				
+Mailbox 25: Lighthouse	reward_fruit_medium	peak_filthy_flat:2838			1,0	0,1	1	1			1		1																																				
+Mailbox 26: Sin	reward_fruit_medium	hub_hermits_home:263			1,0	0,1	1			1			1																																				
+Mailbox 27: Ithaqua	reward_fruit_medium	peak_frostpine_forest:2958			1,0	0,1	1	1	1		1		1																																				
+Mailbox 28: Ojva	reward_fruit_medium	peak_obtainium_oracle:68			1,0	0,1	1	1	1		1	1	1	1	1	1																																	
+Mailbox 29: Space Monks	reward_fruit_medium	peak_crooked_cliff:1395			1,0	0,1	1	1	1		1	1	1	1	1	1																																	
+Mailbox 30: Tower	reward_fruit_medium	hub_island_express:3627			1,0	0,1	1						1																																				
+Fruit 31: Banana Chest	reward_fruit_big	intro_landing:6179			0,1,0	0,0,1	0,1,1		1,0,0	0,1,1																																							
+Fruit 32: Green Chest	reward_fruit_big	cave_temple_terror_treasury:220			1,0	0,1	1	1		1																											1												
+Fruit 33: Hook Chest	reward_fruit_big	spring_sleek_slabs:4497			1,0	0,1	1	1	1		1	1																																					
+Fruit 34: Underwater Chest	reward_fruit_big	spring_gangway_grotto:4674			1,0	0,1	1			1																																							
+Scarab 35: Mushrooms Left	reward_fruit_medium	intro_landing_upper:5079			0,1,0	0,0,1	0,1,1		1,0,0	0,1,1																																							
+Scarab 36: Mushrooms Right	reward_fruit_medium	intro_landing_upper:4351			0,1,0	0,0,1	0,1,1		1,0,0	0,1,1																																							
+Scarab 37: Sootling House Upper	reward_fruit_medium	intro_landing_right:4607			1,0	0,1	1																																										
+Scarab 38: Sootling House Lower	reward_fruit_big	intro_landing_right:5098			1,0	0,1	1																																										
+Scarab 39: Tower Right	reward_fruit_big	jungle_tall_tall_tower:3122			1,0	0,1	1																																										
+Scarab 40: Tower Left	reward_fruit_big	jungle_tall_tall_tower:2490			1,0	0,1	1	1		1							1																													1	1	1	1
+Scarab 41: Tower Upper	reward_fruit_big	jungle_tall_tall_tower:2495			1,0	0,1	1	1		1							1																													1	1	1	1
+Scarab 42: Juicery Lower	reward_fruit_medium	jungle_roots:1895			1,0	0,1	1	1	1	1							1				1																									1	1	1	1
+Scarab 43: Juicery Upper	reward_fruit_medium	jungle_roots:1897			1,0	0,1	1	1	1	1							1				1																									1	1	1	1
+Scarab 44: Orestation Right	reward_fruit_big	peak_aerial_ascent:4272			1,0	0,1	1	1			1																																						
+Scarab 45: Orestation Left	reward_fruit_big	peak_aerial_ascent:4289			1,0	0,1	1	1			1																																						
+Scarab 46: Lighthouse I Right	reward_fruit_big	peak_filthy_flat:2371			1,0	0,1	1	1	1		1																																						
+Scarab 47: Lighthouse I Left	reward_fruit_big	peak_filthy_flat:2966			1,0	0,1	1	1	1		1																																						
+Scarab 48: Lighthouse II	reward_fruit_big	peak_filthy_flat:2992			1,0	0,1	1	1	1		1																																						
+Scarab 49: Town Skip	reward_fruit_big	peak_guano_grief:1532			1,0	0,1	1	1	1		1	1																																					
+Scarab 50: Bat	reward_fruit_big	peak_guano_grief:2497			1,0	0,1	1	1	1		1	1																																					
+Scarab 51: Spider Cave I	reward_fruit_big	peak_spider_fight:2659			1,0	0,1	1	1	1		1	1		1	1	1																																	
+Scarab 52: Spider Cave II	reward_fruit_big	peak_spider_fight:2698			1,0	0,1	1	1	1		1	1		1	1	1																																	
+Scarab 53: Underbelly II Right	reward_fruit_big	spring_yokos_yam:3229			1,0	0,1	1	1	1	1							1																													1	1	1	1
+Scarab 54: Underbelly II Left	reward_fruit_big	spring_yokos_yam:2973			1,0	0,1	1	1	1								1																																
+Scarab 55: Underbelly I Right	reward_fruit_big	spring_tiny_broad:2291			1,1,0,0	0,0,1,1	1	1	1,0,1,0	0,1,0,1							1																																
+Scarab 56: Underbelly I Left	reward_fruit_big	spring_tiny_broad:5620			1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1							1																																
+Scarab 57: Underbelly I Mid	reward_fruit_big	spring_tiny_broad:5617			1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1							1																																
+Scarab 58: Willo Right	reward_fruit_big	jungle_willy:347			1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1																																							
+Scarab 59: Willo Mid	reward_fruit_medium	jungle_willy:1910			1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1																																							
+Scarab 60: Willo Left	reward_fruit_big	jungle_willy:1981			1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1																																							
+Scarab 61: Crystal Skull Upper	reward_fruit_big	spring_hidden_hotspring:2319			1,0	0,1	1	1	1		1	1																																					
+Scarab 62: Crystal Skull Left	reward_fruit_big	spring_hidden_hotspring:2315			1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1																																							
+Scarab 63: Crystal Skull Right	reward_fruit_big	spring_hidden_hotspring:2327			1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1																																							
+Scarab 64: Trial I Right	reward_fruit_big	cave_temple_terror_lower:4651			1,0	0,1	1	1		1							1																													1	1	1	1
+Scarab 65: Trial I Left	reward_fruit_big	cave_temple_terror_lower:4654			1,0	0,1	1	1		1							1																													1	1	1	1
+Scarab 66: Trial II Right	reward_fruit_medium	cave_temple_terror_lower:4872			1,0	0,1	1			1																																							
+Scarab 67: Trial II Left	reward_fruit_big	cave_temple_terror_lower:4855			1,0	0,1	1			1																																							
+Scarab 68: Trial III Right	reward_fruit_medium	cave_temple_terror_lower:4896			1,0	0,1	1	1		1																																							
+Scarab 69: Trial III Left	reward_fruit_big	cave_temple_terror_lower:4910			1,0	0,1	1	1		1																																							
+Scarab 70: Door Friend I	reward_fruit_big	cave_beaver_blockade:4832			1,0	0,1	1	1	1	1																																							
+Scarab 71: Meadow I Left	reward_fruit_big	jungle_mollusc_madness:4237			1,0	0,1	1																																										
+Scarab 72: Meadow I Right	reward_fruit_medium	jungle_mollusc_madness:4235			1,0	0,1	1																																										
+Scarab 73: Meadow II Upper	reward_fruit_big	jungle_mollusc_madness:4253			1,0	0,1	1																																										
+Scarab 74: Meadow II Lower	reward_fruit_big	jungle_mollusc_madness:4274			1,0	0,1	1																																										
+Scarab 75: Meadow IV	reward_fruit_big	jungle_mollusc_madness:4303			1,0	0,1	1	1																																									
+Scarab 76: Meadow V	reward_fruit_big	jungle_mollusc_madness:2562			1,0	0,1	1	1																																									
+Fruit 77: Waterfall Left	reward_fruit_big	spring_cloudburst_cliffs:4156	72,-1088	1	1,0	0,1	1			1																																							
+Fruit 78: Underbelly	reward_fruit_big	spring_tiny_broad:5511	3312,-120	1	1,0	0,1	1	1	1								1																																
+Fruit 79: Waterfall Right	reward_fruit_big	spring_cloudburst_cliffs:4159	1320,-960	1	1,0	0,1	1			1																																							
+Fruit 80: Meadows Slug Rock	reward_fruit_big	jungle_crammed_canopy:608	2416,272		1,0	0,1	1	1																																									
+Fruit 81: Marrow Jump	reward_fruit_big	spring_sleek_slabs:4366	5840,-208	1	1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1																																							
+Fruit 82: Screech Door Bones	reward_fruit_big	cave_beaver_blockade:4874	1920,696		1,0	0,1	1	1	1	1																																							
+Fruit 83: Sootling Cave Water	reward_fruit_big	peak_frostpine_forest:3596	3920,424	1	1,0	0,1	1	1	1	1	1																																						
+Fruit 84: Sootling Cave Right	reward_fruit_big	peak_frostpine_forest:3319	4920,-952	1	1,0	0,1	1	1	1		1	1																																					
+Fruit 85: Sootling Cave Left	reward_fruit_big	peak_frostpine_forest:3308	3840,-1032	1	1,0	0,1	1	1	1		1	1																																					
+Fruit 86: Sin	reward_fruit_big	hub_soaring_stone:2595	1672,-2464	1	1,0	0,1	1			1																																							
+Fruit 87: Crystal Lake	reward_fruit_big	peak_crystal_crater:2901	2568,-2456	1	1,1,1,0,0,0	0,0,0,1,1,1	1	1	1	1	1	1											1,0,0,0,1,0,0,0		0,1,0,0,0,1,0,0	0,0,1,0,0,0,1,0	0,0,0,1,0,0,0,1																						
+Fruit 88: Spider Cave	reward_fruit_big	peak_ice_cold_idol:2411	-1368,-7384	1	1,0	0,1	1	1	1		1	1		1	1	1																																	
+Fruit 89: Treasure Room	reward_fruit_big	cave_temple_terror_treasury:505	1552,408		1,0	0,1	1	1		1																																							
+Fruit 90: Ocean Heart	reward_fruit_medium	cave_beach_bottom:103	4672,-1776		1,0	0,1	1			1																																							
+NPC: Lemon	abilities/mailbag	hub_village:4159	8,-384		1,0	0,1	1																																										
+NPC: Lemon, All Packages	reward_fruit_big	hub_village:4674			1,0	0,1	1	1	1	1	1		1						1	1																													
+NPC: Rinri, Quest	spores_1	hub_village:3828	1688,-1240		1,0	0,1	1																																										
+NPC: Rinri, Reward	abilities/slug_upgrade	hub_village:4544			1,0	0,1	1	1	1		1	1																				1																	
+NPC: Tweepers	reward_fruit_big	intro_landing_right:4380	5744,776		1,0	0,1	1																																										
+NPC: Skeeper	wallet	jungle_slug_struggle:3564	1632,-1264		1,0	0,1	1																																										
+NPC: Cleepers	tracker_jungle	spring_cloudburst_cliffs:5014	1784,-4600		1,1,0,0	0,0,1,1	1	1,0,1,0	1	0,1,0,1																																							
+NPC: Dive Fish	abilities/dive	spring_bubbly_basin:1154	2832,-1136		1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1																																							
+NPC: Myrtle	wallet	spring_bubbly_basin:896	5232,-1048		1,0	0,1	1																										1																
+NPC: Treek	reward_fruit_big	hub_left_lofty_logo:428			1,0	0,1	1	1	1		1		1																																				
+NPC: Quinbe	wallet	cave_east_bay_shore:648			1,1,0,0	0,0,1,1	1	1,0,1,0	1	0,1,0,1			1						1	1																													
+NPC: Sumoe	treasure_map	peak_crystal_crater:2908	1176,-2208		1,0	0,1	1	1	1		1	1																						1															
+NPC: Splank	tracker_springs	spring_gangway_grotto:4725	3824,-2736		1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1																								1	1														
+NPC: Liquorice	skins/skin_2	cave_temple_terror_lower:4997	-2504,-584		1,0	0,1	1	1		1																								1															
+NPC: Posterodactyl	postal_badge	intro_landing:5622	-4336,1288																																														
+NPC: Kickback	abilities/kickback	jungle_canyon_caper:2679	120,-600		1,0	0,1	1																																										
+NPC: Nim	nim_key	hub_festival:3819	-1456,-8		1,0	0,1	1	1	1	1	1	1		1	1	1	1																																
+NPC: Dipperloaf	skins/skin_4	hub_white_cliff:1954	2176,-3080		1,0	0,1	1				1																																						
+NPC: Jamja	bucket_empty	peak_beanstalk_base:3171	2208,-4248		1,0	0,1	1	1	1		1	1																																					
+NPC: Jojo	spring_key	spring_gangway_grotto:4531	2576,-2744		1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1																																							
+NPC: Fleek	reward_fruit_big	hub_cliffside_creek:555	864,-816		1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0	0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1	1	1	1		1	1						1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0	1,1,1,0,0,0,1,1,1,0,1,1,1,0,0,0,1,1,1,0	1,0,0,1,1,0,1,1,0,1,1,0,0,1,1,0,1,1,0,1	0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,1,1	0,0,1,0,1,1,1,0,1,1,0,0,1,0,1,1,1,0,1,1																											
+NPC: Dusk	abilities/double_fruit	jungle_spikey_stockade:206	888,-1232		1,0	0,1	1		1	1												1																							1				
+Wl. 01: Beach Dive 1	wickerling	intro_landing_left:91	-8,240							1																																							
+Wl. 02: Beach Dive 2	wickerling	intro_secret:41	-1392,96							1																																							
+Wl. 03: Hairy	wickerling	intro_landing:6118	-2992,1224						1																																								
+Wl. 04: Intro 1	wickerling	intro_landing_upper:5623	-4224,-776																																														
+Wl. 05: Intro 2	wickerling	intro_landing_upper:3929	-1680,-736		0,1,0	0,0,1	0,1,1		1,0,0	0,1,1																																							
+Wl. 06: Fosfor Tunnel	wickerling	intro_landing:6029	776,984																																														
+Wl. 07: Fosfor Cave	wickerling	intro_landing_creepy_cavern:707	560,1168		1,0	0,1	1	1		1																																							
+Wl. 08: Fosfor Door	wickerling	intro_landing_creepy_cavern:691	608,48		1,0	0,1	1																																										
+Wl. 09: Above Fosfor	wickerling	intro_landing_upper:5745	680,-656		1,0	0,1	1			1																																							
+Wl. 10: Gorila Woods Beeline	wickerling	intro_landing_right:4993	4328,208		1,0	0,1	1																																										
+Wl. 11: Tower Table	wickerling	jungle_tall_tall_tower:1140	-328,-288		1,0	0,1	1																																										
+Wl. 12: Ape Chest	wickerling	jungle_canyon_caper:1839	1192,1072		1,0	0,1	1			1																																							
+Wl. 13: Ape Hook	wickerling	jungle_slug_struggle:3145	208,-512		1,0	0,1	1	1	1		1	1																																					
+Wl. 14: Ape Entry	wickerling	jungle_slug_struggle:443	480,-864		1,0	0,1	1																																										
+Wl. 15: Ape Right	wickerling	jungle_slug_struggle:2890	3368,72	1	1,0	0,1	1																																										
+Wl. 16: Slug Gardener Spot 2	wickerling	jungle_mollusc_madness:2843	216,-1944	1	1,0	0,1	1	1																																									
+Wl. 17: Slug Gardener Spot 1	wickerling	jungle_mollusc_madness:3256	-48,-2480	1	1,0	0,1	1	1																																									
+Wl. 18: Meadow Slug Jump	wickerling	jungle_crammed_canopy:651	3168,-352		1,0	0,1	1	1																																									
+Wl. 19: Waterfall Bottom	wickerling	jungle_crammed_canopy:514	4048,-336	1	1,0	0,1	1			1																																							
+Wl. 20: Shed	wickerling	jungle_misty_meadow:1854	2152,-336		1,0	0,1	1	1		1																																							
+Wl. 21: Waterfall Ledge	wickerling	spring_cloudburst_cliffs:4777	1360,-1624		1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1																																							
+Wl. 22: Waterfall Dive Through	wickerling	spring_jailhouse_japes:1232	80,1152	1	1,0	0,1	1			1																																							
+Wl. 23: Tower Mid	wickerling	jungle_tall_tall_tower:1187	792,-3264		1,0	0,1	1																																										
+Wl. 24: Tower Top	wickerling	hub_island_express:3652	-5768,-80		1,1,1,0,0,0	0,0,0,1,1,1	1	0,1,0,0,0,1	0,1,0,0,0,1	1,0,0,0,1,0	0,1,0,0,0,1	0,1,0,0,0,1																																0,0,1,1,0,0					
+Wl. 25: Lonka	wickerling	hub_village:3905	-408,752	1	1,0	0,1	1			1																																							
+Wl. 26: Post Office Junk	wickerling	hub_village:4423	-40,-416		1,0	0,1	1		1																																								
+Wl. 27: All Mailboxes	wickerling	hub_village:4511	-328,-720		1,0	0,1	1	1	1	1	1	1	1	1	1	1	1																																
+Wl. 28: Above Rinri	wickerling	hub_festival_upper:522	3264,-72		1,0	0,1	1																																										
+Wl. 29: Instrument Cave	wickerling	hub_festival_upper:854	-432,-224		1,0	0,1	1	1	1		1	1																																					
+Wl. 30: Treek	wickerling	hub_left_lofty_logo:273	584,32		1,0	0,1	1	1			1																																						
+Wl. 31: Dipperloaf	wickerling	hub_white_cliff:1919	48,-4008		1,0	0,1	1	1			1																																						
+Wl. 32: Juicery Upper	wickerling	jungle_roots:518	-448,576		1,0	0,1	1		1												1																												
+Wl. 33: Juicery Left	wickerling	jungle_roots:961	-904,1200	1	1,0	0,1	1		1												1																												
+Wl. 34: Fleek	wickerling	intro_landing_upper:5382	3680,-2584		1,0	0,1	1	1	1		1	1																																					
+Wl. 35: Sin Totem	wickerling	hub_soaring_stone:2605	1456,-1328		1,0	0,1	1			1																																							
+Wl. 36: Obt. Puzzle	wickerling	hub_obtainium_outland:651	-344,-1928		1,0	0,1	1		1	1																																							
+Wl. 37: End Boss Fight	wickerling	hub_bowel_bumping_left:3147	1040,-1440	1	1,0	0,1	1	1	1	1	1	1		1	1	1	1																					1											
+Wl. 38: Orestation Bottom	wickerling	peak_aerial_ascent:2666	1792,456		1,0	0,1	1	1			1																																						
+Wl. 39: God Misfire	wickerling	peak_aerial_ascent:2221	4624,-1208	1	1,0	0,1	1	1			1																																						
+Wl. 40: Leap of Faith	wickerling	peak_aerial_ascent:4109	4488,-2136		1,0	0,1	1	1			1																																						
+Wl. 41: Squirrowl	wickerling	peak_aerial_ascent:2560	2792,-2464		1,0	0,1	1	1			1																																						
+Wl. 42: Orestation Hook	wickerling	peak_aerial_ascent:4247	-392,-2336	1	1,0	0,1	1	1	1		1	1																																					
+Wl. 43: Lighthouse Ledge	wickerling	peak_filthy_flat:2868	616,-2224		1,0	0,1	1	1	1		1																																						
+Wl. 44: Lighthouse Slug Rock	wickerling	peak_filthy_flat:2113	960,-2488		1,0	0,1	1	1	1		1																																						
+Wl. 45: Lighthouse Leap	wickerling	peak_filthy_flat:977	2368,-3624	1	1,0	0,1	1	1	1		1																																						
+Wl. 46: Sootling Cave	wickerling	peak_frostpine_forest:3186	5824,-576		1,0	0,1	1	1	1		1	1																																					
+Wl. 47: Kickback Hiding Cave	wickerling	peak_guano_grief:1167	520,-32		1,0	0,1	1	1	1		1																																						
+Wl. 48: Telescope Skip Lower	wickerling	peak_guano_grief:190	336,-1280		1,0	0,1	1	1	1		1	1																																					
+Wl. 49: Telescope Skip Upper	wickerling	peak_guano_grief:2424	24,-2352		1,0	0,1	1	1	1		1	1																																					
+Wl. 50: Ivory Hook Lower	wickerling	peak_beanstalk_base:2807	-424,-3064		1,0	0,1	1	1	1		1	1																																					
+Wl. 51: Sumoe	wickerling	peak_crystal_crater:2096	1384,-1456		1,0	0,1	1	1	1		1	1																																					
+Wl. 52: Ivory Hook Upper	wickerling	peak_beanstalk_base:3117	-984,-4496	1	1,0	0,1	1	1	1		1	1																																					
+Wl. 53: Jamja Ledge	wickerling	peak_beanstalk_base:3486	2312,-4744		1,0	0,1	1	1	1		1	1																																					
+Wl. 54: Spider Cave Entry	wickerling	peak_ice_cold_idol:2479	-1560,-7800	1	1,0	0,1	1	1	1		1	1		1	1	1																																	
+Wl. 55: Spider Cave Slug Rock	wickerling	peak_spider_fight:525	-1268,3024		1,0	0,1	1	1	1		1	1		1	1	1																																	
+Wl. 56: Above Willo at Waterfall	wickerling	jungle_willy:1997	-392,-1296		1,0	0,1	1	1																																									
+Wl. 57: Church Chest	wickerling	spring_sleek_slabs:4541	880,352		1,0	0,1	1	1																																									
+Wl. 58: Church Ceiling	wickerling	spring_shoddy_shanty:5101	-2176,-1536		1,0	0,1	1	1																																									
+Wl. 59: Dive Cave Entry	wickerling	spring_shoddy_shanty:4210	-2080,-512		1,1,0,0	0,0,1,1	1	1,0,1,0		0,1,0,1																																							
+Wl. 60: Dive Cave Chest	wickerling	spring_bubbly_basin:1055	88,-96		1,0	0,1	1			1																																							
+Wl. 61: Underwater at Hook Chest	wickerling	spring_sleek_slabs:4386	6960,488	1	1,0	0,1	1			1																																							
+Wl. 62: Underbelly I Left	wickerling	spring_tiny_broad:2423	-584,560	1	1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1							1																																
+Wl. 63: Underbelly I Upper	wickerling	spring_tiny_broad:4000	128,208		1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1							1																																
+Wl. 64: Underbelly I Right	wickerling	spring_tiny_broad:865	472,-208	1	1,1,0,0	0,0,1,1	1	1	1,0,1,0	0,1,0,1							1																																
+Wl. 65: Underbelly II Hidden	wickerling	spring_tiny_broad:5241	2512,272		1,0	0,1	1	1	1								1																																
+Wl. 66: Hideout Drop 2	wickerling	spring_yokos_yam:3405	56,-40		1,0	0,1	1	1	1		1	1					1																																
+Wl. 67: Sush	wickerling	spring_gangway_grotto:4415	592,-360		1,1,0,0	0,0,1,1	1	1,0,1,0	1	0,1,0,1																																							
+Wl. 68: Hideout Ledge	wickerling	spring_gangway_grotto:4377	2400,-2384		1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1																																							
+Wl. 69: Hideout Slug Rock	wickerling	spring_gangway_grotto:4479	3424,-2472		1,1,0,0	0,0,1,1	1	1,0,1,0	1	0,1,0,1																																							
+Wl. 70: Hideout Drop 1	wickerling	spring_gangway_grotto:4613	4192,-1040	1	1,0	0,1	1	1	1		1	1					1																																
+Wl. 71: Crystal Skull Upper	wickerling	spring_tortoise_tunnel:3203	1184,1624		1,0	0,1	1	1	1		1	1																																					
+Wl. 72: Crystal Skull Slug Rock	wickerling	spring_hidden_hotspring:2026	-448,-552		1,0	0,1	1	1	1		1	1																																					
+Wl. 73: Crystal Skull Chest	wickerling	spring_hidden_hotspring:1575	1184,512		1,1,0,0	0,0,1,1	1	1	1,0,1,0	0,1,0,1																																							
+Wl. 74: Above Rolypoly	wickerling	cave_clammy_cenote:1809	376,-3576		1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1																																							
+Wl. 75: Crystal Deep Beel. Ledge	wickerling	cave_clammy_cenote:332	3104,-2848		1,1,0,0	0,0,1,1	1	1,0,1,0	1,0,1,0	0,1,0,1																																							
+Wl. 76: Underdark Water Puzzle	wickerling	cave_clammy_cenote:901	720,456	1	1,0	0,1	1			1																																							
+Wl. 77: Blue Chest	wickerling	cave_temple_terror_treasury:216	2528,240		1,0	0,1	1	1		1																										1													
+Wl. 78: Pitch	wickerling	cave_winding_waterway:902	4784,-192		1,0	0,1	1	1	1	1																																							
+Wl. 79: Screech Door Hook	wickerling	cave_abyssal_access:1367	2560,768		1,0	0,1	1	1	1	1	1	1																																					
+Wl. 80: Behind Screech	wickerling	cave_abyssal_access:1223	112,-264		1,0	0,1	1	1	1	1																																							
+Traitor Spirit 1	traitor_spirit	jungle_slug_struggle:3473	1880,-360	1	1,0	0,1	1		1	1												1																											
+Traitor Spirit 2	traitor_spirit	jungle_slug_struggle:3513	2028,-116	1	1,0	0,1	1		1	1												1																											
+Traitor Spirit 3	traitor_spirit	jungle_slug_struggle:3471	2368,-36	1	1,0	0,1	1		1	1												1																											
+Traitor Spirit 4	traitor_spirit	jungle_slug_struggle:3411	2719,-384	1	1,0	0,1	1		1	1												1																											

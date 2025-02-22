@@ -1,5 +1,7 @@
 # TODOs for beta relase
 
+  * Release build without src stuff
+
   * Location coordinates
     * Clean up clusters
     * Maybe treat e.g. tables as a single location with multiple checks
@@ -31,3 +33,13 @@
   * custom chest_[un]opened_img for wickerlings/scarabs/chests/etc
 
   * Switch font in images to Sniglet
+
+* AUTOTRACKING
+
+  * Small number of checks whose names are swapped
+    * Scarabs 62/63 Crystal Skull Right/Left
+    * Scarabs 37/38
+
+
+  * Kazoos are only recorded under quests
+

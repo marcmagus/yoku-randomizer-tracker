@@ -1,0 +1,306 @@
+#!/usr/bin/perl
+
+use FindBin;
+use lib "$FindBin::RealBin/lib/perl5";
+use AnyEvent::WebSocket::Client;
+use AnyEvent::Filesys::Notify;
+
+use JSON::XS;
+use POSIX qw(ctime);
+use File::Basename;
+use Cwd 'abs_path';
+use File::Temp;
+
+$coder = JSON::XS->new->pretty;
+#use Hash::Diff qw( diff );
+
+#my $binpath = (fileparse(abs_path(__FILE__)))[1];
+my $binpath = $FindBin::RealBin;
+my ($savefile) = @ARGV;
+if (not defined $savefile) {
+    die "Usage: $0 savefile\n";
+}
+
+if (not -f $savefile) {
+    die "Save file $savefile not found\n";
+}
+
+# Load key items from JSON
+my $key_items_map = decode_json do {
+    my $filename = "$binpath/key-items.json";
+    open(my $json_fh, "<", $filename)
+        or die("Can't open \"$filename\": $!\n");
+    local $/;
+    <$json_fh>
+};
+
+# We'll be stateful because async :/
+my %key_items;
+foreach my $key (@$key_items_map) {
+    $key_items{$key} = 0;
+}
+
+# Load location map from JSON
+# "id" : "location name"
+my $locations_map = decode_json do {
+    my $filename = "$binpath/locations.json";
+    open(my $json_fh, "<", $filename)
+        or die("Can't open \"$filename\": $!\n");
+    local $/;
+    <$json_fh>
+};
+
+my %locations;
+foreach my $key (keys %$locations_map) {
+    $locations{$$locations_map{$key}} = 0;
+}
+
+sub get_json {
+
+    warn "Parsing JSON from $savefile\n";
+    my $json_text = do {
+        open(my $json_fh, "<", $savefile)
+            or warn("Can't open savefile \"$savefile\": $!\n");
+        local $/;
+        <$json_fh>
+    };
+
+    my $json = decode_json $json_text;
+
+    return $json;
+}
+
+# ============== UATBridge ==============
+my $uatGameInfo = {
+    "cmd" => "GameInfo",
+    "name" => "Yoku's Island Express",
+    "version" => "0.1",
+    "slots" => []
+};
+
+# UATBridge WebSocket
+my $uatbridge = "ws://localhost:65397";
+warn "Connecting to UATBridge $uatbridge\n";
+my $wsclient = AnyEvent::WebSocket::Client->new;
+my $connection;
+$wsclient->connect($uatbridge)->cb(sub {
+    $connection = eval { shift->recv };
+    if($@) {
+        warn $@;
+        return;
+    }
+    warn "Connected to UATBridge!\n";
+
+    # Handshake connection
+    $connection->on(next_message => sub {
+        my($connection, $message) = @_;
+        warn "Received: ". $message->decoded_body . "\n";
+        my $info = decode_json $message->decoded_body;
+        unless ($$info[0]{cmd} eq "Info") {
+            warn "Bad Info packet\n";
+            $connection->close;
+            return;
+        }
+
+        my $packet = [$uatGameInfo];
+        foreach my $key (keys %key_items) {
+            push @$packet, {
+                "cmd" => "Var",
+                "name" => $key,
+                "value" => $key_items{$key}
+            };
+            foreach my $key (keys %locations) {
+                push @$packet, {
+                    "cmd" => "Var",
+                    "name" => $key,
+                    "value" => $locations{$key}
+                };
+            };
+        };
+        #warn "Sending packet: " . (encode_json $packet) . "\n";
+        $connection->send(
+            encode_json $packet
+        );
+
+    });
+
+});
+
+# ==================== Save Parser ====================
+sub read_save {
+    my $json = get_json();
+
+    # Initialize because savefile omits unheld items
+    my %new_key_items;
+    foreach my $key (@$key_items_map) {
+        $new_key_items{$key} = 0;
+    }
+
+    # Scan the randomizer section rather than items array because spent items are removed
+
+    my $randomizer_items = $$json{_global}{randomizer};
+    foreach my $location ( @$randomizer_items ) {
+        my $name = $$location{item}; $name =~ tr/\//_/;
+        my $collected = $$location{collected};
+        #warn "Unknown item $name\n" unless defined $new_key_items{$name};
+        $new_key_items{$name} += $collected;
+    }
+
+    # Cleanup typo rather than carry it for futureproofing
+    if (defined $new_key_items{"abilities_slug_vaccum"}) {
+        $new_key_items{"abilities_slug_vacuum"} = $new_key_items{"abilities_slug_vaccum"};
+        delete($new_key_items{"abilities_slug_vaccum"});
+    }
+
+    # Count idols, they have unique names and are reported as "summons"
+    foreach my $idol ( "idol1", "idol2", "idol3", "idol4" ){
+        $new_key_items{"idol"} += $new_key_items{$idol};
+        delete($new_key_items{$idol});
+    }
+
+    # Slug vacuum and divefish upgrade can give base item
+    if (defined $new_key_items{"abilities_slug_vacuum"} and defined $new_key_items{"abilities_slug_upgrade"}) {
+        my $v1 = $new_key_items{"abilities_slug_vacuum"};
+        my $v2 = $new_key_items{"abilities_slug_upgrade"};
+        $new_key_items{"abilities_slug_vacuum"} = $v1 || $v2;
+        $new_key_items{"abilities_slug_upgrade"} = $v1 && $v2;
+    }
+    if (defined $new_key_items{"abilities_dive"} and defined $new_key_items{"abilities_dive_upgrade"}) {
+        my $d1 = $new_key_items{"abilities_dive"};
+        my $d2 = $new_key_items{"abilities_dive_upgrade"};
+        $new_key_items{"abilities_dive"} = $d1 || $d2;
+        $new_key_items{"abilities_dive_upgrade"} = $d1 && $d2;
+    }
+
+    my $items = $$json{_global}{items};
+
+    # Activated leash needs special handling
+    foreach my $item (@$items) {
+        my $name = $$item{item}; $name =~ tr/\//_/;
+        $new_key_items{$name} = 1 if $name eq "abilities_hook";
+    }
+
+    %key_items = %new_key_items;
+
+    # Locations
+    # Initialize because savefile omits some unchecked locations
+    my %new_locations;
+    foreach my $key ( keys %locations ) {
+        $new_locations{$key} = 0;
+    }
+
+    foreach my $location ( @$randomizer_items ) {
+        my $name = $$location{item}; $name =~ tr/\//_/;
+        my $collected = $$location{collected};
+        my $id = $$location{id};
+        if (my $check = $$locations_map{$id}) {
+            $new_locations{$check} = ($collected ? 1 : 0);
+            #warn "$check -> $new_locations{$check}\n";
+        } else {
+            warn "Checked unknown location $id\n" if $collected;
+        }
+
+        #warn "Unknown item $name\n" unless defined $new_key_items{$name};
+    }
+
+    #foreach my $key ( keys %$locations_map ) {
+    #    my $name = $$locations_map{$key};
+    #    my ($area, $id) = split (':', $key);
+    #    my $location = $$json{$area}{$id};
+    #    if (defined $location and (
+    #            $$location{"depleted"} > 0 or
+    #            $$location{"collected"} > 0)) {
+    #        $new_locations{$name} = 1;
+    #    }
+    #    #warn "$name ($area : $id) -> $new_locations{$name}\n";
+    #}
+
+    %locations = %new_locations;
+
+
+    STDOUT->flush;
+}
+
+# Do an initial read
+read_save();
+
+#warn $coder->encode( \%key_items );
+
+# Monitor save file for changes
+my $fsmonitor = AnyEvent::Filesys::Notify->new(
+    dirs    => [ (fileparse(abs_path($savefile)))[1] ],
+    filter  => sub { shift eq abs_path($savefile) },
+    cb      => sub {
+        read_save();
+
+        if (defined $connection) {
+            my $packet = [];
+            foreach my $key (keys %key_items) {
+                push @$packet, {
+                    "cmd" => "Var",
+                    "name" => $key,
+                    "value" => $key_items{$key}
+                };
+            };
+            foreach my $key (keys %locations) {
+                push @$packet, {
+                    "cmd" => "Var",
+                    "name" => $key,
+                    "value" => $locations{$key}
+                };
+            };
+            #warn "Sending packet: " . (encode_json $packet) . "\n";
+            $connection->send(
+                encode_json $packet
+            );
+        }
+
+    }
+);
+
+# Monitor locations file for changes (for development)
+my $fsmonitor = AnyEvent::Filesys::Notify->new(
+    dirs    => [ $binpath ],
+    filter  => sub { shift eq abs_path("$binpath/locations.json") },
+    cb      => sub {
+
+        warn ("Updating locations from $binpath/locations.json\n");
+
+        # Load location map from JSON
+        # "id" : "location name"
+        $locations_map = decode_json do {
+            my $filename = "$binpath/locations.json";
+            open(my $json_fh, "<", $filename)
+                or die("Can't open \"$filename\": $!\n");
+            local $/;
+            <$json_fh>
+        };
+
+        read_save();
+
+        if (defined $connection) {
+            my $packet = [];
+            foreach my $key (keys %key_items) {
+                push @$packet, {
+                    "cmd" => "Var",
+                    "name" => $key,
+                    "value" => $key_items{$key}
+                };
+            };
+            foreach my $key (keys %locations) {
+                push @$packet, {
+                    "cmd" => "Var",
+                    "name" => $key,
+                    "value" => $locations{$key}
+                };
+            };
+            #warn "Sending packet: " . (encode_json $packet) . "\n";
+            $connection->send(
+                encode_json $packet
+            );
+        }
+
+    }
+);
+
+AnyEvent->condvar->recv;

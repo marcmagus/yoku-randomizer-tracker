@@ -16,13 +16,14 @@
                 "abilities_slug_vacuum",
                 "abilities_dive",
                 "abilities_mailbag",
-                "leash"
+                "sootling_leash"
             ],
             [
                 "toolbox",
                 "guano",
                 "bucket_empty",
-                "seed_pod"
+                "seed_pod",
+                "wickerling"
             ],
             [
                 "skins_skin_1",
