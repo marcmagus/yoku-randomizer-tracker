@@ -1,0 +1,4515 @@
+[
+   {
+      "map_locations" : [
+         {
+            "x" : "720",
+            "map" : "overworld",
+            "y" : "1037"
+         }
+      ],
+      "name" : "Mushrooms",
+      "sections" : [
+         {
+            "access_rules" : [
+               "abilities_partyhorn",
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive",
+               "{}"
+            ],
+            "name" : "Juicy Cove Mushroom",
+            "item_count" : 1
+         },
+         {
+            "access_rules" : [
+               "abilities_partyhorn",
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive",
+               "{}"
+            ],
+            "name" : "Poison Toadstool",
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "abilities_partyhorn",
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive"
+            ],
+            "name" : "Scarab 35: Mushrooms Left"
+         },
+         {
+            "name" : "Scarab 36: Mushrooms Right",
+            "access_rules" : [
+               "abilities_partyhorn",
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive"
+            ],
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Toolbox",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Toolbox",
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ],
+      "map_locations" : [
+         {
+            "y" : 719,
+            "map" : "overworld",
+            "x" : 1422
+         }
+      ]
+   },
+   {
+      "name" : "Guano",
+      "map_locations" : [
+         {
+            "x" : 1403,
+            "map" : "overworld",
+            "y" : 306
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Guano"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Seed Pod"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1590,
+            "map" : "overworld",
+            "y" : 367
+         }
+      ],
+      "name" : "Seed Pod"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Underwater Puzzle",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive,spring_key",
+         "mushroom_3,postal_badge,abilities_dive,spring_key",
+         "{mushroom_2,postal_badge,abilities_dive}",
+         "{mushroom_3,postal_badge,abilities_dive}"
+      ],
+      "map_locations" : [
+         {
+            "y" : 984,
+            "map" : "overworld",
+            "x" : 2004
+         }
+      ],
+      "name" : "Underwater Puzzle"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Tower's Peak Crystal"
+         }
+      ],
+      "name" : "Tower's Peak Crystal",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "y" : 801,
+            "x" : 1119,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : "757",
+            "x" : "1348",
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Post Office",
+      "sections" : [
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_mailbag",
+               "mushroom_3,postal_badge,abilities_mailbag",
+               "{mushroom_2,postal_badge}",
+               "{mushroom_3,postal_badge}"
+            ],
+            "name" : "Post Office Attic",
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_mailbag",
+               "mushroom_3,postal_badge,abilities_mailbag"
+            ],
+            "name" : "Mailbox 20: Post Office"
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge",
+               "{mushroom_2}"
+            ],
+            "name" : "NPC: Lemon",
+            "item_count" : 1
+         },
+         {
+            "name" : "NPC: Lemon, All Packages",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,abilities_mailbag,skins_skin_2,skins_skin_5",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,abilities_mailbag,skins_skin_2,skins_skin_5"
+            ],
+            "item_count" : 1
+         },
+         {
+            "name" : "Wl. 26: Post Office Junk",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_partyhorn",
+               "mushroom_3,postal_badge,abilities_partyhorn"
+            ],
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "name" : "Wl. 27: All Mailboxes",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod,spring_key"
+            ]
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Key: Blue"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1700,
+            "map" : "overworld",
+            "y" : 1334
+         }
+      ],
+      "name" : "Key: Blue"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Key: Green",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Key: Green",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1620,
+            "y" : 1309
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : "400",
+            "y" : "640"
+         }
+      ],
+      "name" : "Lighthouse I",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Sootling 1",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+            ]
+         },
+         {
+            "item_count" : 1,
+            "name" : "Sootling 2",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+            ]
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+            ],
+            "name" : "Scarab 46: Lighthouse I Right"
+         },
+         {
+            "item_count" : 1,
+            "name" : "Scarab 47: Lighthouse I Left",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+            ]
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : "565",
+            "x" : "400",
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Lighthouse II",
+      "sections" : [
+         {
+            "name" : "Sootling 3",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+            ],
+            "item_count" : 1
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+            ],
+            "name" : "Sootling 4",
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "name" : "Sootling 5",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+            ]
+         },
+         {
+            "name" : "Sootling 6",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+            ],
+            "item_count" : 1
+         },
+         {
+            "name" : "Scarab 48: Lighthouse II",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+            ],
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Tadpole 1",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 1099,
+            "x" : 1969,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "name" : "Tadpole 1"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Tadpole 2",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Tadpole 2",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1991,
+            "map" : "overworld",
+            "y" : 1066
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Tadpole 3"
+         }
+      ],
+      "name" : "Tadpole 3",
+      "map_locations" : [
+         {
+            "y" : 1111,
+            "map" : "overworld",
+            "x" : 2023
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Tadpole 4",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Tadpole 4",
+      "map_locations" : [
+         {
+            "y" : 1083,
+            "x" : 2044,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ]
+   },
+   {
+      "name" : "Tadpole 5",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 2089,
+            "y" : 1081
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Tadpole 5"
+         }
+      ]
+   },
+   {
+      "name" : "Tadpole 6",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "x" : 2120,
+            "map" : "overworld",
+            "y" : 1068
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Tadpole 6"
+         }
+      ]
+   },
+   {
+      "name" : "Tadpole 7",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 2125,
+            "y" : 1099
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "sections" : [
+         {
+            "name" : "Tadpole 7",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Tadpole 8"
+         }
+      ],
+      "name" : "Tadpole 8",
+      "map_locations" : [
+         {
+            "y" : 1095,
+            "map" : "overworld",
+            "x" : 2181
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,spores_1",
+         "mushroom_3,postal_badge,spores_1"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1301,
+            "map" : "overworld",
+            "y" : 633
+         }
+      ],
+      "name" : "Mulch Pit: Village",
+      "sections" : [
+         {
+            "name" : "Mulch Pit: Village",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,spores_2",
+         "mushroom_3,postal_badge,spores_2"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1191,
+            "y" : 1185
+         }
+      ],
+      "name" : "Mulch Pit: Ape",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mulch Pit: Ape"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Mulch Pit: Beach",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive,spores_3",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spores_3",
+         "mushroom_3,postal_badge,abilities_dive,spores_3",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spores_3"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1163,
+            "map" : "overworld",
+            "x" : 2400
+         }
+      ],
+      "name" : "Mulch Pit: Beach"
+   },
+   {
+      "name" : "Mulch Pit: Ivory",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spores_4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spores_4"
+      ],
+      "map_locations" : [
+         {
+            "y" : 251,
+            "map" : "overworld",
+            "x" : 1360
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Mulch Pit: Ivory",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Statue Piece: Waterfall",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "y" : 953,
+            "x" : 1674,
+            "map" : "overworld"
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Statue Piece: Waterfall"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,idol1",
+               "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,idol2",
+               "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,idol3",
+               "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,idol4",
+               "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol1",
+               "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol2",
+               "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol3",
+               "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol4"
+            ],
+            "name" : "Statue Piece: Underdark",
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,[abilities_slug_vacuum],abilities_dive,[spring_key]",
+               "mushroom_3,postal_badge,[abilities_slug_vacuum],abilities_dive,[spring_key]"
+            ],
+            "name" : "Scarab 64: Trial I Right"
+         },
+         {
+            "name" : "Scarab 65: Trial I Left",
+            "access_rules" : [
+               "mushroom_2,postal_badge,[abilities_slug_vacuum],abilities_dive,[spring_key]",
+               "mushroom_3,postal_badge,[abilities_slug_vacuum],abilities_dive,[spring_key]"
+            ],
+            "item_count" : 1
+         }
+      ],
+      "name" : "Trial I",
+      "map_locations" : [
+         {
+            "y" : "1360",
+            "x" : "1724",
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "name" : "Statue Piece: Ivory",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,idol1,nugget_4",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nugget_4,idol2",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nugget_4,idol3",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nugget_4,idol4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,idol1,nugget_4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nugget_4,idol2",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nugget_4,idol3",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nugget_4,idol4"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 722,
+            "y" : 573
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Statue Piece: Ivory",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Statue Piece: Obt. Isles",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Statue Piece: Obt. Isles",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,idol1,idol2,idol3",
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,idol1,idol2,idol4",
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,idol1,idol3,idol4",
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,idol2,idol3,idol4",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol1,idol2,idol3",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol1,idol2,idol4",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol1,idol3,idol4",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol2,idol3,idol4"
+      ],
+      "map_locations" : [
+         {
+            "y" : 959,
+            "x" : 97,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1728,
+            "y" : 412
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4"
+      ],
+      "name" : "Nugget 1",
+      "sections" : [
+         {
+            "name" : "Nugget 1",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Nugget 2"
+         }
+      ],
+      "name" : "Nugget 2",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4"
+      ],
+      "map_locations" : [
+         {
+            "y" : 391,
+            "x" : 1748,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "name" : "Nugget 3",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4"
+      ],
+      "map_locations" : [
+         {
+            "y" : 396,
+            "x" : 1778,
+            "map" : "overworld"
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Nugget 3"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Nugget 4"
+         }
+      ],
+      "name" : "Nugget 4",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4"
+      ],
+      "map_locations" : [
+         {
+            "y" : 391,
+            "x" : 1804,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "name" : "Chest: Noisemaker",
+      "map_locations" : [
+         {
+            "x" : 346,
+            "map" : "overworld",
+            "y" : 1033
+         }
+      ],
+      "access_rules" : [],
+      "sections" : [
+         {
+            "name" : "Chest: Noisemaker",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "x" : "886",
+            "map" : "overworld",
+            "y" : "1174"
+         }
+      ],
+      "name" : "Tweepers",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Chest: Tweepers",
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ]
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_mailbag",
+               "mushroom_3,postal_badge,abilities_mailbag"
+            ],
+            "name" : "Mailbox 04: Tweepers",
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "name" : "NPC: Tweepers",
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ]
+         }
+      ]
+   },
+   {
+      "name" : "Chest: Tower",
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ],
+      "map_locations" : [
+         {
+            "y" : 766,
+            "map" : "overworld",
+            "x" : 1108
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Chest: Tower"
+         }
+      ]
+   },
+   {
+      "name" : "Chest: Shed",
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1181,
+            "map" : "overworld",
+            "x" : 1723
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Chest: Shed",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1968,
+            "y" : 1216
+         }
+      ],
+      "name" : "Chest: Crystal Skull",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Chest: Crystal Skull"
+         }
+      ]
+   },
+   {
+      "name" : "Chest: Beach",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 2328,
+            "y" : 1169
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Chest: Beach"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum"
+      ],
+      "map_locations" : [
+         {
+            "y" : 855,
+            "x" : 1719,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Chest: Church",
+      "sections" : [
+         {
+            "name" : "Chest: Church",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Chest: Leash",
+      "map_locations" : [
+         {
+            "x" : 326,
+            "map" : "overworld",
+            "y" : 708
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Chest: Leash"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
+            ],
+            "name" : "Chest: Treek",
+            "item_count" : 1
+         },
+         {
+            "name" : "Mailbox 23: Treek",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag"
+            ],
+            "item_count" : 1
+         },
+         {
+            "name" : "NPC: Treek",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,abilities_mailbag",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,abilities_mailbag"
+            ],
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "name" : "Wl. 30: Treek",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
+            ]
+         }
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : "883",
+            "y" : "707"
+         }
+      ],
+      "name" : "Treek"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Chest: Town Skip"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "y" : 473,
+            "x" : 1514,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Chest: Town Skip"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Chest: Lava"
+         }
+      ],
+      "name" : "Chest: Lava",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1627,
+            "map" : "overworld",
+            "y" : 389
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Chest: Waterfall"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1507,
+            "map" : "overworld",
+            "y" : 872
+         }
+      ],
+      "name" : "Chest: Waterfall"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Chest: Fosfor Cave Left",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Chest: Fosfor Cave Left",
+      "access_rules" : [
+         "mushroom_2,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1239,
+            "x" : 339,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Chest: Fleek",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Chest: Fleek",
+      "map_locations" : [
+         {
+            "x" : 838,
+            "map" : "overworld",
+            "y" : 945
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Chest: Screech"
+         }
+      ],
+      "name" : "Chest: Screech",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1234,
+            "y" : 1392
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Chest: Willo",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 727,
+            "x" : 1377,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,idol1,idol2,idol3,idol4",
+         "mushroom_2,postal_badge,abilities_dive,idol1,idol2,idol3,idol4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,idol1,idol2,idol3,idol4",
+         "mushroom_3,postal_badge,abilities_dive,idol1,idol2,idol3,idol4"
+      ],
+      "name" : "Chest: Willo"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 01: Hairy",
+            "access_rules" : [
+               "abilities_mailbag"
+            ]
+         },
+         {
+            "item_count" : 1,
+            "name" : "Wl. 03: Hairy",
+            "access_rules" : [
+               "abilities_partyhorn"
+            ]
+         }
+      ],
+      "name" : "Hairy",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : "375",
+            "y" : "1195"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Mailbox 02: Fosfor",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Mailbox 02: Fosfor",
+      "map_locations" : [
+         {
+            "x" : 483,
+            "map" : "overworld",
+            "y" : 1252
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,abilities_mailbag"
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 361,
+            "y" : 1067
+         }
+      ],
+      "access_rules" : [
+         "abilities_mailbag"
+      ],
+      "name" : "Mailbox 03: Baldino",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 03: Baldino"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 05: Fleek",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag"
+            ]
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_2,skins_skin_5",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_2,skins_skin_3",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_2,skins_skin_4",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_5,skins_skin_3",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_5,skins_skin_4",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_3,skins_skin_4",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_2,skins_skin_5,skins_skin_4",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_2,skins_skin_5,skins_skin_3",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_2,skins_skin_3,skins_skin_4",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_5,skins_skin_3,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_2,skins_skin_5",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_2,skins_skin_3",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_2,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_5,skins_skin_3",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_5,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_1,skins_skin_3,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_2,skins_skin_5,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_2,skins_skin_5,skins_skin_3",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_2,skins_skin_3,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_5,skins_skin_3,skins_skin_4"
+            ],
+            "name" : "NPC: Fleek"
+         }
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : "851",
+            "y" : "986"
+         }
+      ],
+      "name" : "Fleek"
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 1245,
+            "x" : 993,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,abilities_mailbag"
+      ],
+      "name" : "Mailbox 06: Screech",
+      "sections" : [
+         {
+            "name" : "Mailbox 06: Screech",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_mailbag"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1216,
+            "y" : 1132
+         }
+      ],
+      "name" : "Mailbox 07: Ape",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 07: Ape"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 1105,
+            "map" : "overworld",
+            "x" : 1420
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_mailbag"
+      ],
+      "name" : "Mailbox 08: Slug Gardener",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 08: Slug Gardener"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_mailbag"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1194,
+            "x" : 1656,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Mailbox 09: Shed",
+      "sections" : [
+         {
+            "name" : "Mailbox 09: Shed",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,abilities_mailbag"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1301,
+            "map" : "overworld",
+            "x" : 1752
+         }
+      ],
+      "name" : "Mailbox 10: Sal",
+      "sections" : [
+         {
+            "name" : "Mailbox 10: Sal",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 1244,
+            "map" : "overworld",
+            "x" : 2080
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag",
+         "mushroom_2,postal_badge,abilities_dive,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
+      ],
+      "name" : "Mailbox 11: Rolypoly",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 11: Rolypoly"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Mailbox 12: Beach",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Mailbox 12: Beach",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag",
+         "mushroom_2,postal_badge,abilities_dive,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
+      ],
+      "map_locations" : [
+         {
+            "x" : 2440,
+            "map" : "overworld",
+            "y" : 1209
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 13: Quinbe"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag",
+         "mushroom_2,postal_badge,abilities_dive,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1073,
+            "map" : "overworld",
+            "x" : 2487
+         }
+      ],
+      "name" : "Mailbox 13: Quinbe"
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 786,
+            "map" : "overworld",
+            "x" : 2222
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_mailbag",
+         "mushroom_2,postal_badge,abilities_dive,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
+      ],
+      "name" : "Mailbox 14: Hideout",
+      "sections" : [
+         {
+            "name" : "Mailbox 14: Hideout",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Mailbox 15: Underbelly",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Mailbox 15: Underbelly",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 2088,
+            "y" : 911
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag,spring_key",
+         "mushroom_2,postal_badge,abilities_dive,abilities_mailbag,spring_key",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag,spring_key",
+         "mushroom_3,postal_badge,abilities_dive,abilities_mailbag,spring_key"
+      ]
+   },
+   {
+      "name" : "Mailbox 16: Church",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_mailbag",
+         "mushroom_2,postal_badge,abilities_dive,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1897,
+            "map" : "overworld",
+            "y" : 894
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 16: Church"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Mailbox 17: Kambi",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1768,
+            "y" : 837
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_mailbag",
+         "mushroom_2,postal_badge,abilities_dive,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
+      ],
+      "name" : "Mailbox 17: Kambi"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Mailbox 18: Waterfall",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_mailbag"
+      ],
+      "map_locations" : [
+         {
+            "y" : 996,
+            "map" : "overworld",
+            "x" : 1510
+         }
+      ],
+      "name" : "Mailbox 18: Waterfall"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 19: Hub"
+         }
+      ],
+      "name" : "Mailbox 19: Hub",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1468,
+            "y" : 781
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_mailbag"
+      ]
+   },
+   {
+      "name" : "Mailbox 21: Sandro",
+      "map_locations" : [
+         {
+            "x" : 944,
+            "map" : "overworld",
+            "y" : 854
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_mailbag"
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 21: Sandro"
+         }
+      ]
+   },
+   {
+      "name" : "Mailbox 22: Dipperloaf",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 710,
+            "y" : 832
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,toolbox,abilities_mailbag",
+         "mushroom_3,postal_badge,toolbox,abilities_mailbag"
+      ],
+      "sections" : [
+         {
+            "name" : "Mailbox 22: Dipperloaf",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "x" : 660,
+            "map" : "overworld",
+            "y" : 737
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag"
+      ],
+      "name" : "Mailbox 24: Orestation",
+      "sections" : [
+         {
+            "name" : "Mailbox 24: Orestation",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Mailbox 25: Lighthouse",
+      "map_locations" : [
+         {
+            "y" : 708,
+            "x" : 460,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag"
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 25: Lighthouse"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 26: Sin"
+         }
+      ],
+      "name" : "Mailbox 26: Sin",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 406,
+            "y" : 871
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 27: Ithaqua"
+         }
+      ],
+      "name" : "Mailbox 27: Ithaqua",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1064,
+            "y" : 536
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,abilities_mailbag"
+      ]
+   },
+   {
+      "name" : "Mailbox 28: Ojva",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1405,
+            "map" : "overworld",
+            "y" : 167
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 28: Ojva"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Mailbox 29: Space Monks",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Mailbox 29: Space Monks",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod"
+      ],
+      "map_locations" : [
+         {
+            "y" : 131,
+            "map" : "overworld",
+            "x" : 1626
+         }
+      ]
+   },
+   {
+      "name" : "Mailbox 30: Tower",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_mailbag",
+         "mushroom_3,postal_badge,abilities_mailbag"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1138,
+            "y" : 776
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Mailbox 30: Tower"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Fruit 31: Banana Chest",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Fruit 31: Banana Chest",
+      "map_locations" : [
+         {
+            "x" : 548,
+            "map" : "overworld",
+            "y" : 1133
+         }
+      ],
+      "access_rules" : [
+         "abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive,greenkey",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,greenkey"
+            ],
+            "name" : "Fruit 32: Green Chest",
+            "item_count" : 1
+         },
+         {
+            "name" : "Fruit 89: Treasure Room",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
+            ],
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "name" : "Wl. 77: Blue Chest",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive,bluekey",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,bluekey"
+            ]
+         }
+      ],
+      "map_locations" : [
+         {
+            "x" : "1644",
+            "map" : "overworld",
+            "y" : "1293"
+         }
+      ],
+      "name" : "Treasure Room"
+   },
+   {
+      "name" : "Fruit 33: Hook Chest",
+      "map_locations" : [
+         {
+            "y" : 837,
+            "map" : "overworld",
+            "x" : 2124
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "sections" : [
+         {
+            "name" : "Fruit 33: Hook Chest",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Fruit 34: Underwater Chest",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 808,
+            "x" : 2293,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "name" : "Fruit 34: Underwater Chest"
+   },
+   {
+      "sections" : [
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ],
+            "name" : "Scarab 37: Sootling House Upper",
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ],
+            "name" : "Scarab 38: Sootling House Lower"
+         }
+      ],
+      "map_locations" : [
+         {
+            "x" : "903",
+            "map" : "overworld",
+            "y" : "1212"
+         }
+      ],
+      "name" : "Sootling House"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Scarab 39: Tower Right",
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ],
+            "item_count" : 1
+         },
+         {
+            "name" : "Scarab 40: Tower Left",
+            "access_rules" : [
+               "mushroom_2,postal_badge,[abilities_slug_vacuum],[abilities_dive],[spring_key]",
+               "mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_dive],[spring_key]"
+            ],
+            "item_count" : 1
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,[abilities_slug_vacuum],[abilities_dive],[spring_key]",
+               "mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_dive],[spring_key]"
+            ],
+            "name" : "Scarab 41: Tower Upper",
+            "item_count" : 1
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ],
+            "name" : "Wl. 11: Tower Table",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Tower",
+      "map_locations" : [
+         {
+            "x" : "1072",
+            "map" : "overworld",
+            "y" : "1091"
+         }
+      ]
+   },
+   {
+      "name" : "Juicery",
+      "map_locations" : [
+         {
+            "x" : "950",
+            "map" : "overworld",
+            "y" : "982"
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Scarab 42: Juicery Lower",
+            "access_rules" : [
+               "mushroom_2,postal_badge,[abilities_slug_vacuum],[abilities_partyhorn],[abilities_dive],[spring_key],[skins_skin_3]",
+               "mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_partyhorn],[abilities_dive],[spring_key],[skins_skin_3]"
+            ],
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,[abilities_slug_vacuum],[abilities_partyhorn],[abilities_dive],[spring_key],[skins_skin_3]",
+               "mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_partyhorn],[abilities_dive],[spring_key],[skins_skin_3]"
+            ],
+            "name" : "Scarab 43: Juicery Upper"
+         },
+         {
+            "item_count" : 1,
+            "name" : "Wl. 32: Juicery Upper",
+            "access_rules" : [
+               "mushroom_2,postal_badge,[abilities_partyhorn],[skins_skin_3]",
+               "mushroom_3,postal_badge,[abilities_partyhorn],[skins_skin_3]"
+            ]
+         },
+         {
+            "name" : "Wl. 33: Juicery Left",
+            "access_rules" : [
+               "mushroom_2,postal_badge,[abilities_partyhorn],[skins_skin_3]",
+               "mushroom_3,postal_badge,[abilities_partyhorn],[skins_skin_3]",
+               "{mushroom_2,postal_badge}",
+               "{mushroom_3,postal_badge}"
+            ],
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Orestation",
+      "map_locations" : [
+         {
+            "y" : "655",
+            "x" : "726",
+            "map" : "overworld"
+         }
+      ],
+      "sections" : [
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
+            ],
+            "name" : "Scarab 44: Orestation Right",
+            "item_count" : 1
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
+            ],
+            "name" : "Scarab 45: Orestation Left",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Scarab 49: Town Skip",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1375,
+            "y" : 486
+         }
+      ],
+      "name" : "Scarab 49: Town Skip"
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "y" : 291,
+            "map" : "overworld",
+            "x" : 1336
+         }
+      ],
+      "name" : "Scarab 50: Bat",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Scarab 50: Bat"
+         }
+      ]
+   },
+   {
+      "name" : "Scarab 51: Spider Cave I",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod"
+      ],
+      "map_locations" : [
+         {
+            "y" : 264,
+            "map" : "overworld",
+            "x" : 1759
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Scarab 51: Spider Cave I"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod"
+      ],
+      "map_locations" : [
+         {
+            "y" : 194,
+            "x" : 1715,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Scarab 52: Spider Cave II",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Scarab 52: Spider Cave II"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : "2409",
+            "y" : "908"
+         }
+      ],
+      "name" : "Underbelly II",
+      "sections" : [
+         {
+            "name" : "Scarab 53: Underbelly II Right",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,[abilities_dive],spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,[abilities_dive],spring_key"
+            ],
+            "item_count" : 1
+         },
+         {
+            "name" : "Scarab 54: Underbelly II Left",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key"
+            ],
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Underbelly I",
+      "map_locations" : [
+         {
+            "y" : "947",
+            "x" : "2105",
+            "map" : "overworld"
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Scarab 55: Underbelly I Right",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,spring_key"
+            ]
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_2,postal_badge,abilities_dive,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_3,postal_badge,abilities_dive,spring_key"
+            ],
+            "name" : "Scarab 56: Underbelly I Left",
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_2,postal_badge,abilities_dive,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_3,postal_badge,abilities_dive,spring_key"
+            ],
+            "name" : "Scarab 57: Underbelly I Mid"
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_2,postal_badge,abilities_dive,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_3,postal_badge,abilities_dive,spring_key"
+            ],
+            "name" : "Wl. 62: Underbelly I Left",
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "name" : "Wl. 63: Underbelly I Upper",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_2,postal_badge,abilities_dive,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_3,postal_badge,abilities_dive,spring_key"
+            ]
+         },
+         {
+            "item_count" : 1,
+            "name" : "Wl. 64: Underbelly I Right",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,spring_key",
+               "{mushroom_2,postal_badge,abilities_partyhorn,spring_key}",
+               "{mushroom_2,postal_badge,abilities_dive,spring_key}",
+               "{mushroom_3,postal_badge,abilities_partyhorn,spring_key}",
+               "{mushroom_3,postal_badge,abilities_dive,spring_key}"
+            ]
+         }
+      ]
+   },
+   {
+      "name" : "Willo",
+      "map_locations" : [
+         {
+            "y" : "937",
+            "x" : "1755",
+            "map" : "overworld"
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum",
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_slug_vacuum",
+               "mushroom_3,postal_badge,abilities_dive"
+            ],
+            "name" : "Scarab 58: Willo Right"
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum",
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_slug_vacuum",
+               "mushroom_3,postal_badge,abilities_dive"
+            ],
+            "name" : "Scarab 59: Willo Mid",
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum",
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_slug_vacuum",
+               "mushroom_3,postal_badge,abilities_dive"
+            ],
+            "name" : "Scarab 60: Willo Left"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : "1175",
+            "map" : "overworld",
+            "x" : "1932"
+         }
+      ],
+      "name" : "Crystal Skull",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+            ],
+            "name" : "Scarab 61: Crystal Skull Upper"
+         },
+         {
+            "item_count" : 1,
+            "name" : "Scarab 62: Crystal Skull Left",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+               "mushroom_3,postal_badge,abilities_dive"
+            ]
+         },
+         {
+            "name" : "Scarab 63: Crystal Skull Right",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+               "mushroom_3,postal_badge,abilities_dive"
+            ],
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Scarab 66: Trial II Right",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive"
+            ]
+         },
+         {
+            "name" : "Scarab 67: Trial II Left",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive"
+            ],
+            "item_count" : 1
+         }
+      ],
+      "name" : "Trial II",
+      "map_locations" : [
+         {
+            "y" : "1362",
+            "x" : "1628",
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
+            ],
+            "name" : "Scarab 68: Trial III Right"
+         },
+         {
+            "name" : "Scarab 69: Trial III Left",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
+            ],
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : "1353",
+            "map" : "overworld",
+            "x" : "1564"
+         }
+      ],
+      "name" : "Trial III"
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 1358,
+            "x" : 1301,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive"
+      ],
+      "name" : "Scarab 70: Door Friend I",
+      "sections" : [
+         {
+            "name" : "Scarab 70: Door Friend I",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Meadow I",
+      "map_locations" : [
+         {
+            "y" : "1131",
+            "x" : "1421",
+            "map" : "overworld"
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Scarab 71: Meadow I Left",
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ]
+         },
+         {
+            "name" : "Scarab 72: Meadow I Right",
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ],
+            "item_count" : 1
+         },
+         {
+            "item_count" : 1,
+            "name" : "Wl. 16: Slug Gardener Spot 2",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum",
+               "mushroom_3,postal_badge,abilities_slug_vacuum",
+               "{mushroom_2,postal_badge}",
+               "{mushroom_3,postal_badge}"
+            ]
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Scarab 73: Meadow II Upper",
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ]
+         },
+         {
+            "name" : "Scarab 74: Meadow II Lower",
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ],
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : "1167",
+            "x" : "1491",
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Meadow II"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Scarab 75: Meadow IV"
+         }
+      ],
+      "name" : "Scarab 75: Meadow IV",
+      "map_locations" : [
+         {
+            "y" : 1242,
+            "x" : 1486,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Scarab 76: Meadow V"
+         }
+      ],
+      "name" : "Scarab 76: Meadow V",
+      "map_locations" : [
+         {
+            "x" : 1410,
+            "map" : "overworld",
+            "y" : 1229
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Fruit 77: Waterfall Left"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1538,
+            "y" : 1012
+         }
+      ],
+      "name" : "Fruit 77: Waterfall Left"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Fruit 78: Underbelly"
+         }
+      ],
+      "name" : "Fruit 78: Underbelly",
+      "map_locations" : [
+         {
+            "y" : 948,
+            "x" : 2258,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,spring_key}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,spring_key}"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Fruit 79: Waterfall Right",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1589,
+            "y" : 1016
+         }
+      ],
+      "name" : "Fruit 79: Waterfall Right"
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1077,
+            "map" : "overworld",
+            "x" : 1412
+         }
+      ],
+      "name" : "Fruit 80: Meadows Slug Rock",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Fruit 80: Meadows Slug Rock"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1990,
+            "y" : 843
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "name" : "Fruit 81: Marrow Jump",
+      "sections" : [
+         {
+            "name" : "Fruit 81: Marrow Jump",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Fruit 82: Screech Door Bones",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1359,
+            "x" : 1191,
+            "map" : "overworld"
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Fruit 82: Screech Door Bones",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Fruit 83: Sootling Cave Water",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Fruit 83: Sootling Cave Water",
+      "map_locations" : [
+         {
+            "x" : 1188,
+            "map" : "overworld",
+            "y" : 575
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
+      ]
+   },
+   {
+      "name" : "Fruit 84: Sootling Cave Right",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1237,
+            "y" : 512
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
+      ],
+      "sections" : [
+         {
+            "name" : "Fruit 84: Sootling Cave Right",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Fruit 85: Sootling Cave Left",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1189,
+            "y" : 512
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
+      ],
+      "name" : "Fruit 85: Sootling Cave Left"
+   },
+   {
+      "name" : "Fruit 86: Sin",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 423,
+            "y" : 918
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Fruit 86: Sin"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Fruit 87: Crystal Lake",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Fruit 87: Crystal Lake",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1727,
+            "y" : 371
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Fruit 88: Spider Cave",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "x" : 1849,
+            "map" : "overworld",
+            "y" : 199
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod"
+      ],
+      "name" : "Fruit 88: Spider Cave"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Fruit 90: Ocean Heart",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 1301,
+            "map" : "overworld",
+            "x" : 2489
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "name" : "Fruit 90: Ocean Heart"
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : "719",
+            "x" : "1451",
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Rinri",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge",
+               "mushroom_3,postal_badge"
+            ],
+            "name" : "NPC: Rinri, Quest"
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spores_5",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spores_5"
+            ],
+            "name" : "NPC: Rinri, Reward",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1264,
+            "y" : 1123
+         }
+      ],
+      "name" : "NPC: Skeeper",
+      "sections" : [
+         {
+            "name" : "NPC: Skeeper",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 845,
+            "map" : "overworld",
+            "x" : 1615
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive"
+      ],
+      "name" : "NPC: Cleepers",
+      "sections" : [
+         {
+            "name" : "NPC: Cleepers",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "NPC: Dive Fish",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 2050,
+            "y" : 1051
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "sections" : [
+         {
+            "name" : "NPC: Dive Fish",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "NPC: Myrtle"
+         }
+      ],
+      "name" : "NPC: Myrtle",
+      "map_locations" : [
+         {
+            "x" : 2165,
+            "map" : "overworld",
+            "y" : 1055
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,tadpole_8",
+         "mushroom_3,postal_badge,tadpole_8"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "NPC: Quinbe",
+            "item_count" : 1
+         }
+      ],
+      "name" : "NPC: Quinbe",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag,skins_skin_2,skins_skin_5",
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,abilities_mailbag,skins_skin_2,skins_skin_5",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag,skins_skin_2,skins_skin_5",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,abilities_mailbag,skins_skin_2,skins_skin_5"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 2415,
+            "y" : 1078
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "NPC: Sumoe",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,wallet_2",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,wallet_2"
+      ],
+      "map_locations" : [
+         {
+            "y" : 388,
+            "map" : "overworld",
+            "x" : 1666
+         }
+      ],
+      "name" : "NPC: Sumoe"
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,wallet_2,wallet_4",
+         "mushroom_2,postal_badge,abilities_dive,wallet_2,wallet_4",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,wallet_2,wallet_4",
+         "mushroom_3,postal_badge,abilities_dive,wallet_2,wallet_4"
+      ],
+      "map_locations" : [
+         {
+            "y" : 742,
+            "x" : 2398,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "NPC: Splank",
+      "sections" : [
+         {
+            "name" : "NPC: Splank",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "NPC: Liquorice"
+         }
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1674,
+            "y" : 1317
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive,wallet_2",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,wallet_2"
+      ],
+      "name" : "NPC: Liquorice"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "NPC: Posterodactyl",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [],
+      "map_locations" : [
+         {
+            "x" : 293,
+            "map" : "overworld",
+            "y" : 1201
+         }
+      ],
+      "name" : "NPC: Posterodactyl"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "NPC: Kickback",
+            "item_count" : 1
+         }
+      ],
+      "name" : "NPC: Kickback",
+      "map_locations" : [
+         {
+            "y" : 1144,
+            "x" : 1103,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ]
+   },
+   {
+      "name" : "NPC: Nim",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,guano,bucket_empty,seed_pod,spring_key",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,guano,bucket_empty,seed_pod,spring_key"
+      ],
+      "map_locations" : [
+         {
+            "y" : 777,
+            "map" : "overworld",
+            "x" : 1288
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "NPC: Nim",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "NPC: Dipperloaf"
+         }
+      ],
+      "name" : "NPC: Dipperloaf",
+      "map_locations" : [
+         {
+            "x" : 658,
+            "map" : "overworld",
+            "y" : 832
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,toolbox",
+         "mushroom_3,postal_badge,toolbox"
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "y" : 339,
+            "map" : "overworld",
+            "x" : 1583
+         }
+      ],
+      "name" : "NPC: Jamja",
+      "sections" : [
+         {
+            "name" : "NPC: Jamja",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "NPC: Jojo"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "x" : 2340,
+            "map" : "overworld",
+            "y" : 740
+         }
+      ],
+      "name" : "NPC: Jojo"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "NPC: Dusk",
+            "item_count" : 1
+         }
+      ],
+      "name" : "NPC: Dusk",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1586,
+            "y" : 1078
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4,traitor_spirit_4",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4,traitor_spirit_4"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 01: Beach Dive 1",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 58,
+            "y" : 1205
+         }
+      ],
+      "name" : "Wl. 01: Beach Dive 1"
+   },
+   {
+      "name" : "Wl. 02: Beach Dive 2",
+      "access_rules" : [
+         "abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 188,
+            "y" : 1240
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 02: Beach Dive 2"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 04: Intro 1"
+         }
+      ],
+      "name" : "Wl. 04: Intro 1",
+      "access_rules" : [],
+      "map_locations" : [
+         {
+            "x" : 376,
+            "map" : "overworld",
+            "y" : 1106
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 504,
+            "y" : 1107
+         }
+      ],
+      "access_rules" : [
+         "abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "name" : "Wl. 05: Intro 2",
+      "sections" : [
+         {
+            "name" : "Wl. 05: Intro 2",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 06: Fosfor Tunnel",
+      "access_rules" : [],
+      "map_locations" : [
+         {
+            "x" : 537,
+            "map" : "overworld",
+            "y" : 1192
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Wl. 06: Fosfor Tunnel",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 07: Fosfor Cave",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 07: Fosfor Cave",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1208,
+            "x" : 658,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 08: Fosfor Door",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1155,
+            "x" : 663,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Wl. 08: Fosfor Door"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 09: Above Fosfor"
+         }
+      ],
+      "map_locations" : [
+         {
+            "x" : 608,
+            "map" : "overworld",
+            "y" : 1109
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "name" : "Wl. 09: Above Fosfor"
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1148,
+            "map" : "overworld",
+            "x" : 824
+         }
+      ],
+      "name" : "Wl. 10: Gorila Woods Beeline",
+      "sections" : [
+         {
+            "name" : "Wl. 10: Gorila Woods Beeline",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1147,
+            "y" : 1219
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "name" : "Wl. 12: Ape Chest",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 12: Ape Chest"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 13: Ape Hook",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 13: Ape Hook",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1165,
+            "x" : 1200,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1209,
+            "y" : 1147
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ],
+      "name" : "Wl. 14: Ape Entry",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 14: Ape Entry"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 15: Ape Right"
+         }
+      ],
+      "name" : "Wl. 15: Ape Right",
+      "map_locations" : [
+         {
+            "y" : 1195,
+            "map" : "overworld",
+            "x" : 1339
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 17: Slug Gardener Spot 1"
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 1093,
+            "x" : 1384,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "name" : "Wl. 17: Slug Gardener Spot 1"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 18: Meadow Slug Jump",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1449,
+            "map" : "overworld",
+            "y" : 1047
+         }
+      ],
+      "name" : "Wl. 18: Meadow Slug Jump"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 19: Waterfall Bottom",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 19: Waterfall Bottom",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1055,
+            "map" : "overworld",
+            "x" : 1487
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 20: Shed",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1613,
+            "y" : 1213
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Wl. 20: Shed",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 21: Waterfall Ledge",
+      "map_locations" : [
+         {
+            "x" : 1593,
+            "map" : "overworld",
+            "y" : 984
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "sections" : [
+         {
+            "name" : "Wl. 21: Waterfall Ledge",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 22: Waterfall Dive Through",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1676,
+            "y" : 1033
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+      ],
+      "sections" : [
+         {
+            "name" : "Wl. 22: Waterfall Dive Through",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 23: Tower Mid",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "x" : 1084,
+            "map" : "overworld",
+            "y" : 961
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ],
+      "name" : "Wl. 23: Tower Mid"
+   },
+   {
+      "map_locations" : [
+         {
+            "x" : 1076,
+            "map" : "overworld",
+            "y" : 775
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_2,postal_badge,abilities_speed",
+         "mushroom_3,postal_badge,abilities_speed",
+         "mushroom_3,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "name" : "Wl. 24: Tower Top",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 24: Tower Top"
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 25: Lonka",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1344,
+            "map" : "overworld",
+            "y" : 805
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Wl. 25: Lonka",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 28: Above Rinri",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 28: Above Rinri",
+      "map_locations" : [
+         {
+            "x" : 1442,
+            "map" : "overworld",
+            "y" : 673
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge",
+         "mushroom_3,postal_badge"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 29: Instrument Cave",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 666,
+            "map" : "overworld",
+            "x" : 1260
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "name" : "Wl. 29: Instrument Cave"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 31: Dipperloaf",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 31: Dipperloaf",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
+      ],
+      "map_locations" : [
+         {
+            "y" : 785,
+            "x" : 567,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 34: Fleek",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 1017,
+            "x" : 747,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "name" : "Wl. 34: Fleek"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 35: Sin Totem"
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 972,
+            "map" : "overworld",
+            "x" : 414
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "name" : "Wl. 35: Sin Totem"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 36: Obt. Puzzle",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1004,
+            "map" : "overworld",
+            "x" : 61
+         }
+      ],
+      "name" : "Wl. 36: Obt. Puzzle"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 37: End Boss Fight",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 37: End Boss Fight",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1242,
+            "y" : 978
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,guano,bucket_empty,seed_pod,spring_key,nim_key",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,guano,bucket_empty,seed_pod,spring_key,nim_key"
+      ]
+   },
+   {
+      "name" : "Wl. 38: Orestation Bottom",
+      "map_locations" : [
+         {
+            "y" : 759,
+            "map" : "overworld",
+            "x" : 696
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 38: Orestation Bottom"
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 39: God Misfire",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
+      ],
+      "map_locations" : [
+         {
+            "x" : 819,
+            "map" : "overworld",
+            "y" : 681
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Wl. 39: God Misfire",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 40: Leap of Faith",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
+      ],
+      "map_locations" : [
+         {
+            "y" : 633,
+            "map" : "overworld",
+            "x" : 809
+         }
+      ],
+      "name" : "Wl. 40: Leap of Faith"
+   },
+   {
+      "name" : "Wl. 41: Squirrowl",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 762,
+            "y" : 612
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Wl. 41: Squirrowl",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 42: Orestation Hook"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 577,
+            "y" : 626
+         }
+      ],
+      "name" : "Wl. 42: Orestation Hook"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 43: Lighthouse Ledge"
+         }
+      ],
+      "name" : "Wl. 43: Lighthouse Ledge",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 346,
+            "y" : 621
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 44: Lighthouse Slug Rock"
+         }
+      ],
+      "name" : "Wl. 44: Lighthouse Slug Rock",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+      ],
+      "map_locations" : [
+         {
+            "y" : 602,
+            "map" : "overworld",
+            "x" : 371
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 45: Lighthouse Leap",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}"
+      ],
+      "map_locations" : [
+         {
+            "y" : 554,
+            "x" : 432,
+            "map" : "overworld"
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 45: Lighthouse Leap"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 526,
+            "x" : 1276,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "name" : "Wl. 46: Sootling Cave",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 46: Sootling Cave"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 497,
+            "map" : "overworld",
+            "x" : 1348
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox"
+      ],
+      "name" : "Wl. 47: Kickback Hiding Cave",
+      "sections" : [
+         {
+            "name" : "Wl. 47: Kickback Hiding Cave",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 48: Telescope Skip Lower"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "y" : 429,
+            "map" : "overworld",
+            "x" : 1338
+         }
+      ],
+      "name" : "Wl. 48: Telescope Skip Lower"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 49: Telescope Skip Upper",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 49: Telescope Skip Upper",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "y" : 384,
+            "x" : 1328,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 50: Ivory Hook Lower",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 389,
+            "map" : "overworld",
+            "x" : 1476
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "name" : "Wl. 50: Ivory Hook Lower"
+   },
+   {
+      "name" : "Wl. 51: Sumoe",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1672,
+            "map" : "overworld",
+            "y" : 419
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 51: Sumoe"
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 335,
+            "map" : "overworld",
+            "x" : 1450
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "name" : "Wl. 52: Ivory Hook Upper",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 52: Ivory Hook Upper"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 53: Jamja Ledge",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "y" : 316,
+            "map" : "overworld",
+            "x" : 1610
+         }
+      ],
+      "name" : "Wl. 53: Jamja Ledge"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 54: Spider Cave Entry"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod"
+      ],
+      "map_locations" : [
+         {
+            "y" : 174,
+            "x" : 1840,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Wl. 54: Spider Cave Entry"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 55: Spider Cave Slug Rock",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 55: Spider Cave Slug Rock",
+      "map_locations" : [
+         {
+            "y" : 251,
+            "map" : "overworld",
+            "x" : 1726
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 56: Above Willo at Waterfall"
+         }
+      ],
+      "map_locations" : [
+         {
+            "x" : 1696,
+            "map" : "overworld",
+            "y" : 888
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum"
+      ],
+      "name" : "Wl. 56: Above Willo at Waterfall"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 57: Church Chest"
+         }
+      ],
+      "map_locations" : [
+         {
+            "x" : 1759,
+            "map" : "overworld",
+            "y" : 865
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum"
+      ],
+      "name" : "Wl. 57: Church Chest"
+   },
+   {
+      "name" : "Wl. 58: Church Ceiling",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1940,
+            "y" : 878
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum"
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 58: Church Ceiling"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 59: Dive Cave Entry",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "y" : 926,
+            "x" : 1944,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Wl. 59: Dive Cave Entry"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 60: Dive Cave Chest"
+         }
+      ],
+      "map_locations" : [
+         {
+            "x" : 1911,
+            "map" : "overworld",
+            "y" : 1099
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "name" : "Wl. 60: Dive Cave Chest"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 61: Underwater at Hook Chest"
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 873,
+            "map" : "overworld",
+            "x" : 2034
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+      ],
+      "name" : "Wl. 61: Underwater at Hook Chest"
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key"
+      ],
+      "map_locations" : [
+         {
+            "x" : 2230,
+            "map" : "overworld",
+            "y" : 976
+         }
+      ],
+      "name" : "Wl. 65: Underbelly II Hidden",
+      "sections" : [
+         {
+            "name" : "Wl. 65: Underbelly II Hidden",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 66: Hideout Drop 2",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key"
+      ],
+      "map_locations" : [
+         {
+            "y" : 991,
+            "x" : 2387,
+            "map" : "overworld"
+         }
+      ],
+      "sections" : [
+         {
+            "name" : "Wl. 66: Hideout Drop 2",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "y" : 848,
+            "x" : 2234,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Wl. 67: Sush",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 67: Sush"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 68: Hideout Ledge",
+            "item_count" : 1
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "y" : 765,
+            "map" : "overworld",
+            "x" : 2315
+         }
+      ],
+      "name" : "Wl. 68: Hideout Ledge"
+   },
+   {
+      "name" : "Wl. 69: Hideout Slug Rock",
+      "map_locations" : [
+         {
+            "y" : 773,
+            "x" : 2367,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive"
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 69: Hideout Slug Rock"
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 70: Hideout Drop 1",
+      "map_locations" : [
+         {
+            "x" : 2403,
+            "map" : "overworld",
+            "y" : 826
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn}"
+      ],
+      "sections" : [
+         {
+            "name" : "Wl. 70: Hideout Drop 1",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "map_locations" : [
+         {
+            "y" : 1087,
+            "x" : 1836,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ],
+      "name" : "Wl. 71: Crystal Skull Upper",
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 71: Crystal Skull Upper"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 72: Crystal Skull Slug Rock",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 72: Crystal Skull Slug Rock",
+      "map_locations" : [
+         {
+            "y" : 1136,
+            "map" : "overworld",
+            "x" : 1883
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1188,
+            "x" : 1974,
+            "map" : "overworld"
+         }
+      ],
+      "name" : "Wl. 73: Crystal Skull Chest",
+      "sections" : [
+         {
+            "name" : "Wl. 73: Crystal Skull Chest",
+            "item_count" : 1
+         }
+      ]
+   },
+   {
+      "name" : "Wl. 74: Above Rolypoly",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "x" : 2077,
+            "map" : "overworld",
+            "y" : 1194
+         }
+      ],
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 74: Above Rolypoly"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 75: Crystal Deep Beel. Ledge",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 75: Crystal Deep Beel. Ledge",
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 2209,
+            "y" : 1225
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
+         "mushroom_3,postal_badge,abilities_dive"
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 76: Underdark Water Puzzle",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 76: Underdark Water Puzzle",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive"
+      ],
+      "map_locations" : [
+         {
+            "y" : 1382,
+            "x" : 2098,
+            "map" : "overworld"
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "name" : "Wl. 78: Pitch"
+         }
+      ],
+      "map_locations" : [
+         {
+            "map" : "overworld",
+            "x" : 1433,
+            "y" : 1331
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive"
+      ],
+      "name" : "Wl. 78: Pitch"
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 79: Screech Door Hook",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Wl. 79: Screech Door Hook",
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash"
+      ],
+      "map_locations" : [
+         {
+            "x" : 1151,
+            "map" : "overworld",
+            "y" : 1346
+         }
+      ]
+   },
+   {
+      "sections" : [
+         {
+            "name" : "Wl. 80: Behind Screech",
+            "item_count" : 1
+         }
+      ],
+      "map_locations" : [
+         {
+            "y" : 1299,
+            "x" : 1034,
+            "map" : "overworld"
+         }
+      ],
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive"
+      ],
+      "name" : "Wl. 80: Behind Screech"
+   },
+   {
+      "sections" : [
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4",
+               "{mushroom_2,postal_badge}",
+               "{mushroom_3,postal_badge}"
+            ],
+            "name" : "Traitor Spirit 1"
+         },
+         {
+            "item_count" : 1,
+            "name" : "Traitor Spirit 2",
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4",
+               "{mushroom_2,postal_badge}",
+               "{mushroom_3,postal_badge}"
+            ]
+         },
+         {
+            "item_count" : 1,
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4",
+               "{mushroom_2,postal_badge}",
+               "{mushroom_3,postal_badge}"
+            ],
+            "name" : "Traitor Spirit 3"
+         },
+         {
+            "access_rules" : [
+               "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4",
+               "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4",
+               "{mushroom_2,postal_badge}",
+               "{mushroom_3,postal_badge}"
+            ],
+            "name" : "Traitor Spirit 4",
+            "item_count" : 1
+         }
+      ],
+      "name" : "Ape",
+      "map_locations" : [
+         {
+            "x" : "1287",
+            "map" : "overworld",
+            "y" : "1183"
+         }
+      ]
+   }
+]

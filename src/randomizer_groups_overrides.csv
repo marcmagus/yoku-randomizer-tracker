@@ -1,0 +1,249 @@
+Line	Name	position	group	mushroom_2	mushroom_3	postal_badge	abilities/slug_vaccum	abilities/partyhorn	abilities/dive	toolbox	sootling_leash	abilities/mailbag	guano	bucket_empty	seed_pod	spring_key	skins/skin_1	skins/skin_2	skins/skin_5	skins/skin_3	skins/skin_4	idol1	nugget:4	idol2	idol3	idol4	spores_1	spores_2	spores_3	spores_4	spores_5	tadpole:8	wallet:2	wallet:4	bluekey	greenkey	nim_key	tracker_springs	tracker_caves	tracker_peak	tracker_scarabs	treasure_map	abilities/speed	traitor_spirit:4	powerups/skvader_1	powerups/skvader_2	abilities/dive_speed	abilities/slug_upgrade
+2	Juicy Cove Mushroom	714,1025	Mushrooms
+3	Poison Toadstool	736,1031	Mushrooms
+4	Toolbox	1422,719	
+5	Guano	1403,306	
+6	Seed Pod	1590,367	
+7	Underwater Puzzle	2004,984	
+8	Tower's Peak Crystal	1119,801	
+9	Post Office Attic	1333,745	Post Office
+10	Key: Blue	1700,1334	
+11	Key: Green	1620,1309	
+12	Sootling 1	407,657	Lighthouse I
+13	Sootling 2	390,617	Lighthouse I
+14	Sootling 3	392,577	Lighthouse II
+15	Sootling 4	405,578	Lighthouse II
+16	Sootling 5	423,580	Lighthouse II
+17	Sootling 6	404,535	Lighthouse II
+18	Tadpole 1	1969,1099	
+19	Tadpole 2	1991,1066	
+20	Tadpole 3	2023,1111	
+21	Tadpole 4	2044,1083	
+22	Tadpole 5	2089,1081	
+23	Tadpole 6	2120,1068	
+24	Tadpole 7	2125,1099	
+25	Tadpole 8	2181,1095	
+26	Mulch Pit: Village	1301,633	
+27	Mulch Pit: Ape	1191,1185	
+28	Mulch Pit: Beach	2400,1163	
+29	Mulch Pit: Ivory	1360,251	
+30	Statue Piece: Waterfall	1674,953	
+31	Statue Piece: Underdark	1719,1361	Trial I
+32	Statue Piece: Ivory	722,573	
+33	Statue Piece: Obt. Isles	97,959	
+34	Nugget 1	1728,412	
+35	Nugget 2	1748,391	
+36	Nugget 3	1778,396	
+37	Nugget 4	1804,391	
+38	Chest: Noisemaker	346,1033	
+39	Chest: Tweepers	866,1173	Tweepers
+40	Chest: Tower	1108,766	
+41	Chest: Shed	1723,1181	
+42	Chest: Crystal Skull	1968,1216	
+43	Chest: Beach	2328,1169	
+44	Chest: Church	1719,855	
+45	Chest: Leash	326,708	
+46	Chest: Treek	891,680	Treek
+47	Chest: Town Skip	1514,473	
+48	Chest: Lava	1627,389	
+49	Chest: Waterfall	1507,872	
+50	Chest: Fosfor Cave Left	339,1239	
+51	Chest: Fleek	838,945	
+52	Chest: Screech	1234,1392	
+53	Chest: Willo	1377,727	
+54	Mailbox 01: Hairy	387,1196	Hairy
+55	Mailbox 02: Fosfor	483,1252	
+56	Mailbox 03: Baldino	361,1067	
+57	Mailbox 04: Tweepers	887,1173	Tweepers
+58	Mailbox 05: Fleek	849,998	Fleek
+59	Mailbox 06: Screech	993,1245	
+60	Mailbox 07: Ape	1216,1132	
+61	Mailbox 08: Slug Gardener	1420,1105	
+62	Mailbox 09: Shed	1656,1194	
+63	Mailbox 10: Sal	1752,1301	
+64	Mailbox 11: Rolypoly	2080,1244	
+65	Mailbox 12: Beach	2440,1209	
+66	Mailbox 13: Quinbe	2487,1073	
+67	Mailbox 14: Hideout	2222,786	
+68	Mailbox 15: Underbelly	2088,911	
+69	Mailbox 16: Church	1897,894	
+70	Mailbox 17: Kambi	1768,837	
+71	Mailbox 18: Waterfall	1510,996	
+72	Mailbox 19: Hub	1468,781	
+73	Mailbox 20: Post Office	1380,779	Post Office
+74	Mailbox 21: Sandro	944,854	
+75	Mailbox 22: Dipperloaf	710,832	
+76	Mailbox 23: Treek	871,726	Treek
+77	Mailbox 24: Orestation	660,737	
+78	Mailbox 25: Lighthouse	460,708	
+79	Mailbox 26: Sin	406,871	
+80	Mailbox 27: Ithaqua	1064,536	
+81	Mailbox 28: Ojva	1405,167	
+82	Mailbox 29: Space Monks	1626,131	
+83	Mailbox 30: Tower	1138,776	
+84	Fruit 31: Banana Chest	548,1133	
+85	Fruit 32: Green Chest	1637,1293	Treasure Room
+86	Fruit 33: Hook Chest	2124,837	
+87	Fruit 34: Underwater Chest	2293,808	
+88	Scarab 35: Mushrooms Left	703,1048	Mushrooms
+89	Scarab 36: Mushrooms Right	729,1048	Mushrooms
+90	Scarab 37: Sootling House Upper	894,1228	Sootling House
+91	Scarab 38: Sootling House Lower	912,1197	Sootling House
+92	Scarab 39: Tower Right	1112,1089	Tower
+93	Scarab 40: Tower Left	1056,1095	Tower				X		X							X
+94	Scarab 41: Tower Upper	1066,1076	Tower				X		X							X
+95	Scarab 42: Juicery Lower	971,994	Juicery				X	X	X							X				X
+96	Scarab 43: Juicery Upper	963,975	Juicery				X	X	X							X				X
+97	Scarab 44: Orestation Right	739,639	Orestation
+98	Scarab 45: Orestation Left	713,671	Orestation
+99	Scarab 46: Lighthouse I Right	424,663	Lighthouse I
+100	Scarab 47: Lighthouse I Left	385,628	Lighthouse I
+101	Scarab 48: Lighthouse II	380,558	Lighthouse II
+102	Scarab 49: Town Skip	1375,486	
+103	Scarab 50: Bat	1336,291	
+104	Scarab 51: Spider Cave I	1759,264	
+105	Scarab 52: Spider Cave II	1715,194	
+106	Scarab 53: Underbelly II Right	2424,906	Underbelly II						X							
+107	Scarab 54: Underbelly II Left	2395,911	Underbelly II
+108	Scarab 55: Underbelly I Right	2175,936	Underbelly I
+109	Scarab 56: Underbelly I Left	2069,943	Underbelly I
+110	Scarab 57: Underbelly I Mid	2089,956	Underbelly I
+111	Scarab 58: Willo Right	1779,951	Willo
+112	Scarab 59: Willo Mid	1754,938	Willo
+113	Scarab 60: Willo Left	1734,923	Willo
+114	Scarab 61: Crystal Skull Upper	1934,1137	Crystal Skull
+115	Scarab 62: Crystal Skull Left	1910,1187	Crystal Skull
+116	Scarab 63: Crystal Skull Right	1952,1203	Crystal Skull
+117	Scarab 64: Trial I Right	1746,1355	Trial I				X									X
+118	Scarab 65: Trial I Left	1709,1365	Trial I				X									X
+119	Scarab 66: Trial II Right	1639,1354	Trial II
+120	Scarab 67: Trial II Left	1618,1371	Trial II
+121	Scarab 68: Trial III Right	1573,1361	Trial III
+122	Scarab 69: Trial III Left	1556,1346	Trial III
+123	Scarab 70: Door Friend I	1301,1358	
+124	Scarab 71: Meadow I Left	1421,1132	Meadow I
+125	Scarab 72: Meadow I Right	1450,1127	Meadow I
+126	Scarab 73: Meadow II Upper	1489,1144	Meadow II
+127	Scarab 74: Meadow II Lower	1493,1191	Meadow II
+128	Scarab 75: Meadow IV	1486,1242	
+129	Scarab 76: Meadow V	1410,1229	
+130	Fruit 77: Waterfall Left	1538,1012	
+131	Fruit 78: Underbelly	2258,948	
+132	Fruit 79: Waterfall Right	1589,1016	
+133	Fruit 80: Meadows Slug Rock	1412,1077	
+134	Fruit 81: Marrow Jump	1990,843	
+135	Fruit 82: Screech Door Bones	1191,1359	
+136	Fruit 83: Sootling Cave Water	1188,575	
+137	Fruit 84: Sootling Cave Right	1237,512	
+138	Fruit 85: Sootling Cave Left	1189,512	
+139	Fruit 86: Sin	423,918	
+140	Fruit 87: Crystal Lake	1727,371	
+141	Fruit 88: Spider Cave	1849,199	
+142	Fruit 89: Treasure Room	1637,1293	Treasure Room
+143	Fruit 90: Ocean Heart	2489,1301	
+144	NPC: Lemon	1366,759	Post Office
+145	NPC: Lemon, All Packages	1325,759	Post Office
+146	NPC: Rinri, Quest	1451,719	Rinri
+147	NPC: Rinri, Reward	1451,719	Rinri
+148	NPC: Tweepers	907,1177	Tweepers
+149	NPC: Skeeper	1264,1123	
+150	NPC: Cleepers	1615,845	
+151	NPC: Dive Fish	2050,1051	
+152	NPC: Myrtle	2165,1055	
+153	NPC: Treek	889,701	Treek
+154	NPC: Quinbe	2415,1078	
+155	NPC: Sumoe	1666,388	
+156	NPC: Splank	2398,742	
+157	NPC: Liquorice	1674,1317	
+158	NPC: Posterodactyl	293,1201	
+159	NPC: Kickback	1103,1144	
+160	NPC: Nim	1288,777	
+161	NPC: Dipperloaf	658,832	
+162	NPC: Jamja	1583,339	
+163	NPC: Jojo	2340,740	
+164	NPC: Fleek	853,974	Fleek
+165	NPC: Dusk	1586,1078	
+166	Wl. 01: Beach Dive 1	58,1205	
+167	Wl. 02: Beach Dive 2	188,1240	
+168	Wl. 03: Hairy	364,1195	Hairy
+169	Wl. 04: Intro 1	376,1106	
+170	Wl. 05: Intro 2	504,1107	
+171	Wl. 06: Fosfor Tunnel	537,1192	
+172	Wl. 07: Fosfor Cave	658,1208	
+173	Wl. 08: Fosfor Door	663,1155	
+174	Wl. 09: Above Fosfor	608,1109	
+175	Wl. 10: Gorila Woods Beeline	824,1148	
+176	Wl. 11: Tower Table	1055,1106	Tower
+177	Wl. 12: Ape Chest	1147,1219	
+178	Wl. 13: Ape Hook	1200,1165	
+179	Wl. 14: Ape Entry	1209,1147	
+180	Wl. 15: Ape Right	1339,1195	
+181	Wl. 16: Slug Gardener Spot 2	1395,1137	Meadow I
+182	Wl. 17: Slug Gardener Spot 1	1384,1093	
+183	Wl. 18: Meadow Slug Jump	1449,1047	
+184	Wl. 19: Waterfall Bottom	1487,1055	
+185	Wl. 20: Shed	1613,1213	
+186	Wl. 21: Waterfall Ledge	1593,984	
+187	Wl. 22: Waterfall Dive Through	1676,1033	
+188	Wl. 23: Tower Mid	1084,961	
+189	Wl. 24: Tower Top	1076,775	
+190	Wl. 25: Lonka	1344,805	
+191	Wl. 26: Post Office Junk	1347,761	Post Office
+192	Wl. 27: All Mailboxes	1346,742	Post Office
+193	Wl. 28: Above Rinri	1442,673	
+194	Wl. 29: Instrument Cave	1260,666	
+195	Wl. 30: Treek	885,722	Treek
+196	Wl. 31: Dipperloaf	567,785	
+197	Wl. 32: Juicery Upper	943,966	Juicery					X												X
+198	Wl. 33: Juicery Left	924,996	Juicery					X												X
+199	Wl. 34: Fleek	747,1017	
+200	Wl. 35: Sin Totem	414,972	
+201	Wl. 36: Obt. Puzzle	61,1004	
+202	Wl. 37: End Boss Fight	1242,978	
+203	Wl. 38: Orestation Bottom	696,759	
+204	Wl. 39: God Misfire	819,681	
+205	Wl. 40: Leap of Faith	809,633	
+206	Wl. 41: Squirrowl	762,612	
+207	Wl. 42: Orestation Hook	577,626	
+208	Wl. 43: Lighthouse Ledge	346,621	
+209	Wl. 44: Lighthouse Slug Rock	371,602	
+210	Wl. 45: Lighthouse Leap	432,554	
+211	Wl. 46: Sootling Cave	1276,526	
+212	Wl. 47: Kickback Hiding Cave	1348,497	
+213	Wl. 48: Telescope Skip Lower	1338,429	
+214	Wl. 49: Telescope Skip Upper	1328,384	
+215	Wl. 50: Ivory Hook Lower	1476,389	
+216	Wl. 51: Sumoe	1672,419	
+217	Wl. 52: Ivory Hook Upper	1450,335	
+218	Wl. 53: Jamja Ledge	1610,316	
+219	Wl. 54: Spider Cave Entry	1840,174	
+220	Wl. 55: Spider Cave Slug Rock	1726,251	
+221	Wl. 56: Above Willo at Waterfall	1696,888	
+222	Wl. 57: Church Chest	1759,865	
+223	Wl. 58: Church Ceiling	1940,878	
+224	Wl. 59: Dive Cave Entry	1944,926	
+225	Wl. 60: Dive Cave Chest	1911,1099	
+226	Wl. 61: Underwater at Hook Chest	2034,873	
+227	Wl. 62: Underbelly I Left	2073,977	Underbelly I
+228	Wl. 63: Underbelly I Upper	2108,944	Underbelly I
+229	Wl. 64: Underbelly I Right	2125,932	Underbelly I
+230	Wl. 65: Underbelly II Hidden	2230,976	
+231	Wl. 66: Hideout Drop 2	2387,991	
+232	Wl. 67: Sush	2234,848	
+233	Wl. 68: Hideout Ledge	2315,765	
+234	Wl. 69: Hideout Slug Rock	2367,773	
+235	Wl. 70: Hideout Drop 1	2403,826	
+236	Wl. 71: Crystal Skull Upper	1836,1087	
+237	Wl. 72: Crystal Skull Slug Rock	1883,1136	
+238	Wl. 73: Crystal Skull Chest	1974,1188	
+239	Wl. 74: Above Rolypoly	2077,1194	
+240	Wl. 75: Crystal Deep Beel. Ledge	2209,1225	
+241	Wl. 76: Underdark Water Puzzle	2098,1382	
+242	Wl. 77: Blue Chest	1658,1293	Treasure Room
+243	Wl. 78: Pitch	1433,1331	
+244	Wl. 79: Screech Door Hook	1151,1346	
+245	Wl. 80: Behind Screech	1034,1299	
+246	Traitor Spirit 1	1268,1175	Ape
+247	Traitor Spirit 2	1278,1192	Ape
+248	Traitor Spirit 3	1298,1192	Ape
+249	Traitor Spirit 4	1305,1175	Ape
