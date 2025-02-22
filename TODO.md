@@ -1,5 +1,7 @@
 # TODOs for beta relase
 
+  * Release build without src stuff
+
   * Location coordinates
     * Clean up clusters
     * Maybe treat e.g. tables as a single location with multiple checks
