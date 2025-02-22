@@ -6,7 +6,7 @@ Also check out the [Yoku Speedrunning Discord]().
 
 PopTracker can be found [here](https://github.com/black-sliver/PopTracker/releases).
 
-Alternatively, EmoTracker can be found [here](https://emotracker.net).
+Alternatively, EmoTracker can be found [here](https://emotracker.net). I am unable to test or debug under EmoTracker, but it might just work.
 
 This package, and especially the below instructions, are based on the [Secret of Mana Open World Tracker](https://github.com/Cyb3RGER/SoM-Open-Mode-Tracker). Thanks for the great base.
 
@@ -20,19 +20,17 @@ For PopTracker the packs folder can be under `USER/Documents/PopTracker/packs`, 
 
 ### EmoTracker
 
-For EmoTracker the packs folder can be found under `USER/Documents/EmoTracker/packs`, where `USER` stands for your user directory.
+For EmoTracker the packs folder can be found under `%USERPROFILE%\Documents\EmoTracker\packs`.
 
 ## Customization
 
 ### PopTracker
 
-For Customization in PopTracker just edit the pack's files. Documentation for PopTracker's pack format can be found [here](https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md).
+To customize location colors, check out [Location Color Key](https://github.com/black-sliver/PopTracker?tab=readme-ov-file#location-color-key)
+
+PopTracker provides a [User Overrides](https://github.com/black-sliver/PopTracker?tab=readme-ov-file#user-overrides) feature. You can override individual files using that.
+
 For example: if you want to change the broadcast layout, you can add your desired layout to the `layout/broadcast.json` file.
-Make sure you have you layout backed up tho, so you don't lose it when you override the file while updating the pack.
-
-### EmoTracker
-
-For Customization in EmoTracker you overwrite the pack's file by placing the file in EmoTracks overrides folder (`USER/Documents/EmoTracker/user_overides`). Good luck finding a documenation for EmoTracker tho :3.
 
 ## Autotracking
 
@@ -42,4 +40,5 @@ If you are playing the [Archipelago based Randomizer](https://git.makuluni.com/A
 
 ### UAT (Local)
 
-Code is present for an experimental Universal Autotracker based autotracking for PopTracker. This has the advantage that it runs locally but the current implementation is incomplete. If you want to play with it, edit `manifest.json` to uncomment the `uat` line and run `yoku-autotracker` found there to establish the UAT Bridge, then click UAT at the top of your tracker window. There are probably Perl library dependencies you will need, and I do not have install details. I do not recommend using this, consider it highly experimental. A new version is hopefully in the works.
+Code is present for an experimental Universal Autotracker based autotracking for PopTracker. This has the advantage that it runs locally but the current implementation is incomplete. If you want to play with it, edit `manifest.json` to uncomment the `uat` line and run `yoku-autotracker` found there to establish the UAT Bridge, then click UAT at the top of your tracker window. There are probably Perl library dependencies you will need, and I do not have install details.
+Autotracking only updates when you touch a checkpoint. I do not recommend using this; consider it highly experimental. A new version is hopefully in the works.
