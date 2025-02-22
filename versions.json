@@ -7,18 +7,6 @@
             "changelog": [
                 "Grouped locations variant"
                 ]
-        },
-        {
-            "package_version": "0.3",
-            "changelog": [
-                "Archipelago autotracking. No proper release (full source)"
-                ]
-        },
-        {
-            "package_version": "0.2",
-            "changelog": [
-                "Initial working version. No autotracking. No proper release (full source)"
-                ]
         }
     ]
 }
