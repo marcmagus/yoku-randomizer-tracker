@@ -1,6 +1,6 @@
 [
   {
-    "name": "Mode [WIP]",
+    "name": "Mode",
     "type": "progressive",
     "loop": true,
     "capturable": false,
@@ -8,20 +8,21 @@
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/normal_mode.png",
+        "img": "images/settings/Normal.png",
         "inherit_codes": false,
-        "codes": "normal_mode"
+        "codes": "mode_normal"
       },
       {
-        "img": "images/hard_mode.png",
+        "img": "images/settings/Hard.png",
         "inherit_codes": false,
-        "codes": "hard_mode"
-      },
-      {
-        "img": "images/very_hard_mode.png",
-        "inherit_codes": false,
-        "codes": "very_hard_mode"
+        "codes": "mode_hard"
       }
     ]
+  },
+  {
+    "name": "Tracker",
+    "type": "toggle",
+    "img": "images/DeepTracker.png",
+    "codes": "ool_tracker"
   }
 ]

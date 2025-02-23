@@ -1,5 +1,5 @@
 local variant = Tracker.ActiveVariantUID
-local items_only = variant:find("itemsonly")
+local items_only = variant:find("onlyitems")
 local no_pins = variant:find("no_pins")
 ENABLE_DEBUG_LOG = false
 
@@ -11,7 +11,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 --ScriptHost:LoadScript("scripts/watches.lua")
 --items
 Tracker:AddItems("items/items.json")
---Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/settings.json")
 if not items_only then
     --maps
     Tracker:AddMaps("maps/maps.json")

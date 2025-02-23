@@ -2,20 +2,12 @@
   "name": "Yoku's Island Express Randomizer Tracker",
   "game_name": "Yoku's Island Express",
   "platform": "PC",
-  "package_version": "0.4",
+  "package_version": "0.5.0",
   "package_uid": "yoku_map",
   "author": "marcmagus",
   "variants": {
     "standard": {
-      "display_name": "Map Tracker - Hard Mode",
-            "flags": [
-                "ap" //enables AP autotracking interface - remove if not needed
-                // "uat", // use UAT protocol for auto-tracking
-                // "uat-bridge" // auto-start UAT bridge if available -- not implemented
-            ]
-    },
-    "var_itemsonly": {
-      "display_name": "Items Only",
+      "display_name": "Map Tracker",
             "flags": [
                 "ap" //enables AP autotracking interface - remove if not needed
                 // "uat", // use UAT protocol for auto-tracking
@@ -29,10 +21,15 @@
                 // "uat", // use UAT protocol for auto-tracking
                 // "uat-bridge" // auto-start UAT bridge if available -- not implemented
             ]
-    }/* ,
-    "var_no_pins": {
-      "display_name": "I hate pins >:^( [WIP]"
-    }*/
+    },
+    "var_onlyitems": {
+      "display_name": "Items Only",
+            "flags": [
+                "ap" //enables AP autotracking interface - remove if not needed
+                // "uat", // use UAT protocol for auto-tracking
+                // "uat-bridge" // auto-start UAT bridge if available -- not implemented
+            ]
+    }
   },
   "versions_url": "https://raw.githubusercontent.com/marcmagus/yoku-randomizer-tracker/main/versions.json"
 }

@@ -47,6 +47,13 @@
                 "spores_5"
             ],
             [
+                "tracker_jungle",
+                "tracker_springs",
+                "tracker_caves",
+                "tracker_peak",
+                "tracker_scarabs"
+            ],
+            [
                 "bluekey",
                 "greenkey",
                 "spring_key",
