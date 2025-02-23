@@ -8,20 +8,21 @@
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/settings/normal.png",
+        "img": "images/settings/Normal.png",
         "inherit_codes": false,
         "codes": "mode_normal"
       },
       {
-        "img": "images/settings/hard.png",
+        "img": "images/settings/Hard.png",
         "inherit_codes": false,
         "codes": "mode_hard"
-      },
-      {
-        "img": "images/settings/very_hard.png",
-        "inherit_codes": false,
-        "codes": "mode_veryhard"
       }
     ]
+  },
+  {
+    "name": "Tracker",
+    "type": "toggle",
+    "img": "images/DeepTracker.png",
+    "codes": "ool_tracker"
   }
 ]

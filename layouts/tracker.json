@@ -13,7 +13,18 @@
                         "item": "mode_normal"
                     }
                 ]
-			}
+            },
+            {
+                "type": "group",
+                "header": "Out of Logic",
+                "header_background": "#3e4b57",
+                "content":[
+                    {
+                        "type": "item",
+                        "item": "ool_tracker"
+                    }
+                ]
+            }
         ]
     },    
 	"tracker_default": {

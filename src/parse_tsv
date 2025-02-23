@@ -3,7 +3,8 @@
 use JSON;
 $json = JSON->new->allow_nonref;
 
-open(FH, '<', "randomizer_groups_overrides.csv") or die $!;
+# Switch this between randomizer_normal_overrides and randomizer_groups_overrides
+open(FH, '<', "randomizer_normal_overrides.csv") or die $!;
 open(LOOK, '<', "randomizer_normal_look.csv") or die $!;
 open(LOCATION_MAPPING, '>', "location_mapping.lua") or die $!;
 

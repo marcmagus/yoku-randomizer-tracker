@@ -24,6 +24,10 @@
 
     * Minor glitches
 
+    * Option to fully show technically OOL checks due ot missing upgrades
+        * Requires tracking skvader_1, skvader_2, dive_speed, slug_upgrade
+        * Also option to hide technically OOL checks currently shown
+
     * Other flags AP might develop
 
   * Logic for early Sootling on a Leash (abilities_hook) 
