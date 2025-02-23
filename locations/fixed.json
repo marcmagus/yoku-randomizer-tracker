@@ -2,8 +2,8 @@
    {
       "name" : "Leash Sootling",
       "access_rules" : [
-         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,leash",
-         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,leash"
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
       ],
       "map_locations" : [
          {
@@ -16,7 +16,7 @@
          {
             "item_count" : 0,
             "name" : "Sootling on a Leash",
-            "hosted_item": "sootling_leash"
+            "hosted_item": "abilities_hook"
          }
       ]
    },
