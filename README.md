@@ -22,6 +22,17 @@ For PopTracker the packs folder can be under `USER/Documents/PopTracker/packs`, 
 
 For EmoTracker the packs folder can be found under `%USERPROFILE%\Documents\EmoTracker\packs`.
 
+## Settings
+
+The stacked rectangles with a gear at the top of the PopTracker display opens a Settings window.
+
+  * **Mode**: Select between `Normal` or `Hard` (`Very Hard` is not yet implemented)
+    * **Normal**: Any location pointed to by a Tracker is not in logic until that Tracker is found.
+    * **Hard**: Trackers are mixed into the normal pool. No skips/glitches are required.
+
+  * **Out of Logic**:
+    * **Tracker**: In `Normal` mode, locations for which you do not have a Tracker will be displayed as unreachable (red). Turn this on to instead display them as out of logic (yellow). Has no effect in other modes.
+
 ## Customization
 
 ### PopTracker
