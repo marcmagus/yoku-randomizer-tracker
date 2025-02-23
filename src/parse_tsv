@@ -81,6 +81,19 @@ while (<>) {
         }
     }
 
+    # For each rule containing a Tracker (Normal Mode)
+    # Generate a matching rule ignoring it (Hard Mode)
+    #   a matching rule making it optional (Normal OOL)
+    foreach my $rule (@access_rules) {
+        if (grep (/^tracker_/, @{$rule})) {
+            #warn "Found tracker rule: " . join (",", @{$rule});
+            #warn "Adding rule: " . join (",", ("mode_hard", map (/^tracker_/ ? () : $_, @{$rule}) ));
+            push @access_rules, [ "mode_hard", map (/^tracker_/ ? () : $_, @{$rule}) ];
+            #warn "Adding rule: " . join (",", ( "ool_tracker", map (/^tracker_/ ? "[$_]" : $_, @{$rule}) ));
+            push @access_rules, [ "ool_tracker", map (/^tracker_/ ? "\[$_\]" : $_, @{$rule}) ];
+        }
+    }
+
     # for things that can be seen
     my @look_rules;
     foreach my $a (split /,/, $look_conditions[0]) {

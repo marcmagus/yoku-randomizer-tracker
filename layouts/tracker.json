@@ -10,8 +10,7 @@
                 "content":[
                     {
                         "type": "item",
-                        "margin": "-5,-1,-5,-5",
-                        "item": "vanilla_short"
+                        "item": "mode_normal"
                     }
                 ]
 			}

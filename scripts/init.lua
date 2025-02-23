@@ -11,7 +11,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 --ScriptHost:LoadScript("scripts/watches.lua")
 --items
 Tracker:AddItems("items/items.json")
---Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/settings.json")
 if not items_only then
     --maps
     Tracker:AddMaps("maps/maps.json")
