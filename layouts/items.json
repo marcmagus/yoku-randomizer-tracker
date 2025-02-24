@@ -54,11 +54,11 @@
                 "tracker_scarabs"
             ],
             [
+                "treasure_map",
                 "bluekey",
                 "greenkey",
                 "spring_key",
-                "nim_key",
-                "kazoos"
+                "nim_key"
             ]
         ]
     },
