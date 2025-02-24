@@ -3477,8 +3477,7 @@
          {
             "access_rules" : [
                "mushroom_2,postal_badge",
-               "mushroom_3,postal_badge",
-               "{mushroom_2}"
+               "mushroom_3,postal_badge"
             ],
             "item_count" : 1,
             "name" : "NPC: Lemon"
