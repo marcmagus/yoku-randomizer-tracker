@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.5.1",
+            "download_url": "https://github.com/marcmagus/yoku-randomizer-tracker/releases/download/v0.5.1/YokuRandomizerTracker-v0.5.1.zip",
+            "sha256": "fe51c24a1c623555ee718aa8e1e7e0f7447dc5e719cc4c6759bcbbf55a3e7a67",
+            "changelog": [
+                "Normal Mode support"
+                ]
+        },
+        {
             "package_version": "0.5.0",
             "download_url": "https://github.com/marcmagus/yoku-randomizer-tracker/releases/download/v0.5.0/YokuRandomizerTracker-v0.5.0.zip",
             "sha256": "ad25b531470877220ac684c685cd7bbd2a5e94835f34c9412f8f0d98b7c0b422",
