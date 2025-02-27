@@ -1,11 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "0.6.0",
+            "download_url": "https://github.com/marcmagus/yoku-randomizer-tracker/releases/download/v0.6.0/YokuRandomizerTracker-v0.6.0.zip",
+            "sha256": "f24128f2ae92105f5144a1546d3afcd946ef5ad156de00687626b5799b04d559",
+            "changelog": [
+                "Cosmetic Improvements, Mailbox tracking"
+                ]
+        },
+        {
             "package_version": "0.5.1",
             "download_url": "https://github.com/marcmagus/yoku-randomizer-tracker/releases/download/v0.5.1/YokuRandomizerTracker-v0.5.1.zip",
             "sha256": "fe51c24a1c623555ee718aa8e1e7e0f7447dc5e719cc4c6759bcbbf55a3e7a67",
             "changelog": [
-                "Normal Mode support"
+                "Normal Mode support -- Treasure bugfix"
                 ]
         },
         {
