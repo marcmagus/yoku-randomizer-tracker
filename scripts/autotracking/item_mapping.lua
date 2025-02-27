@@ -3,15 +3,15 @@
 -- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
 ITEM_MAPPING = {
     [9658001] = {"abilities_dive", "progressive"},
-    [9658003] = {"abilities_double_fruit", "toggle"}, -- untracked
-    [9658004] = {"abilities_kickback", "toggle"}, -- untracked
+    [9658003] = {"abilities_double_fruit", "toggle"},
+    [9658004] = {"abilities_kickback", "toggle"},
     [9658005] = {"abilities_mailbag", "toggle"},
     [9658006] = {"abilities_partyhorn", "toggle"},
     [9658008] = {"abilities_slug_vacuum", "progressive"},
     [9658009] = {"abilities_speed", "toggle"},
     [9658010] = {"bluekey", "toggle"},
     [9658011] = {"bucket_empty", "toggle"},
-    [9658012] = {"dustbunny_dirty", "toggle"}, -- sootling, untracked
+    [9658012] = {"dustbunny_dirty", "progressive"},
     [9658013] = {"greenkey", "toggle"},
     [9658014] = {"guano", "toggle"},
     [9658015] = {"idol", "progressive"}, -- 1-4 in order if we need to know

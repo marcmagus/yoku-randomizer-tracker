@@ -88,8 +88,7 @@
       "allow_disabled": false,
       "stages": [
           {
-            "img": "images/Leash.png",
-            "img_mods": "@disabled"
+            "img": "images/Leash_disabled.png",
           },
           {
             "img": "images/Leash.png",
@@ -141,6 +140,7 @@
       "type": "toggle",
       "capturable": "true",
       "img": "images/BlackKey.png",
+      "disabled_img": "images/BlackKey_disabled.png",
       "codes": "spring_key",
   },
   {
@@ -169,6 +169,7 @@
       "type": "toggle",
       "capturable": "true",
       "img": "images/DeathBauble.png",
+      "disabled_img": "images/DeathBauble_disabled.png",
       "codes": "skins_skin_3",
   },
   {
@@ -176,6 +177,7 @@
       "type": "toggle",
       "capturable": "true",
       "img": "images/RedBauble.png",
+      "disabled_img": "images/RedBauble_disabled.png",
       "codes": "skins_skin_4",
   },
   {
@@ -284,8 +286,7 @@
       "codes": "tadpole",
       "stages": [
           {
-            "img": "images/Tadpole.png",
-            "img_mods": "@disabled",
+            "img": "images/Tadpole_disabled.png",
           },
           {
             "img": "images/Tadpole.png",
@@ -431,6 +432,7 @@
       "type": "toggle",
       "capturable": "true",
       "img": "images/ScarabTracker.png",
+      "disabled_img": "images/ScarabTracker.png",
       "codes": "tracker_scarabs",
   },
   {
@@ -455,8 +457,7 @@
       "codes": "traitor_spirit",
       "stages": [
           {
-            "img": "images/Traitor.png",
-            "img_mods": "@disabled"
+            "img": "images/Traitor_disabled.png",
           },
           {
             "img": "images/Traitor.png",
@@ -499,4 +500,54 @@
       "img": "images/Kazoos.png",
       "codes": "kazoos",
   },
+  {
+      "name": "Boon of Plenty",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/DoubleFruit.png",
+      "codes": "abilities_double_fruit",
+  },
+  {
+      "name": "Kickback",
+      "type": "toggle",
+      "capturable": "true",
+      "img": "images/Kickback.png",
+      "codes": "abilities_kickback",
+  },
+  {
+      "name": "Sootling",
+      "type": "progressive",
+      "capturable": "true",
+      "allow_disabled": false,
+      "codes": "dustbunny_dirty",
+      "stages": [
+          {
+            "img": "images/DirtySootling_disabled.png",
+          },
+          {
+            "img": "images/DirtySootling.png",
+            "img_mods": "overlay|images/overlay_1.png",
+          },
+          {
+            "img": "images/DirtySootling.png",
+            "img_mods": "overlay|images/overlay_2.png",
+          },
+          {
+            "img": "images/DirtySootling.png",
+            "img_mods": "overlay|images/overlay_3.png",
+          },
+          {
+            "img": "images/DirtySootling.png",
+            "img_mods": "overlay|images/overlay_4.png",
+          },
+          {
+            "img": "images/DirtySootling.png",
+            "img_mods": "overlay|images/overlay_5.png",
+          },
+          {
+            "img": "images/DirtySootling.png",
+            "img_mods": "overlay|images/overlay_6.png",
+          }
+      ]
+  }
 ]

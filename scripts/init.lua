@@ -5,6 +5,9 @@ ENABLE_DEBUG_LOG = false
 
 --scripts
 ScriptHost:LoadScript("scripts/logic.lua")
+if PopVersion > "0.26.2" then
+    ScriptHost:LoadScript("scripts/mailbag.lua")
+end
 -- custom stuff goes here
 
 --ScriptHost:LoadScript("scripts/logic.lua")

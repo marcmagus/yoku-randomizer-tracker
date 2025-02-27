@@ -43,7 +43,7 @@
 					"content": [
 						{
 							"type": "group",
-							"header": "Items",
+							"header": "Key Items",
 							"dock": "top",	
 							"header_content": {
                                 "type": "button_popup",
@@ -56,19 +56,53 @@
 								"key": "shared_item_grid"
 							}
 						},
-						{
-							"type": "group",
-							"header": "Pinned Locations",
-							"dock": "bottom",	
-							"content": {
-								"type": "recentpins",
-								"style": "wrap",
-								"h_alignment": "stretch",
-								"v_alignment": "stretch",
-								"orientation": "vertical",
-								"compact": true
-							}
-						}
+                        {
+                            "type": "group",
+                            "header": "Other",
+                            "content": {
+                                "type": "itemgrid",
+                                "h_alignment": "left",
+                                "item_margin": "1,2",
+                                "rows": [
+                                    [
+                                        "tracker_jungle",
+                                        "tracker_springs",
+                                        "tracker_caves",
+                                        "tracker_peak",
+                                        "tracker_scarabs"
+                                    ],
+                                    [
+                                        "treasure_map",
+                                        "abilities_double_fruit",
+                                        "abilities_kickback",
+                                        "dustbunny_dirty"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "content": {
+                                "type": "array",
+                                "content": [
+                                    {
+                                        "type": "item",
+                                        "item": "mode_normal"
+                                    },
+                                    {
+                                        "type": "itemgrid",
+                                        "h_alignment": "left",
+                                        "item_margin": "1,2",
+                                        "rows": [
+                                            [
+                                                "ool_tracker",
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
 					]
 				},
 				{

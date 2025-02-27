@@ -47,18 +47,11 @@
                 "spores_5"
             ],
             [
-                "tracker_jungle",
-                "tracker_springs",
-                "tracker_caves",
-                "tracker_peak",
-                "tracker_scarabs"
-            ],
-            [
-                "treasure_map",
                 "bluekey",
                 "greenkey",
                 "spring_key",
-                "nim_key"
+                "nim_key",
+                "kazoos"
             ]
         ]
     },

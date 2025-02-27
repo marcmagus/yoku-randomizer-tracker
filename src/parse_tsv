@@ -52,14 +52,16 @@ while (<>) {
     my ($linenum,$cname,$coords,$group,@override_conditions) = split /\t/, $line;
     my ($x, $y) = split /,/, $coords;
 
-    $name eq $cname or die "Line mismatch: $name !eq $cname\n";
-
     # Read checkable rules from secondary file
     my $line = <LOOK>;
     $line =~ s/\R\z//;
     my ($l_linenum,$lname,@look_conditions) = split /\t/, $line;
 
-    $name eq $lname or die "Line mismatch: $name !eq $cname\n";
+    $name eq $lname or die "Line mismatch: $name !eq $lname\n";
+    unless ($name eq $cname) {
+        warn "Line mismatch: $name !eq $cname, assuming override\n";
+        $name = $cname;
+    }
 
     # mushroom_2 usually has the full count of access rules
     # this might not be necessary with the check for pre-Fosfor rules

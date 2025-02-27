@@ -17,16 +17,16 @@
 
   * Settings that can affect logic:
 
-    * Normal mode (uses trackers)
-        * did I back myself into a corner or is importing this reasonable?
-
     * Very Hard mode
 
     * Minor glitches
+        * Beeline hijacks require a way to know beeline state
 
     * Option to fully show technically OOL checks due ot missing upgrades
         * Requires tracking skvader_1, skvader_2, dive_speed, slug_upgrade
         * Also option to hide technically OOL checks currently shown
+        * Change overrides implementation: check if any X is anything other than the anti-freeze protection; add a ool_tables setting to lines with the override, add back last 4 columns
+        * In overrides or another table, allow a keyword that turns the slot optional if that keyword is present
 
     * Other flags AP might develop
 

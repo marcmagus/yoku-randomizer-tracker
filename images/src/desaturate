@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+magick $1 -colorspace Gray -channel rgb +level ${2:-15%,100%} ${1%.png}_disabled.png

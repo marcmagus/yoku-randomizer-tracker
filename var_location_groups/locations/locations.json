@@ -2185,7 +2185,7 @@
                "ool_tracker,mushroom_3,postal_badge,[tracker_scarabs]"
             ],
             "item_count" : 1,
-            "name" : "Scarab 37: Sootling House Upper"
+            "name" : "Scarab 37: Sootling House Lower"
          },
          {
             "access_rules" : [
@@ -2197,7 +2197,7 @@
                "ool_tracker,mushroom_3,postal_badge,[tracker_scarabs]"
             ],
             "item_count" : 1,
-            "name" : "Scarab 38: Sootling House Lower"
+            "name" : "Scarab 38: Sootling House Upper"
          }
       ]
    },
