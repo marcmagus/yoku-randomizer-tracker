@@ -1,6 +1,5 @@
 local variant = Tracker.ActiveVariantUID
 local items_only = variant:find("onlyitems")
-local no_pins = variant:find("no_pins")
 ENABLE_DEBUG_LOG = false
 
 --scripts

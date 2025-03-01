@@ -82,25 +82,10 @@
                         },
                         {
                             "type": "group",
-                            "header": "Settings",
+                            "header": "Mode",
                             "content": {
-                                "type": "array",
-                                "content": [
-                                    {
-                                        "type": "item",
-                                        "item": "mode_normal"
-                                    },
-                                    {
-                                        "type": "itemgrid",
-                                        "h_alignment": "left",
-                                        "item_margin": "1,2",
-                                        "rows": [
-                                            [
-                                                "ool_tracker",
-                                            ]
-                                        ]
-                                    }
-                                ]
+                                "type": "item",
+                                "item": "mode_normal"
                             }
                         },
 					]

@@ -2,7 +2,7 @@
 
 This a tracker package for PopTracker or other compatible programs to use with the built-in Randomizer mode of [Yoku's Island Express](http://yokugame.com)
 
-Also check out the [Yoku Speedrunning Discord]().
+Also check out the [Yoku Speedrunning Discord](https://discord.gg/Y4JKGHMVkR).
 
 PopTracker can be found [here](https://github.com/black-sliver/PopTracker/releases).
 
@@ -21,6 +21,12 @@ For PopTracker the packs folder can be under `USER/Documents/PopTracker/packs`, 
 ### EmoTracker
 
 For EmoTracker the packs folder can be found under `%USERPROFILE%\Documents\EmoTracker\packs`.
+
+## Notes
+
+Access rules are not aware of triggers which might be required to activate the locations, just whether you have the key items necessary. You will have to remember to talk to various NPCs, etc.
+
+While the tracker lets you distinguish between having a Leash and a Sootling on a Leash, the logic currently only cares if you have Leash and the ability to reach the Leash Sootling location in logic. If you get there early somehow and activate your leash those locations will not be marked available.
 
 ## Settings
 
@@ -48,6 +54,8 @@ For example: if you want to change the broadcast layout, you can add your desire
 ### Archipelago (Server)
 
 If you are playing the [Archipelago based Randomizer](https://git.makuluni.com/Archipelago/YokuArchipelagoMod) autotracking is now supported in PopTracker using the Archipelago protocol. Click "AP" at the top of the window and supply the credentials for the Archipelago slot you want to track.
+
+The locations for Leash Sootling (converts Leash to Sootling on a Leash) and Ceremony Instruments are not automatically tracked. You should be able to manually clear those locations or collect those items if you want them displayed.
 
 ### UAT (Local)
 

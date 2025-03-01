@@ -11,12 +11,54 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+MODES = {
+    [0] = "mode_normal",
+    [1] = "mode_hard",
+    [2] = "mode_veryhard"
+}
+
+function dump_table (  value , call_indent)
+  if not call_indent then
+    call_indent = ""
+  end
+  local indent = call_indent .. "  "
+  local output = ""
+  if type(value) == "table" then
+      output = output .. "{"
+      local first = true
+      for inner_key, inner_value in pairs ( value ) do
+        if not first then
+          output = output .. ", "
+        else
+          first = false
+        end
+        output = output .. "\n" .. indent
+        output = output  .. inner_key .. " = " .. dump_table ( inner_value, indent )
+      end
+      output = output ..  "\n" .. call_indent .. "}"
+  elseif type (value) == "userdata" then
+    output = "userdata"
+  else
+    output =  value
+  end
+  return output
+end
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
+
+    -- set mode from slot data
+    if SLOT_DATA and SLOT_DATA['mode'] then
+        local obj = Tracker:FindObjectForCode(MODES[SLOT_DATA['mode']])
+        if obj then
+            obj.CurrentStage = SLOT_DATA['mode']
+        end
+    end
+
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
