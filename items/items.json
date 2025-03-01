@@ -383,6 +383,7 @@
       "type": "toggle",
       "capturable": "true",
       "img": "images/BlueKey.png",
+      "disabled_img": "images/BlueKey_disabled.png",
       "codes": "bluekey",
   },
   {
@@ -390,6 +391,7 @@
       "type": "toggle",
       "capturable": "true",
       "img": "images/GreenKey.png",
+      "disabled_img": "images/GreenKey_disabled.png",
       "codes": "greenkey",
   },
   {
@@ -397,6 +399,7 @@
       "type": "toggle",
       "capturable": "true",
       "img": "images/RedKey.png",
+      "disabled_img": "images/RedKey_disabled.png",
       "codes": "nim_key",
   },
   {
