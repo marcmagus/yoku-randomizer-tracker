@@ -51,7 +51,9 @@
                }
             ],
             "name" : "Scout: Juicy Cove Mushroom",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_juicy_cove_mushroom"
+            ]
          },
          {
             "access_rules" : [
@@ -95,7 +97,9 @@
                }
             ],
             "name" : "Scout: Poison Toadstool",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_poison_toadstool"
+            ]
          },
          {
             "access_rules" : [
@@ -303,7 +307,9 @@
                }
             ],
             "name" : "Scout: Post Office Attic",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_post_office_attic"
+            ]
          },
          {
             "access_rules" : [
@@ -2479,7 +2485,9 @@
                }
             ],
             "name" : "Scout: Wl. 33: Juicery Left",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_wl._33_juicery_left"
+            ]
          }
       ]
    },
@@ -2835,7 +2843,9 @@
                }
             ],
             "name" : "Scout: Wl. 64: Underbelly I Right",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_wl._64_underbelly_i_right"
+            ]
          }
       ]
    },
@@ -3135,7 +3145,9 @@
                }
             ],
             "name" : "Scout: Wl. 16: Slug Gardener Spot 2",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_wl._16_slug_gardener_spot_2"
+            ]
          }
       ]
    },
@@ -5727,7 +5739,9 @@
                }
             ],
             "name" : "Scout: Traitor Spirit 1",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_traitor_spirit_1"
+            ]
          },
          {
             "access_rules" : [
@@ -5769,7 +5783,9 @@
                }
             ],
             "name" : "Scout: Traitor Spirit 2",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_traitor_spirit_2"
+            ]
          },
          {
             "access_rules" : [
@@ -5811,7 +5827,9 @@
                }
             ],
             "name" : "Scout: Traitor Spirit 3",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_traitor_spirit_3"
+            ]
          },
          {
             "access_rules" : [
@@ -5853,7 +5871,9 @@
                }
             ],
             "name" : "Scout: Traitor Spirit 4",
-            "visibility_rules" : "$apScouting"
+            "visibility_rules" : [
+               "$apScouting,$notCode|scout_traitor_spirit_4"
+            ]
          }
       ]
    }

@@ -71,3 +71,11 @@ function apScouting(v)
         return 0
     end
 end
+
+function notCode(code)
+    if Tracker:ProviderCountForCode(code) == 0 then
+        return 1
+    else
+        return 0
+    end
+end

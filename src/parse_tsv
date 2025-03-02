@@ -180,7 +180,9 @@ while (<>) {
                         "x" => int($x), "y" => int($y), "shape" => "diamond",
                 }],
                 "force_invisibility_rules" => \@flattened_scout_invisibility_rules,
-                "visibility_rules" => '$apScouting',
+                "visibility_rules" => [
+                    "\$apScouting,\$notCode|$scout_item_name"
+                ],
                 "access_rules" => \@flattened_access_rules,
             );
             push @{$locations[$groups{$group}]{"sections"}}, \%section;
