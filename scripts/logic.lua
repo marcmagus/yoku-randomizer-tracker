@@ -61,3 +61,13 @@ function checkGoMode()
     return 0
 end
 
+function apScouting(v)
+    if not v then
+        v = 1
+    end
+    if Tracker:ProviderCountForCode("ap_scouting") == tonumber(v) then
+        return 1
+    else
+        return 0
+    end
+end

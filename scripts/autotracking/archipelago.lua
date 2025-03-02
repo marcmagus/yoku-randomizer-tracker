@@ -213,6 +213,17 @@ function onBounce(json)
     -- your code goes here
 end
 
+-- AddWatchForCode for each scout_item
+-- TODO can we sync hinted status?
+function scoutManual(code)
+    if LOCATION_SCOUT_MAPPING[code] then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("Scouting: %s", code))
+        end
+        Archipelago:LocationScouts({LOCATION_SCOUT_MAPPING[code]},2)
+    end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -220,3 +231,9 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+for code,id in pairs(LOCATION_SCOUT_MAPPING) do
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("Adding Watch for: %s", code))
+    end
+    ScriptHost:AddWatchForCode(code, code, scoutManual)
+end

@@ -39,6 +39,9 @@ The stacked rectangles with a gear at the top of the PopTracker display opens a 
   * **Out of Logic**:
     * **Tracker**: In `Normal` mode, locations for which you do not have a Tracker will be displayed as unreachable (red). Turn this on to instead display them as out of logic (yellow). Has no effect in other modes.
 
+  * **Archipelago**:
+    * **Scouting**: With this option active, locations that you can view but can't reach will display a blue diamond. If you collect the "Scout" item there (represented by an eyeball), a message will be sent to Archipelago to give a free hint for that location. You will need to use an Archipelago client which displays global messages (such as the Text Client) to view it. This is intended to mimic looking at the item in the bubble, for items that display the Archipelago logo. The blue diamond will revert to a blue square once you collect the hint, or be replaced by an appropriately colored square if the location is accessible. This feature may not work correctly in the `Grouped Locations` layout.
+
 ## Customization
 
 ### PopTracker

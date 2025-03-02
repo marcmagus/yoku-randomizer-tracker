@@ -1,0 +1,176 @@
+[
+   {
+      "codes" : "scout_juicy_cove_mushroom",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Juicy Cove Mushroom",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_poison_toadstool",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Poison Toadstool",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_underwater_puzzle",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Underwater Puzzle",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_post_office_attic",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Post Office Attic",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_tadpole_2",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Tadpole 2",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_tadpole_5",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Tadpole 5",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_tadpole_6",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Tadpole 6",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_fruit_77_waterfall_left",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Fruit 77: Waterfall Left",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_fruit_78_underbelly",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Fruit 78: Underbelly",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_fruit_79_waterfall_right",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Fruit 79: Waterfall Right",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_fruit_83_sootling_cave_water",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Fruit 83: Sootling Cave Water",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_fruit_84_sootling_cave_right",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Fruit 84: Sootling Cave Right",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_fruit_85_sootling_cave_left",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Fruit 85: Sootling Cave Left",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_fruit_87_crystal_lake",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Fruit 87: Crystal Lake",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._16_slug_gardener_spot_2",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 16: Slug Gardener Spot 2",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._17_slug_gardener_spot_1",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 17: Slug Gardener Spot 1",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._19_waterfall_bottom",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 19: Waterfall Bottom",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._22_waterfall_dive_through",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 22: Waterfall Dive Through",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._25_lonka",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 25: Lonka",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._33_juicery_left",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 33: Juicery Left",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._42_orestation_hook",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 42: Orestation Hook",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._45_lighthouse_leap",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 45: Lighthouse Leap",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._61_underwater_at_hook_chest",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 61: Underwater at Hook Chest",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._64_underbelly_i_right",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 64: Underbelly I Right",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_wl._70_hideout_drop_1",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Wl. 70: Hideout Drop 1",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_traitor_spirit_1",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Traitor Spirit 1",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_traitor_spirit_2",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Traitor Spirit 2",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_traitor_spirit_3",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Traitor Spirit 3",
+      "type" : "toggle"
+   },
+   {
+      "codes" : "scout_traitor_spirit_4",
+      "img" : "images/Scout.png",
+      "name" : "Scout: Traitor Spirit 4",
+      "type" : "toggle"
+   }
+]

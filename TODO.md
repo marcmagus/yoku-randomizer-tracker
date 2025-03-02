@@ -1,5 +1,7 @@
 # TODOs for beta relase
 
+* Fix Go Mode (Vacuum)
+
 * Location coordinates
   * Clean up clusters
   * Maybe treat e.g. tables as a single location with multiple checks
