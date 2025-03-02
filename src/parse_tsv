@@ -137,7 +137,9 @@ while (<>) {
 
     if ($group and defined (my $group_index = $groups{$group})) {
         my %section = ("name" => $name, "item_count" => 1,
-            "access_rules" => \@flattened_access_rules);
+            "access_rules" => \@flattened_access_rules,
+            (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ())
+        );
         # Move group location to average of sublocations
         my $section_count = scalar @{$locations[$group_index]{"sections"}};
         print STDERR "Updating location of $group [$section_count] from (" . $locations[$group_index]{"map_locations"}[0]{"x"} . "," . $locations[$group_index]{"map_locations"}[0]{"y"} . ")...";
@@ -148,35 +150,56 @@ while (<>) {
     } elsif ($group) {
         my %location = ("name" => $group,
             "map_locations" => [{ "map" => "overworld", "x" => int($x), "y" => int($y) }],
-            "sections" => [{ "name" => $name, "item_count" => 1 , "access_rules" => \@flattened_access_rules}]);
+            "sections" => [{ 
+                    "name" => $name, "item_count" => 1 , "access_rules" => \@flattened_access_rules,
+                    (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ())
+            }]);
         $groups{$group} = scalar @locations;
         push @locations, \%location;
     } else {
         my %location = ("name" => $name,
             "map_locations" => [{ "map" => "overworld", "x" => int($x), "y" => int($y) }],
             "sections" => [{ "name" => $name, "item_count" => 1 }],
-            "access_rules" => \@flattened_access_rules);
-        $location{"visibility_rules"} = \@flattened_scout_invisibility_rules if scalar @look_rules;
+            "access_rules" => \@flattened_access_rules,
+            (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ())
+        );
+        #$location{"visibility_rules"} = \@flattened_scout_invisibility_rules if scalar @look_rules;
 
         push @locations, \%location;
     }
 
     if (scalar @look_rules) {
         my $scout_item_name = "scout_" . lc $name =~ tr/ :/_/rd;
-        my %location = ("name" => "Scout: $name",
-            "map_locations" => [{
-                    "map" => "overworld",
-                    "x" => int($x), "y" => int($y), "shape" => "diamond",
-                    "force_invisibility_rules" => \@flattened_scout_invisibility_rules,
+        if ($group) {
+            my %section = (
+                "name" => "Scout: $name",
+                "item_count" => 0,
+                "hosted_item" => $scout_item_name,
+                "map_locations" => [{
+                        "map" => "overworld",
+                        "x" => int($x), "y" => int($y), "shape" => "diamond",
                 }],
-            "sections" => [{
-                    "name" => "Scout: $name",
-                    "item_count" => 0,
-                    "hosted_item" => $scout_item_name,
-                }],
-            "access_rules" => \@flattened_access_rules,
-        );
-        push @scout_locations, \%location;
+                "force_invisibility_rules" => \@flattened_scout_invisibility_rules,
+                "visibility_rules" => '$apScouting',
+                "access_rules" => \@flattened_access_rules,
+            );
+            push @{$locations[$groups{$group}]{"sections"}}, \%section;
+        } else {
+            my %location = ("name" => "Scout: $name",
+                "map_locations" => [{
+                        "map" => "overworld",
+                        "x" => int($x), "y" => int($y), "shape" => "diamond",
+                        "force_invisibility_rules" => \@flattened_scout_invisibility_rules,
+                    }],
+                "sections" => [{
+                        "name" => "Scout: $name",
+                        "item_count" => 0,
+                        "hosted_item" => $scout_item_name,
+                    }],
+                "access_rules" => \@flattened_access_rules,
+            );
+            push @scout_locations, \%location;
+        }
 
         my %scout_item = ("name" => "Scout: $name",
             "type" => "toggle",

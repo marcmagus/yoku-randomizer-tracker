@@ -1,0 +1,712 @@
+[
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive,spring_key,tracker_springs",
+         "mushroom_3,postal_badge,abilities_dive,spring_key,tracker_springs",
+         "mode_hard,mushroom_2,postal_badge,abilities_dive,spring_key",
+         "ool_tracker,mushroom_2,postal_badge,abilities_dive,spring_key,[tracker_springs]",
+         "mode_hard,mushroom_3,postal_badge,abilities_dive,spring_key",
+         "ool_tracker,mushroom_3,postal_badge,abilities_dive,spring_key,[tracker_springs]",
+         "{mushroom_2,postal_badge,abilities_dive}",
+         "{mushroom_3,postal_badge,abilities_dive}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive,spring_key,tracker_springs",
+               "mushroom_3,postal_badge,abilities_dive,spring_key,tracker_springs",
+               "mode_hard,mushroom_2,postal_badge,abilities_dive,spring_key",
+               "ool_tracker,mushroom_2,postal_badge,abilities_dive,spring_key,[tracker_springs]",
+               "mode_hard,mushroom_3,postal_badge,abilities_dive,spring_key",
+               "ool_tracker,mushroom_3,postal_badge,abilities_dive,spring_key,[tracker_springs]",
+               "$apScouting|0",
+               "scout_underwater_puzzle"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 2004,
+            "y" : 984
+         }
+      ],
+      "name" : "Scout: Underwater Puzzle",
+      "sections" : [
+         {
+            "hosted_item" : "scout_underwater_puzzle",
+            "item_count" : 0,
+            "name" : "Scout: Underwater Puzzle"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive,tracker_springs",
+         "mushroom_3,postal_badge,abilities_dive,tracker_springs",
+         "mode_hard,mushroom_2,postal_badge,abilities_dive",
+         "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
+         "mode_hard,mushroom_3,postal_badge,abilities_dive",
+         "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive,tracker_springs",
+               "mushroom_3,postal_badge,abilities_dive,tracker_springs",
+               "mode_hard,mushroom_2,postal_badge,abilities_dive",
+               "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
+               "mode_hard,mushroom_3,postal_badge,abilities_dive",
+               "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+               "$apScouting|0",
+               "scout_tadpole_2"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1991,
+            "y" : 1066
+         }
+      ],
+      "name" : "Scout: Tadpole 2",
+      "sections" : [
+         {
+            "hosted_item" : "scout_tadpole_2",
+            "item_count" : 0,
+            "name" : "Scout: Tadpole 2"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive,tracker_springs",
+         "mushroom_3,postal_badge,abilities_dive,tracker_springs",
+         "mode_hard,mushroom_2,postal_badge,abilities_dive",
+         "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
+         "mode_hard,mushroom_3,postal_badge,abilities_dive",
+         "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive,tracker_springs",
+               "mushroom_3,postal_badge,abilities_dive,tracker_springs",
+               "mode_hard,mushroom_2,postal_badge,abilities_dive",
+               "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
+               "mode_hard,mushroom_3,postal_badge,abilities_dive",
+               "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+               "$apScouting|0",
+               "scout_tadpole_5"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 2089,
+            "y" : 1081
+         }
+      ],
+      "name" : "Scout: Tadpole 5",
+      "sections" : [
+         {
+            "hosted_item" : "scout_tadpole_5",
+            "item_count" : 0,
+            "name" : "Scout: Tadpole 5"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive,tracker_springs",
+         "mushroom_3,postal_badge,abilities_dive,tracker_springs",
+         "mode_hard,mushroom_2,postal_badge,abilities_dive",
+         "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
+         "mode_hard,mushroom_3,postal_badge,abilities_dive",
+         "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive,tracker_springs",
+               "mushroom_3,postal_badge,abilities_dive,tracker_springs",
+               "mode_hard,mushroom_2,postal_badge,abilities_dive",
+               "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
+               "mode_hard,mushroom_3,postal_badge,abilities_dive",
+               "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+               "$apScouting|0",
+               "scout_tadpole_6"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 2120,
+            "y" : 1068
+         }
+      ],
+      "name" : "Scout: Tadpole 6",
+      "sections" : [
+         {
+            "hosted_item" : "scout_tadpole_6",
+            "item_count" : 0,
+            "name" : "Scout: Tadpole 6"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive",
+               "$apScouting|0",
+               "scout_fruit_77_waterfall_left"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1538,
+            "y" : 1012
+         }
+      ],
+      "name" : "Scout: Fruit 77: Waterfall Left",
+      "sections" : [
+         {
+            "hosted_item" : "scout_fruit_77_waterfall_left",
+            "item_count" : 0,
+            "name" : "Scout: Fruit 77: Waterfall Left"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,tracker_springs",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,tracker_springs",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,spring_key}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,spring_key}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,tracker_springs",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,tracker_springs",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
+               "$apScouting|0",
+               "scout_fruit_78_underbelly"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 2258,
+            "y" : 948
+         }
+      ],
+      "name" : "Scout: Fruit 78: Underbelly",
+      "sections" : [
+         {
+            "hosted_item" : "scout_fruit_78_underbelly",
+            "item_count" : 0,
+            "name" : "Scout: Fruit 78: Underbelly"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive",
+               "$apScouting|0",
+               "scout_fruit_79_waterfall_right"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1589,
+            "y" : 1016
+         }
+      ],
+      "name" : "Scout: Fruit 79: Waterfall Right",
+      "sections" : [
+         {
+            "hosted_item" : "scout_fruit_79_waterfall_right",
+            "item_count" : 0,
+            "name" : "Scout: Fruit 79: Waterfall Right"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,tracker_peak",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,tracker_peak",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,tracker_peak",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,tracker_peak",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
+               "$apScouting|0",
+               "scout_fruit_83_sootling_cave_water"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1188,
+            "y" : 575
+         }
+      ],
+      "name" : "Scout: Fruit 83: Sootling Cave Water",
+      "sections" : [
+         {
+            "hosted_item" : "scout_fruit_83_sootling_cave_water",
+            "item_count" : 0,
+            "name" : "Scout: Fruit 83: Sootling Cave Water"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "$apScouting|0",
+               "scout_fruit_84_sootling_cave_right"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1237,
+            "y" : 512
+         }
+      ],
+      "name" : "Scout: Fruit 84: Sootling Cave Right",
+      "sections" : [
+         {
+            "hosted_item" : "scout_fruit_84_sootling_cave_right",
+            "item_count" : 0,
+            "name" : "Scout: Fruit 84: Sootling Cave Right"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "$apScouting|0",
+               "scout_fruit_85_sootling_cave_left"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1189,
+            "y" : 512
+         }
+      ],
+      "name" : "Scout: Fruit 85: Sootling Cave Left",
+      "sections" : [
+         {
+            "hosted_item" : "scout_fruit_85_sootling_cave_left",
+            "item_count" : 0,
+            "name" : "Scout: Fruit 85: Sootling Cave Left"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,tracker_peak",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,tracker_peak",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,tracker_peak",
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,tracker_peak",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,tracker_peak",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,tracker_peak",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,tracker_peak",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,tracker_peak",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,[tracker_peak]",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,[tracker_peak]",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,[tracker_peak]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,[tracker_peak]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,tracker_peak",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,tracker_peak",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,tracker_peak",
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,tracker_peak",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,tracker_peak",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,tracker_peak",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,tracker_peak",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,tracker_peak",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,[tracker_peak]",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,[tracker_peak]",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,[tracker_peak]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,[tracker_peak]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
+               "$apScouting|0",
+               "scout_fruit_87_crystal_lake"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1727,
+            "y" : 371
+         }
+      ],
+      "name" : "Scout: Fruit 87: Crystal Lake",
+      "sections" : [
+         {
+            "hosted_item" : "scout_fruit_87_crystal_lake",
+            "item_count" : 0,
+            "name" : "Scout: Fruit 87: Crystal Lake"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum",
+         "mushroom_3,postal_badge,abilities_slug_vacuum",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum",
+               "mushroom_3,postal_badge,abilities_slug_vacuum",
+               "$apScouting|0",
+               "scout_wl._17_slug_gardener_spot_1"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1384,
+            "y" : 1093
+         }
+      ],
+      "name" : "Scout: Wl. 17: Slug Gardener Spot 1",
+      "sections" : [
+         {
+            "hosted_item" : "scout_wl._17_slug_gardener_spot_1",
+            "item_count" : 0,
+            "name" : "Scout: Wl. 17: Slug Gardener Spot 1"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive",
+               "$apScouting|0",
+               "scout_wl._19_waterfall_bottom"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1487,
+            "y" : 1055
+         }
+      ],
+      "name" : "Scout: Wl. 19: Waterfall Bottom",
+      "sections" : [
+         {
+            "hosted_item" : "scout_wl._19_waterfall_bottom",
+            "item_count" : 0,
+            "name" : "Scout: Wl. 19: Waterfall Bottom"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive",
+               "$apScouting|0",
+               "scout_wl._22_waterfall_dive_through"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1676,
+            "y" : 1033
+         }
+      ],
+      "name" : "Scout: Wl. 22: Waterfall Dive Through",
+      "sections" : [
+         {
+            "hosted_item" : "scout_wl._22_waterfall_dive_through",
+            "item_count" : 0,
+            "name" : "Scout: Wl. 22: Waterfall Dive Through"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive",
+         "mushroom_3,postal_badge,abilities_dive",
+         "{mushroom_2,postal_badge}",
+         "{mushroom_3,postal_badge}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive",
+               "mushroom_3,postal_badge,abilities_dive",
+               "$apScouting|0",
+               "scout_wl._25_lonka"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 1344,
+            "y" : 805
+         }
+      ],
+      "name" : "Scout: Wl. 25: Lonka",
+      "sections" : [
+         {
+            "hosted_item" : "scout_wl._25_lonka",
+            "item_count" : 0,
+            "name" : "Scout: Wl. 25: Lonka"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "$apScouting|0",
+               "scout_wl._42_orestation_hook"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 577,
+            "y" : 626
+         }
+      ],
+      "name" : "Scout: Wl. 42: Orestation Hook",
+      "sections" : [
+         {
+            "hosted_item" : "scout_wl._42_orestation_hook",
+            "item_count" : 0,
+            "name" : "Scout: Wl. 42: Orestation Hook"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,tracker_peak",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,tracker_peak",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,toolbox}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,tracker_peak",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,tracker_peak",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
+               "$apScouting|0",
+               "scout_wl._45_lighthouse_leap"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 432,
+            "y" : 554
+         }
+      ],
+      "name" : "Scout: Wl. 45: Lighthouse Leap",
+      "sections" : [
+         {
+            "hosted_item" : "scout_wl._45_lighthouse_leap",
+            "item_count" : 0,
+            "name" : "Scout: Wl. 45: Lighthouse Leap"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_dive,tracker_springs",
+         "mushroom_3,postal_badge,abilities_dive,tracker_springs",
+         "mode_hard,mushroom_2,postal_badge,abilities_dive",
+         "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
+         "mode_hard,mushroom_3,postal_badge,abilities_dive",
+         "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_dive,tracker_springs",
+               "mushroom_3,postal_badge,abilities_dive,tracker_springs",
+               "mode_hard,mushroom_2,postal_badge,abilities_dive",
+               "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
+               "mode_hard,mushroom_3,postal_badge,abilities_dive",
+               "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+               "$apScouting|0",
+               "scout_wl._61_underwater_at_hook_chest"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 2034,
+            "y" : 873
+         }
+      ],
+      "name" : "Scout: Wl. 61: Underwater at Hook Chest",
+      "sections" : [
+         {
+            "hosted_item" : "scout_wl._61_underwater_at_hook_chest",
+            "item_count" : 0,
+            "name" : "Scout: Wl. 61: Underwater at Hook Chest"
+         }
+      ]
+   },
+   {
+      "access_rules" : [
+         "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,tracker_springs",
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,tracker_springs",
+         "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+         "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
+         "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+         "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
+         "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn}",
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn}"
+      ],
+      "map_locations" : [
+         {
+            "force_invisibility_rules" : [
+               "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,tracker_springs",
+               "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,tracker_springs",
+               "mode_hard,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+               "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
+               "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+               "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
+               "$apScouting|0",
+               "scout_wl._70_hideout_drop_1"
+            ],
+            "map" : "overworld",
+            "shape" : "diamond",
+            "x" : 2403,
+            "y" : 826
+         }
+      ],
+      "name" : "Scout: Wl. 70: Hideout Drop 1",
+      "sections" : [
+         {
+            "hosted_item" : "scout_wl._70_hideout_drop_1",
+            "item_count" : 0,
+            "name" : "Scout: Wl. 70: Hideout Drop 1"
+         }
+      ]
+   }
+]
