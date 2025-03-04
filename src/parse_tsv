@@ -135,10 +135,32 @@ while (<>) {
         push @flattened_access_rules, "{" . join (",", @{$rule}) . "}";
     }
 
+    # Custom image based on type
+    my $chest_unopened_img;
+    my $chest_opened_img;
+    if ($name =~ /^Chest/) {
+        $chest_unopened_img = "images/Chest.png";
+        $chest_opened_img = "images/Chest_open.png";
+    } elsif ($name =~ /^Mailbox/) {
+        $chest_unopened_img = "images/Mailbox.png";
+        $chest_opened_img = "images/Mailbox_open.png";
+    } elsif ($name =~ /^Scarab/) {
+        $chest_unopened_img = "images/Scarab.png";
+        $chest_opened_img = "images/Scarab_open.png";
+    } elsif ($name =~ /^Wl\./) {
+        $chest_unopened_img = "images/Bubble_wickerling.png";
+        $chest_opened_img = "images/Bubble_pop.png";
+    } else {
+        $chest_unopened_img = "images/Bubble_fruit.png";
+        $chest_opened_img = "images/Bubble_pop.png";
+    }
+
     if ($group and defined (my $group_index = $groups{$group})) {
         my %section = ("name" => $name, "item_count" => 1,
             "access_rules" => \@flattened_access_rules,
-            (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ())
+            (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ()),
+            ($chest_unopened_img ? ("chest_unopened_img" => $chest_unopened_img) : ()),
+            ($chest_opened_img ? ("chest_opened_img" => $chest_opened_img) : ()),
         );
         # Move group location to average of sublocations
         my $section_count = scalar @{$locations[$group_index]{"sections"}};
@@ -152,7 +174,9 @@ while (<>) {
             "map_locations" => [{ "map" => "overworld", "x" => int($x), "y" => int($y) }],
             "sections" => [{ 
                     "name" => $name, "item_count" => 1 , "access_rules" => \@flattened_access_rules,
-                    (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ())
+                    (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ()),
+                    ($chest_unopened_img ? ("chest_unopened_img" => $chest_unopened_img) : ()),
+                    ($chest_opened_img ? ("chest_opened_img" => $chest_opened_img) : ()),
             }]);
         $groups{$group} = scalar @locations;
         push @locations, \%location;
@@ -161,7 +185,9 @@ while (<>) {
             "map_locations" => [{ "map" => "overworld", "x" => int($x), "y" => int($y) }],
             "sections" => [{ "name" => $name, "item_count" => 1 }],
             "access_rules" => \@flattened_access_rules,
-            (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ())
+            (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ()),
+            ($chest_unopened_img ? ("chest_unopened_img" => $chest_unopened_img) : ()),
+            ($chest_opened_img ? ("chest_opened_img" => $chest_opened_img) : ()),
         );
         #$location{"visibility_rules"} = \@flattened_scout_invisibility_rules if scalar @look_rules;
 

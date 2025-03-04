@@ -6,6 +6,8 @@
          "mushroom_3,postal_badge,abilities_dive",
          "{}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -35,6 +37,8 @@
          "mushroom_3,postal_badge,abilities_dive",
          "{}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -62,6 +66,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -86,6 +92,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -110,6 +118,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -136,6 +146,8 @@
          "{mushroom_2,postal_badge,abilities_dive}",
          "{mushroom_3,postal_badge,abilities_dive}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -166,6 +178,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -188,6 +202,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -218,6 +234,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -242,6 +260,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -266,6 +286,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -290,6 +312,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -314,6 +338,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -338,6 +364,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -362,6 +390,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -392,6 +422,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -416,6 +448,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -442,6 +476,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -476,6 +512,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -500,6 +538,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -526,6 +566,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -562,6 +604,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -596,6 +640,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -620,6 +666,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -640,6 +688,8 @@
          "mushroom_2,postal_badge,spores_1",
          "mushroom_3,postal_badge,spores_1"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -660,6 +710,8 @@
          "mushroom_2,postal_badge,spores_2",
          "mushroom_3,postal_badge,spores_2"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -690,6 +742,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spores_3",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spores_3,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -714,6 +768,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spores_4",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spores_4,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -744,6 +800,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -770,6 +828,8 @@
          "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol3",
          "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol4"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -796,6 +856,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nugget_4,idol3",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nugget_4,idol4"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -822,6 +884,8 @@
          "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol1,idol3,idol4",
          "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,idol2,idol3,idol4"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -864,6 +928,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -906,6 +972,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -948,6 +1016,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -990,6 +1060,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1007,6 +1079,8 @@
    },
    {
       "access_rules" : [],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1027,6 +1101,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1051,6 +1127,8 @@
          "mode_hard,mushroom_3,postal_badge",
          "ool_tracker,mushroom_3,postal_badge,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1075,6 +1153,8 @@
          "mode_hard,mushroom_3,postal_badge",
          "ool_tracker,mushroom_3,postal_badge,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1105,6 +1185,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1135,6 +1217,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1159,6 +1243,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1183,6 +1269,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1207,6 +1295,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1231,6 +1321,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1255,6 +1347,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1279,6 +1373,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1300,6 +1396,8 @@
          "mode_hard,mushroom_2,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash",
          "ool_tracker,mushroom_2,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1324,6 +1422,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1348,6 +1448,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1378,6 +1480,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive,idol1,idol2,idol3,idol4",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,idol1,idol2,idol3,idol4,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Chest_open.png",
+      "chest_unopened_img" : "images/Chest.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1397,6 +1501,8 @@
       "access_rules" : [
          "abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1417,6 +1523,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1436,6 +1544,8 @@
       "access_rules" : [
          "abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1456,6 +1566,8 @@
          "mushroom_2,postal_badge,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1476,6 +1588,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1496,6 +1610,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1516,6 +1632,8 @@
          "mushroom_2,postal_badge,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1536,6 +1654,8 @@
          "mushroom_2,postal_badge,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1556,6 +1676,8 @@
          "mushroom_2,postal_badge,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1576,6 +1698,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1598,6 +1722,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1620,6 +1746,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1642,6 +1770,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1664,6 +1794,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1686,6 +1818,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag,spring_key",
          "mushroom_3,postal_badge,abilities_dive,abilities_mailbag,spring_key"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1708,6 +1842,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1730,6 +1866,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1750,6 +1888,8 @@
          "mushroom_2,postal_badge,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1770,6 +1910,8 @@
          "mushroom_2,postal_badge,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1790,6 +1932,8 @@
          "mushroom_2,postal_badge,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1810,6 +1954,8 @@
          "mushroom_2,postal_badge,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1830,6 +1976,8 @@
          "mushroom_2,postal_badge,toolbox,abilities_mailbag",
          "mushroom_3,postal_badge,toolbox,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1850,6 +1998,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1870,6 +2020,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1890,6 +2042,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1910,6 +2064,8 @@
          "mushroom_2,postal_badge,abilities_dive,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_dive,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1930,6 +2086,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1950,6 +2108,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1970,6 +2130,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -1990,6 +2152,8 @@
          "mushroom_2,postal_badge,abilities_mailbag",
          "mushroom_3,postal_badge,abilities_mailbag"
       ],
+      "chest_opened_img" : "images/Mailbox_open.png",
+      "chest_unopened_img" : "images/Mailbox.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2017,6 +2181,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2041,6 +2207,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,greenkey",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,greenkey,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2065,6 +2233,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2089,6 +2259,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2116,6 +2288,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2143,6 +2317,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2167,6 +2343,8 @@
          "mode_hard,mushroom_3,postal_badge",
          "ool_tracker,mushroom_3,postal_badge,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2191,6 +2369,8 @@
          "mode_hard,mushroom_3,postal_badge",
          "ool_tracker,mushroom_3,postal_badge,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2215,6 +2395,8 @@
          "mode_hard,mushroom_3,postal_badge",
          "ool_tracker,mushroom_3,postal_badge,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2239,6 +2421,8 @@
          "mode_hard,mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_dive],[spring_key]",
          "ool_tracker,mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_dive],[spring_key],[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2263,6 +2447,8 @@
          "mode_hard,mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_dive],[spring_key]",
          "ool_tracker,mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_dive],[spring_key],[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2287,6 +2473,8 @@
          "mode_hard,mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_partyhorn],[abilities_dive],[spring_key],[skins_skin_3]",
          "ool_tracker,mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_partyhorn],[abilities_dive],[spring_key],[skins_skin_3],[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2311,6 +2499,8 @@
          "mode_hard,mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_partyhorn],[abilities_dive],[spring_key],[skins_skin_3]",
          "ool_tracker,mushroom_3,postal_badge,[abilities_slug_vacuum],[abilities_partyhorn],[abilities_dive],[spring_key],[skins_skin_3],[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2335,6 +2525,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2359,6 +2551,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2383,6 +2577,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2407,6 +2603,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2431,6 +2629,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2455,6 +2655,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2479,6 +2681,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2503,6 +2707,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2527,6 +2733,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2551,6 +2759,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,[abilities_dive],spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,[abilities_dive],spring_key,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2575,6 +2785,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2605,6 +2817,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,spring_key,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2635,6 +2849,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,spring_key,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2665,6 +2881,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,spring_key,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2695,6 +2913,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2725,6 +2945,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2755,6 +2977,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2779,6 +3003,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2809,6 +3035,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2839,6 +3067,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2863,6 +3093,8 @@
          "mode_hard,mushroom_3,postal_badge,[abilities_slug_vacuum],abilities_dive,[spring_key]",
          "ool_tracker,mushroom_3,postal_badge,[abilities_slug_vacuum],abilities_dive,[spring_key],[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2887,6 +3119,8 @@
          "mode_hard,mushroom_3,postal_badge,[abilities_slug_vacuum],abilities_dive,[spring_key]",
          "ool_tracker,mushroom_3,postal_badge,[abilities_slug_vacuum],abilities_dive,[spring_key],[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2911,6 +3145,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2935,6 +3171,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2959,6 +3197,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -2983,6 +3223,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3007,6 +3249,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3031,6 +3275,8 @@
          "mode_hard,mushroom_3,postal_badge",
          "ool_tracker,mushroom_3,postal_badge,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3055,6 +3301,8 @@
          "mode_hard,mushroom_3,postal_badge",
          "ool_tracker,mushroom_3,postal_badge,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3079,6 +3327,8 @@
          "mode_hard,mushroom_3,postal_badge",
          "ool_tracker,mushroom_3,postal_badge,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3103,6 +3353,8 @@
          "mode_hard,mushroom_3,postal_badge",
          "ool_tracker,mushroom_3,postal_badge,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3127,6 +3379,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3151,6 +3405,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Scarab_open.png",
+      "chest_unopened_img" : "images/Scarab.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3173,6 +3429,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3205,6 +3463,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum,spring_key}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum,spring_key}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3237,6 +3497,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3263,6 +3525,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum",
          "mushroom_3,postal_badge,abilities_slug_vacuum"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3293,6 +3557,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3317,6 +3583,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3343,6 +3611,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3379,6 +3649,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3415,6 +3687,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3445,6 +3719,8 @@
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3489,6 +3765,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3541,6 +3819,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3565,6 +3845,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3589,6 +3871,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3609,6 +3893,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3629,6 +3915,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,abilities_mailbag,skins_skin_2,skins_skin_5",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,abilities_mailbag,skins_skin_2,skins_skin_5"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3649,6 +3937,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3673,6 +3963,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spores_5",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spores_5,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3693,6 +3985,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3713,6 +4007,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3743,6 +4039,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_partyhorn,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3773,6 +4071,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3797,6 +4097,8 @@
          "mode_hard,mushroom_3,postal_badge,tadpole_8",
          "ool_tracker,mushroom_3,postal_badge,tadpole_8,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3821,6 +4123,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,abilities_mailbag",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,abilities_mailbag,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3843,6 +4147,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_mailbag,skins_skin_2,skins_skin_5",
          "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,abilities_mailbag,skins_skin_2,skins_skin_5"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3867,6 +4173,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,wallet_2",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,wallet_2,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3897,6 +4205,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive,wallet_2,wallet_4",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,wallet_2,wallet_4,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3921,6 +4231,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,wallet_2",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,wallet_2,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3938,6 +4250,8 @@
    },
    {
       "access_rules" : [],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3958,6 +4272,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -3982,6 +4298,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,guano,bucket_empty,seed_pod,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,guano,bucket_empty,seed_pod,spring_key,[tracker_springs],[tracker_caves],[tracker_peak],[tracker_scarabs],[treasure_map]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4006,6 +4324,8 @@
          "mode_hard,mushroom_3,postal_badge,toolbox",
          "ool_tracker,mushroom_3,postal_badge,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4030,6 +4350,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4052,6 +4374,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
          "mushroom_3,postal_badge,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4090,6 +4414,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_2,skins_skin_3,skins_skin_4",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,skins_skin_5,skins_skin_3,skins_skin_4"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4110,6 +4436,8 @@
          "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4,traitor_spirit_4",
          "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,skins_skin_4,traitor_spirit_4"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4129,6 +4457,8 @@
       "access_rules" : [
          "abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4148,6 +4478,8 @@
       "access_rules" : [
          "abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4167,6 +4499,8 @@
       "access_rules" : [
          "abilities_partyhorn"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4184,6 +4518,8 @@
    },
    {
       "access_rules" : [],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4205,6 +4541,8 @@
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4222,6 +4560,8 @@
    },
    {
       "access_rules" : [],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4242,6 +4582,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4262,6 +4604,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4282,6 +4626,8 @@
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4302,6 +4648,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4322,6 +4670,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4342,6 +4692,8 @@
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4362,6 +4714,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4382,6 +4736,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4402,6 +4758,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4424,6 +4782,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4452,6 +4812,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4478,6 +4840,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum",
          "mushroom_3,postal_badge,abilities_slug_vacuum"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4500,6 +4864,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4526,6 +4892,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_dive",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4548,6 +4916,8 @@
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn",
          "mushroom_3,postal_badge,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4570,6 +4940,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4596,6 +4968,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4620,6 +4994,8 @@
          "mushroom_3,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4642,6 +5018,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4668,6 +5046,8 @@
          "mushroom_2,postal_badge,abilities_partyhorn",
          "mushroom_3,postal_badge,abilities_partyhorn"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4692,6 +5072,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,abilities_mailbag,guano,bucket_empty,seed_pod,spring_key,[tracker_springs],[tracker_caves],[tracker_peak],[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4712,6 +5094,8 @@
          "mushroom_2,postal_badge",
          "mushroom_3,postal_badge"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4732,6 +5116,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4752,6 +5138,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
          "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4772,6 +5160,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,toolbox",
          "mushroom_3,postal_badge,abilities_slug_vacuum,toolbox"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4792,6 +5182,8 @@
          "mushroom_2,postal_badge,[abilities_partyhorn],[skins_skin_3]",
          "mushroom_3,postal_badge,[abilities_partyhorn],[skins_skin_3]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4814,6 +5206,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4840,6 +5234,8 @@
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4860,6 +5256,8 @@
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4880,6 +5278,8 @@
          "mushroom_2,postal_badge,abilities_partyhorn,abilities_dive",
          "mushroom_3,postal_badge,abilities_partyhorn,abilities_dive"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4904,6 +5304,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,guano,bucket_empty,seed_pod,spring_key,nim_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,guano,bucket_empty,seed_pod,spring_key,nim_key,[tracker_springs],[tracker_caves],[tracker_peak],[tracker_scarabs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4928,6 +5330,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4952,6 +5356,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -4982,6 +5388,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5006,6 +5414,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5032,6 +5442,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum,toolbox}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5066,6 +5478,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5090,6 +5504,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5116,6 +5532,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum,toolbox}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5150,6 +5568,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5174,6 +5594,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5198,6 +5620,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5222,6 +5646,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5246,6 +5672,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5270,6 +5698,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5294,6 +5724,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5318,6 +5750,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5342,6 +5776,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5366,6 +5802,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,guano,bucket_empty,seed_pod,[tracker_peak]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5390,6 +5828,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5414,6 +5854,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5438,6 +5880,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5468,6 +5912,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5498,6 +5944,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5524,6 +5972,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5564,6 +6014,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,spring_key,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5594,6 +6046,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,spring_key,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5628,6 +6082,8 @@
          "{mushroom_3,postal_badge,abilities_partyhorn,spring_key}",
          "{mushroom_3,postal_badge,abilities_dive,spring_key}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5668,6 +6124,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5692,6 +6150,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5722,6 +6182,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_partyhorn,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5752,6 +6214,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5782,6 +6246,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_partyhorn,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_partyhorn,abilities_dive,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5808,6 +6274,8 @@
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn}",
          "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5842,6 +6310,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_springs]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5866,6 +6336,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5896,6 +6368,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5926,6 +6400,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5956,6 +6432,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -5980,6 +6458,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -6010,6 +6490,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,bluekey",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_dive,bluekey,[treasure_map]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -6034,6 +6516,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -6058,6 +6542,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -6082,6 +6568,8 @@
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,[tracker_caves]"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_wickerling.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -6104,6 +6592,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -6132,6 +6622,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -6160,6 +6652,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
@@ -6188,6 +6682,8 @@
          "{mushroom_2,postal_badge}",
          "{mushroom_3,postal_badge}"
       ],
+      "chest_opened_img" : "images/Bubble_pop.png",
+      "chest_unopened_img" : "images/Bubble_fruit.png",
       "map_locations" : [
          {
             "map" : "overworld",
