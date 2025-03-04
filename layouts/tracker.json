@@ -24,6 +24,17 @@
                         "item": "ool_tracker"
                     }
                 ]
+            },
+            {
+                "type": "group",
+                "header": "Archipelago",
+                "header_background": "#3e4b57",
+                "content":[
+                    {
+                        "type": "item",
+                        "item": "ap_scouting"
+                    }
+                ]
             }
         ]
     },    

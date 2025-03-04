@@ -21,6 +21,10 @@ if not items_only then
     Tracker:AddLocations("locations/locations.json")
     --additional locations
     Tracker:AddLocations("locations/fixed.json")
+    if PopVersion >= "0.26" then
+        Tracker:AddLocations("locations/scout_locations.json")
+        Tracker:AddItems("items/scout_items.json")
+    end
 end
 --layouts
 Tracker:AddLayouts("layouts/items.json")

@@ -4,16 +4,20 @@ use JSON;
 $json = JSON->new->allow_nonref;
 
 # Switch this between randomizer_normal_overrides and randomizer_groups_overrides
-#open(FH, '<', "randomizer_normal_overrides.csv") or die $!;
-open(FH, '<', "randomizer_groups_overrides.csv") or die $!;
+open(FH, '<', "randomizer_normal_overrides.csv") or die $!;
+#open(FH, '<', "randomizer_groups_overrides.csv") or die $!;
 open(LOOK, '<', "randomizer_normal_look.csv") or die $!;
 open(LOCATION_MAPPING, '>', "location_mapping.lua") or die $!;
+open(SCOUT_LOCATIONS, '>', "scout_locations.json") or die $!;
+open(SCOUT_ITEMS, '>', "scout_items.json") or die $!;
 
 # Key Items
 my @key_items = ( "mushroom_2", "mushroom_3", "postal_badge", "abilities_slug_vacuum", "abilities_partyhorn", "abilities_dive", "toolbox", "sootling_leash", "abilities_mailbag", "guano", "bucket_empty", "seed_pod", "spring_key", "skins_skin_1", "skins_skin_2", "skins_skin_5", "skins_skin_3", "skins_skin_4", "idol1", "nugget_4", "idol2", "idol3", "idol4", "spores_1", "spores_2", "spores_3", "spores_4", "spores_5", "tadpole_8", "wallet_2", "wallet_4", "bluekey", "greenkey", "nim_key", "tracker_springs", "tracker_caves", "tracker_peak", "tracker_scarabs", "treasure_map", "abilities_speed", "traitor_spirit_4", "powerups_skvader_1", "powerups_skvader_2", "abilities_dive_speed", "abilities_slug_upgrade");
 
 my @locations = ();
 my %groups = {};
+my @scout_locations = ();
+my @scout_items = ();
 
 # Load location map from JSON
 # "location name" : "id"
@@ -117,9 +121,15 @@ while (<>) {
     }
 
     my @flattened_access_rules;
+    my @flattened_scout_rules;
+    my @flattened_scout_invisibility_rules;
     foreach my $rule (@access_rules) {
         push @flattened_access_rules, join (",", @{$rule});
+        push @flattened_scout_invisibility_rules, join (",", @{$rule});
     }
+    my $scout_item_name = "scout_" . lc $name =~ tr/ :/_/rd;
+    push @flattened_scout_invisibility_rules, '$apScouting|0'; # Turn off scouting
+    push @flattened_scout_invisibility_rules, $scout_item_name; # Hide scouting once scouted
 
     foreach my $rule (@look_rules) {
         push @flattened_access_rules, "{" . join (",", @{$rule}) . "}";
@@ -127,7 +137,9 @@ while (<>) {
 
     if ($group and defined (my $group_index = $groups{$group})) {
         my %section = ("name" => $name, "item_count" => 1,
-            "access_rules" => \@flattened_access_rules);
+            "access_rules" => \@flattened_access_rules,
+            (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ())
+        );
         # Move group location to average of sublocations
         my $section_count = scalar @{$locations[$group_index]{"sections"}};
         print STDERR "Updating location of $group [$section_count] from (" . $locations[$group_index]{"map_locations"}[0]{"x"} . "," . $locations[$group_index]{"map_locations"}[0]{"y"} . ")...";
@@ -138,19 +150,69 @@ while (<>) {
     } elsif ($group) {
         my %location = ("name" => $group,
             "map_locations" => [{ "map" => "overworld", "x" => int($x), "y" => int($y) }],
-            "sections" => [{ "name" => $name, "item_count" => 1 , "access_rules" => \@flattened_access_rules}]);
+            "sections" => [{ 
+                    "name" => $name, "item_count" => 1 , "access_rules" => \@flattened_access_rules,
+                    (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ())
+            }]);
         $groups{$group} = scalar @locations;
         push @locations, \%location;
     } else {
         my %location = ("name" => $name,
             "map_locations" => [{ "map" => "overworld", "x" => int($x), "y" => int($y) }],
             "sections" => [{ "name" => $name, "item_count" => 1 }],
-            "access_rules" => \@flattened_access_rules);
+            "access_rules" => \@flattened_access_rules,
+            (scalar @look_rules ? ("visibility_rules" => \@flattened_scout_invisibility_rules) : ())
+        );
+        #$location{"visibility_rules"} = \@flattened_scout_invisibility_rules if scalar @look_rules;
 
         push @locations, \%location;
     }
 
+    if (scalar @look_rules) {
+        my $scout_item_name = "scout_" . lc $name =~ tr/ :/_/rd;
+        if ($group) {
+            my %section = (
+                "name" => "Scout: $name",
+                "item_count" => 0,
+                "hosted_item" => $scout_item_name,
+                "map_locations" => [{
+                        "map" => "overworld",
+                        "x" => int($x), "y" => int($y), "shape" => "diamond",
+                }],
+                "force_invisibility_rules" => \@flattened_scout_invisibility_rules,
+                "visibility_rules" => [
+                    "\$apScouting,\$notCode|$scout_item_name"
+                ],
+                "access_rules" => \@flattened_access_rules,
+            );
+            push @{$locations[$groups{$group}]{"sections"}}, \%section;
+        } else {
+            my %location = ("name" => "Scout: $name",
+                "map_locations" => [{
+                        "map" => "overworld",
+                        "x" => int($x), "y" => int($y), "shape" => "diamond",
+                        "force_invisibility_rules" => \@flattened_scout_invisibility_rules,
+                    }],
+                "sections" => [{
+                        "name" => "Scout: $name",
+                        "item_count" => 0,
+                        "hosted_item" => $scout_item_name,
+                    }],
+                "access_rules" => \@flattened_access_rules,
+            );
+            push @scout_locations, \%location;
+        }
+
+        my %scout_item = ("name" => "Scout: $name",
+            "type" => "toggle",
+            "img" => "images/Scout.png",
+            "codes" => $scout_item_name,
+        );
+        push @scout_items, \%scout_item;
+    }
+
     # For pulling into location_mapping
+    # TODO Generate SCOUT_LOCATION_MAPPING as well before this is a problem
     print LOCATION_MAPPING "    [$$location_id_map{$name}] = {\"\@" . ($group ? $group : $name) . "/$name\"},\n";
 
 }
@@ -158,4 +220,7 @@ while (<>) {
 print LOCATION_MAPPING "}\n";
 
 print $json->canonical->pretty->encode( \@locations );
+
+print SCOUT_LOCATIONS $json->canonical->pretty->encode( \@scout_locations );
+print SCOUT_ITEMS $json->canonical->pretty->encode( \@scout_items );
 

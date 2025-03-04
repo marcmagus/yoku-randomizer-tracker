@@ -9,7 +9,8 @@
     "standard": {
       "display_name": "Map Tracker",
             "flags": [
-                "ap" //enables AP autotracking interface - remove if not needed
+                "ap", //enables AP autotracking interface
+                "aphintgame", // Enables scouting locations in AP
                 // "uat", // use UAT protocol for auto-tracking
                 // "uat-bridge" // auto-start UAT bridge if available -- not implemented
             ]
