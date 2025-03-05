@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.7.0",
+            "download_url": "https://github.com/marcmagus/yoku-randomizer-tracker/releases/download/v0.7.0/YokuRandomizerTracker-v0.7.0.zip",
+            "sha256": "ae66a6cb8bd4e99f8d0d390aadac2b7aac449828bbe7939856daf142bc67bbf3",
+            "changelog": [
+                "Scouting, Fosfor Snap, Cosmetics"
+                ]
+        },
+        {
             "package_version": "0.6.0",
             "download_url": "https://github.com/marcmagus/yoku-randomizer-tracker/releases/download/v0.6.0/YokuRandomizerTracker-v0.6.0.zip",
             "sha256": "f24128f2ae92105f5144a1546d3afcd946ef5ad156de00687626b5799b04d559",
