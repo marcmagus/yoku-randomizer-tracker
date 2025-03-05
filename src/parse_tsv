@@ -4,8 +4,8 @@ use JSON;
 $json = JSON->new->allow_nonref;
 
 # Switch this between randomizer_normal_overrides and randomizer_groups_overrides
-open(FH, '<', "randomizer_normal_overrides.csv") or die $!;
-#open(FH, '<', "randomizer_groups_overrides.csv") or die $!;
+#open(FH, '<', "randomizer_normal_overrides.csv") or die $!;
+open(FH, '<', "randomizer_groups_overrides.csv") or die $!;
 open(LOOK, '<', "randomizer_normal_look.csv") or die $!;
 open(LOCATION_MAPPING, '>', "location_mapping.lua") or die $!;
 open(SCOUT_LOCATIONS, '>', "scout_locations.json") or die $!;
@@ -99,6 +99,14 @@ while (<>) {
         }
     }
 
+    # Fosfor Snap
+    # It would probably be better to move this to some sort of lua rules and simplify this
+    foreach my $rule (@access_rules) {
+        if (grep (/^mushroom_[23]/, @{$rule})) {
+            push @access_rules, [ "ool_fosfor_snap", map (/^(mushroom_[23]|postal_badge)/ ? "\[$_\]" : $_, @{$rule}) ];
+        }
+    }
+
     # for things that can be seen
     my @look_rules;
     foreach my $a (split /,/, $look_conditions[0]) {
@@ -117,6 +125,14 @@ while (<>) {
                     push @{$look_rules[$j]}, $key_items[$i];
                 }
             }
+        }
+    }
+
+    # Fosfor Snap
+    # It would probably be better to move this to some sort of lua rules and simplify this
+    foreach my $rule (@look_rules) {
+        if (grep (/^mushroom_[23]/, @{$rule})) {
+            push @look_rules, [ "ool_fosfor_snap", map (/^(mushroom_[23]|postal_badge)/ ? () : $_, @{$rule}) ];
         }
     }
 

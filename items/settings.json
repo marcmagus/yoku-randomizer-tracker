@@ -26,6 +26,12 @@
     "codes": "ool_tracker"
   },
   {
+    "name": "Fosfor Snap",
+    "type": "toggle",
+    "img": "images/CoveMushroom.png",
+    "codes": "ool_fosfor_snap"
+  },
+  {
     "name": "Scouting",
     "type": "toggle",
     "img": "images/WoodsTracker.png",

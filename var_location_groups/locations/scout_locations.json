@@ -7,8 +7,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_dive,spring_key,[tracker_springs]",
          "mode_hard,mushroom_3,postal_badge,abilities_dive,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,spring_key,[tracker_springs]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,spring_key,tracker_springs",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,spring_key,tracker_springs",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive,spring_key",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,spring_key,[tracker_springs]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive,spring_key",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,spring_key,[tracker_springs]",
          "{mushroom_2,postal_badge,abilities_dive}",
-         "{mushroom_3,postal_badge,abilities_dive}"
+         "{mushroom_3,postal_badge,abilities_dive}",
+         "{ool_fosfor_snap,abilities_dive}",
+         "{ool_fosfor_snap,abilities_dive}"
       ],
       "map_locations" : [
          {
@@ -19,6 +27,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_dive,spring_key,[tracker_springs]",
                "mode_hard,mushroom_3,postal_badge,abilities_dive,spring_key",
                "ool_tracker,mushroom_3,postal_badge,abilities_dive,spring_key,[tracker_springs]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,spring_key,tracker_springs",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,spring_key,tracker_springs",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive,spring_key",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,spring_key,[tracker_springs]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive,spring_key",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,spring_key,[tracker_springs]",
                "$apScouting|0",
                "scout_underwater_puzzle"
             ],
@@ -45,8 +59,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,tracker_springs",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,tracker_springs",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,[tracker_springs]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,[tracker_springs]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}"
       ],
       "map_locations" : [
          {
@@ -57,6 +79,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
                "mode_hard,mushroom_3,postal_badge,abilities_dive",
                "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,tracker_springs",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,tracker_springs",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,[tracker_springs]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,[tracker_springs]",
                "$apScouting|0",
                "scout_tadpole_2"
             ],
@@ -83,8 +111,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,tracker_springs",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,tracker_springs",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,[tracker_springs]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,[tracker_springs]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}"
       ],
       "map_locations" : [
          {
@@ -95,6 +131,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
                "mode_hard,mushroom_3,postal_badge,abilities_dive",
                "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,tracker_springs",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,tracker_springs",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,[tracker_springs]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,[tracker_springs]",
                "$apScouting|0",
                "scout_tadpole_5"
             ],
@@ -121,8 +163,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,tracker_springs",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,tracker_springs",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,[tracker_springs]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,[tracker_springs]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}"
       ],
       "map_locations" : [
          {
@@ -133,6 +183,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
                "mode_hard,mushroom_3,postal_badge,abilities_dive",
                "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,tracker_springs",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,tracker_springs",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,[tracker_springs]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,[tracker_springs]",
                "$apScouting|0",
                "scout_tadpole_6"
             ],
@@ -155,14 +211,20 @@
       "access_rules" : [
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
          "{mushroom_2,postal_badge}",
-         "{mushroom_3,postal_badge}"
+         "{mushroom_3,postal_badge}",
+         "{ool_fosfor_snap}",
+         "{ool_fosfor_snap}"
       ],
       "map_locations" : [
          {
             "force_invisibility_rules" : [
                "mushroom_2,postal_badge,abilities_dive",
                "mushroom_3,postal_badge,abilities_dive",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
                "$apScouting|0",
                "scout_fruit_77_waterfall_left"
             ],
@@ -189,8 +251,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key,tracker_springs",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key,tracker_springs",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum,spring_key}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum,spring_key}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,spring_key}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,spring_key}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,spring_key}"
       ],
       "map_locations" : [
          {
@@ -201,6 +271,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
                "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key",
                "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key,tracker_springs",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key,tracker_springs",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,spring_key,[tracker_springs]",
                "$apScouting|0",
                "scout_fruit_78_underbelly"
             ],
@@ -223,14 +299,20 @@
       "access_rules" : [
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
          "{mushroom_2,postal_badge}",
-         "{mushroom_3,postal_badge}"
+         "{mushroom_3,postal_badge}",
+         "{ool_fosfor_snap}",
+         "{ool_fosfor_snap}"
       ],
       "map_locations" : [
          {
             "force_invisibility_rules" : [
                "mushroom_2,postal_badge,abilities_dive",
                "mushroom_3,postal_badge,abilities_dive",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
                "$apScouting|0",
                "scout_fruit_79_waterfall_right"
             ],
@@ -257,8 +339,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,tracker_peak",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,tracker_peak",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
       ],
       "map_locations" : [
          {
@@ -269,6 +359,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
                "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
                "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,tracker_peak",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,tracker_peak",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,[tracker_peak]",
                "$apScouting|0",
                "scout_fruit_83_sootling_cave_water"
             ],
@@ -295,8 +391,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
       ],
       "map_locations" : [
          {
@@ -307,6 +411,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
                "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
                "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
                "$apScouting|0",
                "scout_fruit_84_sootling_cave_right"
             ],
@@ -333,8 +443,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn,toolbox}"
       ],
       "map_locations" : [
          {
@@ -345,6 +463,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
                "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
                "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
                "$apScouting|0",
                "scout_fruit_85_sootling_cave_left"
             ],
@@ -389,8 +513,34 @@
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,tracker_peak",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,tracker_peak",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,tracker_peak",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,tracker_peak",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,tracker_peak",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,tracker_peak",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,tracker_peak",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,tracker_peak",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash}"
       ],
       "map_locations" : [
          {
@@ -419,6 +569,30 @@
                "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
                "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
                "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,tracker_peak",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,tracker_peak",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,tracker_peak",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,tracker_peak",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,tracker_peak",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,tracker_peak",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,tracker_peak",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,tracker_peak",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol1,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol2,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol3,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,abilities_dive,toolbox,sootling_leash,idol4,[tracker_peak]",
                "$apScouting|0",
                "scout_fruit_87_crystal_lake"
             ],
@@ -441,14 +615,20 @@
       "access_rules" : [
          "mushroom_2,postal_badge,abilities_slug_vacuum",
          "mushroom_3,postal_badge,abilities_slug_vacuum",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum",
          "{mushroom_2,postal_badge}",
-         "{mushroom_3,postal_badge}"
+         "{mushroom_3,postal_badge}",
+         "{ool_fosfor_snap}",
+         "{ool_fosfor_snap}"
       ],
       "map_locations" : [
          {
             "force_invisibility_rules" : [
                "mushroom_2,postal_badge,abilities_slug_vacuum",
                "mushroom_3,postal_badge,abilities_slug_vacuum",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum",
                "$apScouting|0",
                "scout_wl._17_slug_gardener_spot_1"
             ],
@@ -471,14 +651,20 @@
       "access_rules" : [
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
          "{mushroom_2,postal_badge}",
-         "{mushroom_3,postal_badge}"
+         "{mushroom_3,postal_badge}",
+         "{ool_fosfor_snap}",
+         "{ool_fosfor_snap}"
       ],
       "map_locations" : [
          {
             "force_invisibility_rules" : [
                "mushroom_2,postal_badge,abilities_dive",
                "mushroom_3,postal_badge,abilities_dive",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
                "$apScouting|0",
                "scout_wl._19_waterfall_bottom"
             ],
@@ -501,14 +687,20 @@
       "access_rules" : [
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}"
       ],
       "map_locations" : [
          {
             "force_invisibility_rules" : [
                "mushroom_2,postal_badge,abilities_dive",
                "mushroom_3,postal_badge,abilities_dive",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
                "$apScouting|0",
                "scout_wl._22_waterfall_dive_through"
             ],
@@ -531,14 +723,20 @@
       "access_rules" : [
          "mushroom_2,postal_badge,abilities_dive",
          "mushroom_3,postal_badge,abilities_dive",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
          "{mushroom_2,postal_badge}",
-         "{mushroom_3,postal_badge}"
+         "{mushroom_3,postal_badge}",
+         "{ool_fosfor_snap}",
+         "{ool_fosfor_snap}"
       ],
       "map_locations" : [
          {
             "force_invisibility_rules" : [
                "mushroom_2,postal_badge,abilities_dive",
                "mushroom_3,postal_badge,abilities_dive",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive",
                "$apScouting|0",
                "scout_wl._25_lonka"
             ],
@@ -565,8 +763,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum,toolbox}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,toolbox}"
       ],
       "map_locations" : [
          {
@@ -577,6 +783,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
                "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
                "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,tracker_peak",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,[tracker_peak]",
                "$apScouting|0",
                "scout_wl._42_orestation_hook"
             ],
@@ -603,8 +815,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,tracker_peak",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,tracker_peak",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum,toolbox}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,toolbox}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,toolbox}"
       ],
       "map_locations" : [
          {
@@ -615,6 +835,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
                "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox",
                "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,tracker_peak",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,tracker_peak",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,[tracker_peak]",
                "$apScouting|0",
                "scout_wl._45_lighthouse_leap"
             ],
@@ -641,8 +867,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
          "mode_hard,mushroom_3,postal_badge,abilities_dive",
          "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,tracker_springs",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,tracker_springs",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,[tracker_springs]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,[tracker_springs]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}",
+         "{ool_fosfor_snap,abilities_slug_vacuum}"
       ],
       "map_locations" : [
          {
@@ -653,6 +887,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_dive,[tracker_springs]",
                "mode_hard,mushroom_3,postal_badge,abilities_dive",
                "ool_tracker,mushroom_3,postal_badge,abilities_dive,[tracker_springs]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_dive,tracker_springs",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_dive,tracker_springs",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_dive,[tracker_springs]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_dive",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_dive,[tracker_springs]",
                "$apScouting|0",
                "scout_wl._61_underwater_at_hook_chest"
             ],
@@ -679,8 +919,16 @@
          "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
          "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
          "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,tracker_springs",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,tracker_springs",
+         "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+         "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
+         "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+         "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
          "{mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn}",
-         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn}"
+         "{mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn}",
+         "{ool_fosfor_snap,abilities_slug_vacuum,abilities_partyhorn}"
       ],
       "map_locations" : [
          {
@@ -691,6 +939,12 @@
                "ool_tracker,mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
                "mode_hard,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
                "ool_tracker,mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
+               "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,tracker_springs",
+               "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,tracker_springs",
+               "ool_fosfor_snap,mode_hard,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+               "ool_fosfor_snap,ool_tracker,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
+               "ool_fosfor_snap,mode_hard,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key",
+               "ool_fosfor_snap,ool_tracker,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,spring_key,[tracker_springs]",
                "$apScouting|0",
                "scout_wl._70_hideout_drop_1"
             ],
