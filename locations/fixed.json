@@ -3,7 +3,9 @@
       "name" : "Leash Sootling",
       "access_rules" : [
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
-         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash"
       ],
       "map_locations" : [
          {
@@ -24,7 +26,9 @@
       "name" : "Ceremony Instruments",
       "access_rules" : [
          "mushroom_2,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nim_key",
-         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nim_key"
+         "mushroom_3,postal_badge,abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nim_key",
+         "ool_fosfor_snap,[mushroom_2],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nim_key",
+         "ool_fosfor_snap,[mushroom_3],[postal_badge],abilities_slug_vacuum,abilities_partyhorn,toolbox,sootling_leash,nim_key"
       ],
       "map_locations" : [
          {
